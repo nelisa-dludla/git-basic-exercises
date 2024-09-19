@@ -1,0 +1,6902 @@
+    1  ls
+    2  exit
+    3  echo $SHELL
+    4  chsh -s $(which zsh)
+    5  sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+    6  ls
+    7  vi .zshrc
+    8  zed
+    9  shutdown
+   10  shutdown now
+   11  ls
+   12  zsh
+   13  vi .zshrc
+   14  source .zshrc
+   15  ls
+   16  python3 --version
+   17  python3 -m venv .venv
+   18  sudo apt install python3.10-venv
+   19  ls
+   20  cd dev
+   21  ls
+   22  pwd
+   23  cd ../
+   24  vi .zshrc
+   25  source .zshrc
+   26  dev
+   27  cd ../
+   28  vi .zshrc
+   29  dev
+   30  ls
+   31  cd
+   32  pip install notebook
+   33  sudo apt install pip
+   34  pip
+   35  pip install notebook
+   36  vi .bashrc
+   37  cat .bashrc | tail
+   38  vi .zshrc
+   39  source .zshrc
+   40  dev
+   41  ls
+   42  cd data-engineering
+   43  ls
+   44  py -m venv .venv
+   45  source .venv/bin/activate
+   46  ls
+   47  cd de-zoomcamp
+   48  ls
+   49  cd module-
+   50  cd module-2
+   51  ls
+   52  cd airflow
+   53  ls
+   54  sudo docker compose 
+   55  sudo docker-compose 
+   56  sudo apt-get install docker-compose-plugin
+   57  echo $?
+   58  docker --version
+   59  sudo apt-get update
+   60  sudo apt-get install docker-compose-plugin
+   61  sudo apt install ca-certificates curl
+   62  sudo install -m 0755 -d /etc/apt/keyrings
+   63  sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+   64  echo \\n  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \\n  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \\n  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   65  sudo apt update
+   66  sudo apt install docker-compose-plugin -y
+   67  docker compose --version
+   68  docker compose version
+   69  ls
+   70  docker ps
+   71  sudo groupadd docker
+   72  sudo usermod -aG docker $USER
+   73  docker
+   74  docker ps
+   75  sudo docker ps
+   76  sudo usermod -aG docker $USER
+   77  exit
+   78  docker
+   79  docker ps
+   80  sudo usermod -aG docker $USER
+   81  docker ps
+   82  sudo groupadd docker
+   83  sudo usermod -aG docker $USER
+   84  sudo gpasswd -a $USER docker
+   85  docker ps
+   86  exit
+   87  docker ps
+   88  dev
+   89  sudo apt update snap-store
+   90  sudo apt-get upgrade snap-store
+   91  sudo apt-get upgrade snap
+   92  sudo apt-get update snap
+   93  ls
+   94  cd data-engineering
+   95  source .venv/bin/activate
+   96  ls
+   97  cd de-zoomcamp/module-2
+   98  ls
+   99  cd airflow
+  100  ls
+  101  docker compose 
+  102  docker compose run webserver airflow init db
+  103  ls
+  104  cat requirements.txt
+  105  ls
+  106  touch .env
+  107  zed
+  108  zed .
+  109  ls
+  110  exit
+  111  ls
+  112  cd ../../
+  113  cd ../
+  114  source .venv/bin/activate
+  115  ls
+  116  cd de-zoomcamp
+  117  ls
+  118  cd module-2
+  119  ls
+  120  cd airflow
+  121  ls
+  122  docker compose run webserver scheduler airflow init db
+  123  docker images
+  124  docker ps
+  125  ls
+  126  cd ../../../
+  127  source .venv/bin/activate
+  128  pip freeze
+  129  pip install pandas
+  130  ls
+  131  cd de-zoomcamp
+  132  cd module-2/airflow
+  133  ls
+  134  docker ps
+  135  docker ps -a
+  136  docker rm 79d1c182d944 
+  137  docker stop cced5f818358
+  138  docker rm cced5f818358
+  139  docker ps -a
+  140  ls
+  141  docker compose run --rm webserver airflow db init
+  142  docker ps
+  143  docker compose down
+  144  docker compose up
+  145  docker comose up -d
+  146  docker compose up -d
+  147  docker ps
+  148  docker exec airflow-webserver-1 bash
+  149  ls
+  150  docker ps
+  151  docker exec webserver /bin/bash
+  152  ls
+  153  docker exec airflow-webserver-1 /bin/bash
+  154  docker compose down
+  155  docker ps
+  156  docker ps -a
+  157  docker compose up
+  158  docker compose up -d
+  159  docker ps 
+  160  docker exec airflow-webserver-1 /bin/bash
+  161  ls
+  162  docker exec -it airflow-webserver /bin/bash
+  163  docker ps 
+  164  docker exec -it airflow-webserver-1 /bin/bash
+  165  ls
+  166  pgcli
+  167  pip install pgcli
+  168  pgcli
+  169  exit
+  170  pip install psycopg2
+  171  pgcli
+  172  pip install psycopg2
+  173  ls
+  174  pip install psycopg2
+  175  gcc
+  176  gcc --version
+  177  pip install psycopg2
+  178  pip install psycopg2-binary
+  179  pip install psycopg2
+  180  sudo apt-get install libpq-dev
+  181  pip install psycopg2
+  182  ls
+  183  pgcli
+  184  pgcli -h localhost -U root -d postgres
+  185  ls
+  186  notebook
+  187  notebook --juypter
+  188  exit
+  189  notebook
+  190  source ../../../.venv/bin/activate
+  191  ls
+  192  juypter
+  193  jupyter notebook
+  194  ls
+  195  source ../../../.venv/bin/activate
+  196  pip freeze 
+  197  pip freeze | pandas
+  198  pip freeze | grep  pandas
+  199  pip install pandas
+  200  py
+  201  pip install urllib
+  202  py
+  203  ls
+  204  rm ellow_tripdata_2021-01.csv.gz
+  205  ls
+  206  cat Untitled.ipynb
+  207  ls
+  208  jupyter notebook nbconvert --to python api_to_postgres.ipynb
+  209  jupyter nbconvert --to python api_to_postgres.ipynb
+  210  pip install apache-airflow
+  211  pip uninstall apache-airflow
+  212  pip install airflow
+  213  pip install apache-airflow
+  214  dev
+  215  cd data-engineering
+  216  ls
+  217  source .venv/bin/a
+  218  source .venv/bin/activate
+  219  cd de-zoomcamp/module-2/airflow
+  220  zed .
+  221  exit
+  222  ls
+  223  source ../../../.venv/bin/activate
+  224  ls
+  225  docker ps
+  226  jupyter
+  227  jupyter notebook
+  228  ls
+  229  source ../../../.venv/bin/activate
+  230  ls
+  231  pip freeze | grep psycopg2
+  232  jupyter notebook
+  233  exit
+  234  pip freeze | grep psycopg2
+  235  pip install psycopg2
+  236  pgcli -h localhost -U root -d postgres
+  237  ls
+  238  docker exec airflow-webserver-1 /bin/bash
+  239  docker ps
+  240  docker exec -it airflow-webserver-1 bash
+  241  dev
+  242  cd data-engineering/de-zoomcamp/module-2/airflow
+  243  cat api_to_postgres.
+  244  cat api_to_postgres.py
+  245  ls
+  246  cd dags
+  247  ls
+  248  cat api_to_postgres.py
+  249  cd ../../../
+  250  ls
+  251  touch test.py
+  252  ls
+  253  mv test.py de-zoomcamp/module-2/airflow
+  254  cd de-zoomcamp/module-2/airflow
+  255  ls
+  256  py test.py
+  257  ls
+  258  rm yellow_tripdata_2021-01.csv.gz
+  259  ls
+  260  rm test.py
+  261  docker exec -it airflow-webserver-01 /bin/bash
+  262  docker ps
+  263  docker exec -it airflow-webserver-1 /bin/bash
+  264  ls
+  265  docker ps
+  266  ls
+  267  cd../
+  268  ls
+  269  cd ../
+  270  ls
+  271  cat docker-compose.yml
+  272  python -c 'from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())'\n
+  273  py -c 'from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())'\n
+  274  py -c 'import os; print(os.urandom(24).hex())'\n
+  275  docker compose down
+  276  docker compose up -d
+  277  docker ps
+  278  ls
+  279  docker ps
+  280  docker compose down
+  281  docker compose run webserver
+  282  docker compose run webserver -d
+  283  docker compose up
+  284  docker ps -a
+  285  docker rm 731440f3167f 08dc0b7beebd
+  286  docker ps -a
+  287  docker compose up
+  288  docker compose up -d
+  289  docker ps
+  290  docker ps -a
+  291  docker images
+  292  docker ps 
+  293  ls
+  294  cd logs
+  295  ls
+  296  cd ../
+  297  ls
+  298  source ../../../.venv/bin/activate
+  299  ls
+  300  docker compose down
+  301  ls
+  302  docker compose up -d
+  303  docker compose ps
+  304  docker compose down
+  305  docker ps -a
+  306  docker ps 
+  307  docker compose run webserver -d
+  308  docker ps
+  309  docker compose -d
+  310  docker compose down
+  311  docker ps -a
+  312  docker rm 2fc17beb4f0e
+  313  docker compose run --rm webserver -d
+  314  docker ps -a
+  315  docker compose down
+  316  docker ps -a
+  317  docker compose ps
+  318  docker-compose run --rm webserver airflow db init\n
+  319  docker compose run --rm webserver airflow db init\n
+  320  docker compose ps
+  321  docker compose down
+  322  docker ps -a
+  323  docker compose up
+  324  docker compose ps
+  325  docker compose down
+  326  docker ps -a
+  327  docker compose run -rm webserver 
+  328  docker compose run --rm webserver 
+  329  ls
+  330  cat docker-compose.yml
+  331  ls -d
+  332  ls
+  333  ls -a
+  334  ls -ld
+  335  ls
+  336  ls -s
+  337  ls -d
+  338  ls
+  339  ls -l
+  340  chown --help
+  341  ls
+  342  chown nelisa logs
+  343  sudo su
+  344  ls
+  345  ls -l
+  346  docker ps -a
+  347  docker compose down
+  348  docker compose up -d
+  349  docker compose 
+  350  docker compose ps
+  351  docker compose down
+  352  docker compose ps
+  353  docker compose ps -a
+  354  ls
+  355  docker compose run --rm webserver 
+  356  ls
+  357  docker compose down
+  358  docker compose up -d
+  359  docker compose ps
+  360  ls
+  361  rm -r logs
+  362  docker compose down
+  363  docker compose up -d
+  364  pgcli -h localhost -U root -d postgres
+  365  docker compose down
+  366  exit
+  367  shutdown now
+  368  dev
+  369  ls
+  370  cd data-engineering
+  371  ls
+  372  cd de-zoomcamp
+  373  ls
+  374  cd module-
+  375  cd module-2
+  376  ls
+  377  cd airflow
+  378  ls
+  379  git add .
+  380  git status
+  381  git commit 'Added files and dags for building a simple pipeline, from api to postgres'
+  382  git commit -m 'Added files and dags for building a simple pipeline, from api to postgres'
+  383  push
+  384  git push
+  385  cd 
+  386  vi .zshrc
+  387  source .zshrc
+  388  dev
+  389  cd data-engineering/de-zoomcamp/module-2/airflow
+  390  cd ../
+  391  zed .
+  392  ls
+  393  cd airflow
+  394  ls
+  395  cd ../
+  396  ls
+  397  mkdir terraform
+  398  cd terraform
+  399  ls
+  400  touch main.tf variables.tf
+  401  ls
+  402  touch .gitignore
+  403  ls
+  404  cd ../
+  405  ls
+  406  rm -r terraform
+  407  ls
+  408  cd ../../
+  409  ls
+  410  source .venv/bin/activate
+  411  cd de-zoomcamp/module-2/airflow
+  412  docker compose up -d
+  413  docker compose ps
+  414  ls
+  415  cd airflow
+  416  ls
+  417  mkdir keys
+  418  ls
+  419  cd
+  420  ls
+  421  cd Downloads
+  422  ls
+  423  cat ny-taxi-zoomcamp-429823-e6d7cbfa3a20.json
+  424  ls
+  425  mv ny-taxi-zoomcamp-429823-e6d7cbfa3a20.json key.json
+  426  ls
+  427  mv key.json gcp-key.json
+  428  ls
+  429  cp gcp-key.json ~/dev/data-engineering/de-zoomcamp/module-2/airflow/keys
+  430  ls
+  431  exit
+  432  ls
+  433  cd keys
+  434  ls
+  435  docker compose down
+  436  docker compose up -d
+  437  ls
+  438  pwd
+  439  docker compose up -d
+  440  docker compose ps
+  441  ls
+  442  docker ps
+  443  docker compose down
+  444  docker compose up -d
+  445  docker ps
+  446  docker compose down
+  447  docker compose up -d
+  448  docker compose ps
+  449  docker compose down
+  450  docker compose up
+  451  docker compose ps
+  452  docker compose up -d
+  453  docker compose ps
+  454  docker compose 
+  455  docker ps
+  456  ls
+  457  pip freeze | grep google
+  458  pip freeze | grep airflow
+  459  pip install apache-airflow-providers-google\n
+  460  sleep
+  461  sleep --help
+  462  docker down
+  463  docker compose down
+  464  docker compose up -d
+  465  docker compose ps
+  466  sleep
+  467  cd ../
+  468  ls
+  469  cd dags
+  470  ls
+  471  mkdir mage
+  472  cd ../../
+  473  ls
+  474  pip freeze
+  475  pip uninstall apache-airflow
+  476  pip uninstall airflow
+  477  ls
+  478  docker compose down
+  479  cd airflow
+  480  docker compose down
+  481  ls
+  482  cd ../
+  483  cd mage
+  484  clone https://github.com/mage-ai/mage-zoomcamp.git
+  485  git clone https://github.com/mage-ai/mage-zoomcamp.git
+  486  ls
+  487  cd mage-zoomcamp
+  488  ls
+  489  mv * ../
+  490  ls
+  491  cd ../
+  492  ls
+  493  rm -r mage-zoomcamp
+  494  ls
+  495  rm README.md
+  496  ls
+  497  cd ../
+  498  cd mage
+  499  mv dev.env .env
+  500  docker images
+  501  docker rmi postgres:13 apache/airflow:2.5.0
+  502  docker images
+  503  ls
+  504  docker compose build
+  505  ls
+  506  docker images
+  507  docker ps
+  508  ls
+  509  docker ps -a
+  510  docker images
+  511  docker compose up -d
+  512  ls
+  513  docker ps
+  514  ls
+  515  cd ../
+  516  zed .
+  517  source ../../../
+  518  cd ../../../
+  519  cd data-engineering
+  520  source .venv/bin/activate
+  521  cd de-zoomcamp/module-2/mage
+  522  ls
+  523  pgcli -h localhost -U root -d postgres
+  524  top
+  525  cat ../airflow/api_to_postgres.py
+  526  htop
+  527  top
+  528  docker compose down
+  529  deactivate
+  530  exit
+  531  dev
+  532  cd data-engineering
+  533  source .venv/bin/activate
+  534  cd de-zoomcamp/module-2/mage
+  535  zed .
+  536  ls
+  537  docker compose up -d
+  538  pgcli -h localhost -U root -d postgres
+  539  pgcli -h postgres -U root -d magic
+  540  pgcli -h postgres -U root -d postgres
+  541  pgcli -h postgres -U root
+  542  cd
+  543  ls
+  544  cd Downloads
+  545  ls
+  546  cp ny-taxi-zoomcamp-429823-4c2d8cf3a993.json ../dev/data-engineering/de-zoomcamp/module-2/mage
+  547  ls
+  548  rm personal-gcp.json
+  549  cd personal-gcp.json
+  550  ls
+  551  cd ../
+  552  ls
+  553  cd secrets
+  554  ls
+  555  cd personal-gcp.json
+  556  ls
+  557  cd ../
+  558  ls
+  559  cd ../
+  560  ls
+  561  rm -r personal-gcp.json
+  562  ls
+  563  mv ny-taxi-zoomcamp-429823-4c2d8cf3a993.json secrets/personal-gcp.json
+  564  ls
+  565  ls -l
+  566  chown nelisa titanic_clean.csv
+  567  sudo chown nelisa titanic_clean.csv
+  568  ls
+  569  docker compose down
+  570  docker compose up -d
+  571  docker compose down
+  572  sleep
+  573  exit
+  574  exir
+  575  exit
+  576  cd Downloads
+  577  ls
+  578  ./obsidian_1.6.7_amd64.deb
+  579  sudo ./obsidian_1.6.7_amd64.deb
+  580  sudo apt install ./obsidian_1.6.7_amd64.deb
+  581  ls
+  582  rm obsidian_1.6.7_amd64.deb
+  583  ls
+  584  dev
+  585  ls
+  586  mkdir csharp
+  587  cd csharp
+  588  ls
+  589  zed .
+  590  ls
+  591  mkdir my_first_project
+  592  mv main.cs my_first_project
+  593  dev
+  594  ls
+  595  mkdir projects
+  596  ls
+  597  cd projects
+  598  ls
+  599  git clone git@github.com:nelisa-dludla/sway.git
+  600  ls
+  601  cd sway
+  602  touch README.md
+  603  zed .
+  604  ls
+  605  cat README.md
+  606  ls
+  607  touch .gitignore .env .venv
+  608  ls
+  609  rm -r .venv
+  610  ls
+  611  py
+  612  ls
+  613  py -m venv .venv
+  614  ls
+  615  source .venv/bin/activate
+  616  ls
+  617  pip install Django
+  618  ls
+  619  pip freeze >> requirements.txt
+  620  ls
+  621  django --version
+  622  django-admin --version
+  623  django-admin startproject sway .
+  624  ls
+  625  source "/home/nelisa/dev/projects/sway/.venv/bin/activate"
+  626  ls
+  627  django-admin startapp core
+  628  django-admin startapp users
+  629  ls
+  630  cd core
+  631  ls
+  632  mkdir templates
+  633  cd templates
+  634  ls
+  635  mkdir core
+  636  cd core
+  637  touch index.html
+  638  ls
+  639  cd ../
+  640  ../
+  641  pip install python-dotenv
+  642  cd ../../
+  643  ls
+  644  cd sway
+  645  ls
+  646  django-admin runserver
+  647  ls
+  648  pip freeze
+  649  exit
+  650  zed .
+  651  source "/home/nelisa/dev/projects/sway/.venv/bin/activate"
+  652  django-admin runserver
+  653  exit
+  654  zed .
+  655  cd
+  656  cd Downloads
+  657  ls
+  658  tar xzvf nvim-linux64.tar.gz
+  659  ls
+  660  rm nvim-linux64.tar.gz
+  661  ls
+  662  cd nvim-linux64
+  663  ls
+  664  cd bin
+  665  ls
+  666  cd ../../
+  667  ls
+  668  rm -r nvim-linux64
+  669  ls
+  670  sudo apt-get install ninja-build gettext cmake unzip curl build-essential
+  671  cd 
+  672  cd dev
+  673  ls
+  674  git clone https://github.com/neovim/neovim
+  675  ls
+  676  cd neovim
+  677  git checkout stable
+  678  make CMAKE_BUILD_TYPE=RelWithDebInfo
+  679  ls
+  680  cd build && cpack -G DEB && sudo dpkg -i nvim-linux64.deb
+  681  ls
+  682  vi
+  683  ls
+  684  sudo apt install ./nvim-linux64.deb
+  685  neovim
+  686  ls
+  687  nvim 
+  688  cd ../../../
+  689  dev
+  690  ls
+  691  cd neovim
+  692  ls
+  693  cd build
+  694  ls
+  695  cd
+  696  ls
+  697  cd /
+  698  ls
+  699  cd bin
+  700  ls
+  701  cd ../
+  702  ls
+  703  cd usr/local
+  704  ls
+  705  cd bin
+  706  ls
+  707  cd ../
+  708  cd 
+  709  neovim
+  710  nvim
+  711  cd /usr/bin
+  712  ls
+  713  cd
+  714  ls
+  715  cd .config
+  716  ls
+  717  git clone git@github.com:nelisa-dludla/.dotfiles.git
+  718  ls
+  719  cd .dotfiles
+  720  ls
+  721  ln -s ~/.config/.dotfiles/nvim ~/.config
+  722  cd 
+  723  cd .config
+  724  ls
+  725  dev
+  726  ls
+  727  cd projects/sway
+  728  nvim
+  729  cd
+  730  ls
+  731  cd Downloads
+  732  ls
+  733  unzip UbuntuMono.zip
+  734  ls
+  735  rm *.ttf
+  736  ls
+  737  rm *.txt
+  738  nvim
+  739  exit
+  740  nvim
+  741  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+  742  exit
+  743  node --version
+  744  nvm --version
+  745  nvm install 20
+  746  exit
+  747  node --version
+  748  dev
+  749  cd projects/sway
+  750  nvim .
+  751  cd
+  752  cd .config
+  753  ls
+  754  cd nvim
+  755  ls
+  756  nv .
+  757  nvim .
+  758  nv .
+  759  nvim .
+  760  ls
+  761  dev
+  762  cd projects/sway
+  763  sudo apt install tmux
+  764  ls
+  765  tmux 
+  766  source .venv/bin/activate
+  767  ls
+  768  source .venv/bin/activate
+  769  ls
+  770  nv .
+  771  nvim .
+  772  django-admin runserver
+  773  fg
+  774  django-admin runserver
+  775  fg
+  776  ls
+  777  mv .env sway
+  778  ls
+  779  django-admin runserver
+  780  pip freeze
+  781  pip uninstall python-dotnev
+  782  pip freeze
+  783  pip uninstall python-dotenv
+  784  pip install django-environ
+  785  fg
+  786  nv .
+  787  nvim .
+  788  pip install django-environ
+  789  django-admin runserver
+  790  ;s
+  791  ls
+  792  cd sway
+  793  ls
+  794  ls -a
+  795  nv .
+  796  nvim ../
+  797  django-admin runserver
+  798  fg
+  799  ls
+  800  django-admin runserver
+  801  py manage.py runserver
+  802  fg
+  803  nvim .
+  804  cd ../
+  805  fg
+  806  nvim
+  807  nvim .
+  808  fg
+  809  nvim .
+  810  dev
+  811  cd projects/sway
+  812  tmux
+  813  nvim .
+  814  exit
+  815  zed .
+  816  source "/home/nelisa/dev/projects/sway/.venv/bin/activate"
+  817  pip freeze
+  818  deactivate
+  819  pip freeze
+  820  pip install django-environ
+  821  py manage.py runserver
+  822  source .venv/bin/activate
+  823  py manage.py runserver
+  824  pip install django
+  825  ls
+  826  zed .
+  827  source "/home/nelisa/dev/projects/sway/.venv/bin/activate"
+  828  ls
+  829  rm users
+  830  rm -r users
+  831  django-admin startapp user
+  832  ls
+  833  py manage.py runserver
+  834  zed .
+  835  source "/home/nelisa/dev/projects/sway/.venv/bin/activate"
+  836  py manage.py runserver
+  837  ls
+  838  cd core
+  839  cd templates/core
+  840  ls
+  841  mv base.html index.html ../
+  842  ls
+  843  cd ls
+  844  ls
+  845  cd ../
+  846  ls
+  847  cd ../../
+  848  cd ../
+  849  ls
+  850  cd sway
+  851  ls
+  852  mkdir static
+  853  py manage.py runserver
+  854  ls
+  855  exit
+  856  dev
+  857  ls
+  858  cd projects/sway
+  859  zed .
+  860  source "/home/nelisa/dev/projects/sway/.venv/bin/activate"
+  861  py manage.py runserver
+  862  pip install django-crispy-forms
+  863  pip install crispy-bootstrap5
+  864  pip install django-crispy-forms
+  865  py manage.py runserver
+  866  pip freeze
+  867  pip freeze >> requirements.txt
+  868  pip install djhtml
+  869  zed .
+  870  source "/home/nelisa/dev/projects/sway/.venv/bin/activate"
+  871  py manage.py runserver
+  872  ls
+  873  touch pyrightconfig.json
+  874  ls
+  875  which neovim
+  876  which nvim
+  877  where neovim
+  878  find neovim
+  879  find nvim
+  880  find var
+  881  pip freeze | grep djhtml
+  882  dev
+  883  ls
+  884  cd neovim
+  885  ls
+  886  sudo apt uninstall neovim
+  887  sudo apt remove neovim
+  888  ls
+  889  nvim
+  890  vi
+  891  ls
+  892  cd ../
+  893  ls
+  894  rm -rf neovim
+  895  cd
+  896  cd Downloads
+  897  ls
+  898  tar xzvf nvim-linux64.tar.gz
+  899  ls
+  900  rm nvim-linux64.tar.gz
+  901  ls
+  902  cd nvim-linux64
+  903  ls
+  904  cd ../
+  905  ls
+  906  cd nvim-linux64/bin
+  907  ls
+  908  mv nvim /bin/
+  909  sudo mv nvim /bin
+  910  nvim
+  911  cd /bin
+  912  ls
+  913  mv nvim ~/Downloads/nvim-linux64/bin
+  914  sudo mv nvim ~/Downloads/nvim-linux64/bin
+  915  cd
+  916  cd Downloads
+  917  ls
+  918  ./nvim-linux64/bin/nvim
+  919  ls
+  920  mv nvim-linux64 ~/dev
+  921  ls
+  922  dev
+  923  ls
+  924  cd nvim-linux64/bin
+  925  pwd
+  926  cd
+  927  vi .zshrc
+  928  nvim
+  929  source .zshrc
+  930  nvim
+  931  vi .zshrc
+  932  source .zshrc
+  933  nvim
+  934  tmux 
+  935  source .venv/bin/activate
+  936  py manage.py runserver
+  937  nvim .
+  938  cd .config
+  939  ls
+  940  nvim nvim
+  941  nvim .
+  942  pip freeze
+  943  fg
+  944  ls
+  945  source .venv/bin/activate
+  946  tmux a
+  947  tmux
+  948  source .venv/bin/activate
+  949  py manage.py runserver
+  950  nvim .
+  951  pip freeze
+  952  fg
+  953  pip freeze
+  954  cat user/templates/registration/register.html
+  955  pip uninstall crispy-bootstrap5
+  956  pip install crispy-bootstrap5
+  957  fg
+  958  py manage.py runserver
+  959  cd ../
+  960  exit
+  961  py manage.py runserver
+  962  source .venv/bin/activate
+  963  ls
+  964  py manage.py runserver
+  965  fg
+  966  nvim .
+  967  ls
+  968  nvim .
+  969  py manage.py runserver
+  970  nvim .
+  971  zed .
+  972  source "/home/nelisa/dev/projects/sway/.venv/bin/activate"
+  973  ls
+  974  cd static/images
+  975  ls
+  976  py manage.py makemigrations
+  977  py manage.py migrate
+  978  fg
+  979  cd ../../
+  980  nv .
+  981  nvim .
+  982  py manage.py runserver
+  983  nvim .
+  984  deactivate
+  985  exit
+  986  ls
+  987  cd .config
+  988  ls
+  989  cd .dotfiles
+  990  ls
+  991  ls -s ~/.config/.dotfiles/i3 ~/.config
+  992  ls -s ~/.config/.dotfiles/i3/ ~/.config
+  993  cd
+  994  ls
+  995  cd .config
+  996  ls
+  997  cd .dotfiles
+  998  ls
+  999  ln -s ~/.config/.dotfiles/i3 ~/.config
+ 1000  ln -s ~/.config/.dotfiles/i3blocks ~/.config
+ 1001  cd
+ 1002  sudo apt update
+ 1003  sudo apt install i3
+ 1004  exit
+ 1005  sudo apt install i3blocks
+ 1006  ls
+ 1007  cd .config
+ 1008  ls
+ 1009  cd i3blocks
+ 1010  ls
+ 1011  nvim config
+ 1012  fg
+ 1013  nvim
+ 1014  nvim .
+ 1015  dev
+ 1016  sudo apt install nitrogen
+ 1017  sudo apt install lxappearance
+ 1018  cd projects/sway
+ 1019  tmux 
+ 1020  exit
+ 1021  source .venv/bin/activate
+ 1022  tmux 
+ 1023  source .venv/bin/activate
+ 1024  py manage.py runserver
+ 1025  nvim .
+ 1026  source "/home/nelisa/dev/projects/sway/.venv/bin/activate"
+ 1027  fg
+ 1028  exit
+ 1029  nvim .
+ 1030  chsh bash
+ 1031  chsh nelisa bash
+ 1032  chsh -s bash
+ 1033  chsh -s sh
+ 1034  chsh -s /bin/bash
+ 1035  ls
+ 1036  exit
+ 1037  chsh -s /bin/bash
+ 1038  exit
+ 1039  chsh nelisa -s /bin/bash
+ 1040  dev
+ 1041  cd projects/sway
+ 1042  code .
+ 1043  /bin/python3 /home/nelisa/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/printEnvVariablesToFile.py /home/nelisa/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 1044  py manage.py runserver
+ 1045  dev
+ 1046  ls
+ 1047  mv cpp
+ 1048  mv csharp cpp
+ 1049  ls
+ 1050  cd cpp
+ 1051  ls
+ 1052  cd my_first_project
+ 1053  ls
+ 1054  cd ../
+ 1055  ls
+ 1056  rm my_first_project
+ 1057  rm -r my_first_project
+ 1058  ls
+ 1059  zed .
+ 1060  gcc -v
+ 1061  ls
+ 1062  gcc hello_world.cpp
+ 1063  ls
+ 1064  gcc hello_world.cpp -o main.cpp
+ 1065  g++ hello_world.cpp
+ 1066  ls
+ 1067  ./a.out
+ 1068  g++ hello_world.cpp
+ 1069  ./a.out
+ 1070  g++ hello_world.cpp
+ 1071  ./a.out
+ 1072  g++ hello_world.cpp
+ 1073  ./a.out
+ 1074  g++ hello_world.cpp
+ 1075  ./a.out
+ 1076  g++ hello_world.cpp
+ 1077  ./a.out
+ 1078  g++ hello_world.cpp
+ 1079  ./a.out
+ 1080  g++ hello_world.cpp
+ 1081  ./a.out
+ 1082  g++ hello_world.cpp
+ 1083  ./a.out
+ 1084  g++ hello_world.cpp
+ 1085  ./a.out
+ 1086  g++ hello_world.cpp
+ 1087  ./a.out
+ 1088  g++ hello_world.cpp
+ 1089  ./a.out
+ 1090  g++ hello_world.cpp
+ 1091  ./a.out
+ 1092  g++ hello_world.cpp
+ 1093  ./a.out
+ 1094  g++ hello_world.cpp
+ 1095  ./a.out
+ 1096  g++ hello_world.cpp
+ 1097  ./a.out
+ 1098  ls
+ 1099  g++ hello_world.cpp
+ 1100  ./a.out
+ 1101  g++ hello_world.cpp
+ 1102  ./a.out
+ 1103  g++ hello_world.cpp
+ 1104  ./a.out
+ 1105  g++ hello_world.cpp
+ 1106  ./a.out
+ 1107  g++ hello_world.cpp
+ 1108  ./a.out
+ 1109  g++ hello_world.cpp
+ 1110  ./a.out
+ 1111  g++ hello_world.cpp
+ 1112  ./a.out
+ 1113  g++ hello_world.cpp
+ 1114  ./a.out
+ 1115  g++ hello_world.cpp
+ 1116  ./a.out
+ 1117  g++ hello_world.cpp
+ 1118  ./a.out
+ 1119  g++ hello_world.cpp
+ 1120  ./a.out
+ 1121  g++ hello_world.cpp
+ 1122  ./a.out
+ 1123  g++ hello_world.cpp
+ 1124  ./a.out
+ 1125  g++ hello_world.cpp
+ 1126  ./a.out
+ 1127  g++ hello_world.cpp
+ 1128  ./a
+ 1129  ./a.out
+ 1130  g++ hello_world.cpp
+ 1131  ./a.out
+ 1132  g++ hello_world.cpp
+ 1133  ./a.out
+ 1134  g++ hello_world.cpp
+ 1135  ./a.out
+ 1136  g++ hello_world.cpp
+ 1137  a
+ 1138  ./a.out
+ 1139  g++ hello_world.cpp
+ 1140  ./a.out
+ 1141  g++ hello_world.cpp
+ 1142  ./a.out
+ 1143  g++ hello_world.cpp
+ 1144  ./a.out
+ 1145  g++ hello_world.cpp
+ 1146  ./a.out
+ 1147  g++ hello_world.cpp
+ 1148  ./a.out
+ 1149  g++ hello_world.cpp
+ 1150  ./a.out
+ 1151  g++ hello_world.cpp
+ 1152  ./a.out
+ 1153  g++ hello_world.cpp
+ 1154  ./a.out
+ 1155  g++ hello_world.cpp
+ 1156  ./a.out
+ 1157  g++ hello_world.cpp
+ 1158  ./a.out
+ 1159  g++ hello_world.cpp
+ 1160  ./a.out
+ 1161  g++ hello_world.cpp
+ 1162  ./a.out
+ 1163  g++ hello_world.cpp
+ 1164  ./a.out
+ 1165  fg
+ 1166  g++ hello_world.cpp
+ 1167  ./a.out
+ 1168  g++ hello_world.cpp
+ 1169  ./a.out
+ 1170  g++ hello_world.cpp
+ 1171  ./a.out
+ 1172  g++ hello_world.cpp
+ 1173  ./a.out
+ 1174  g++ hello_world.cpp
+ 1175  ./a.out
+ 1176  g++ hello_world.cpp
+ 1177  ./a
+ 1178  ./a.out
+ 1179  g++ hello_world.cpp
+ 1180  ./a.out
+ 1181  g++ hello_world.cpp
+ 1182  ./a
+ 1183  ./a.out
+ 1184  g++ hello_world.cpp
+ 1185  ./a.out
+ 1186  g++ hello_world.cpp
+ 1187  ./a.out
+ 1188  g++ hello_world.cpp
+ 1189  ./a.out
+ 1190  g++ hello_world.cpp
+ 1191  ./a.out
+ 1192  g++ hello_world.cpp
+ 1193  ./a.out
+ 1194  g++ hello_world.cpp
+ 1195  ./a.out
+ 1196  g++ hello_world.cpp
+ 1197  ./a.out
+ 1198  g++ hello_world.cpp
+ 1199  ./a.out
+ 1200  g++ hello_world.cpp
+ 1201  ./a
+ 1202  ./a.out
+ 1203  g++ hello_world.cpp
+ 1204  ./a.out
+ 1205  g++ hello_world.cpp
+ 1206  ./a.out
+ 1207  g++ hello_world.cpp
+ 1208  ./a.out
+ 1209  g++ hello_world.cpp
+ 1210  ./a.out
+ 1211  g++ hello_world.cpp
+ 1212  ./a.out
+ 1213  g++ hello_world.cpp
+ 1214  ./a.out
+ 1215  g++ hello_world.cpp
+ 1216  ./a.out
+ 1217  g++ hello_world.cpp
+ 1218  ./a.out
+ 1219  g++ hello_world.cpp
+ 1220  ./a.out
+ 1221  g++ hello_world.cpp
+ 1222  ./a.out
+ 1223  g++ hello_world.cpp
+ 1224  ./a.out
+ 1225  g++ hello_world.cpp
+ 1226  ./a.out
+ 1227  g++ hello_world.cpp
+ 1228  ./a.out
+ 1229  g++ hello_world.cpp
+ 1230  ./a.out
+ 1231  g++ hello_world.cpp
+ 1232  ./a.out
+ 1233  g++ hello_world.cpp
+ 1234  ./a.out
+ 1235  g++ hello_world.cpp
+ 1236  ./a.out
+ 1237  g++ hello_world.cpp
+ 1238  ./a.out
+ 1239  g++ hello_world.cpp
+ 1240  ./a.out
+ 1241  g++ hello_world.cpp
+ 1242  ./a.out
+ 1243  g++ hello_world.cpp
+ 1244  ./a.out
+ 1245  g++ hello_world.cpp
+ 1246  ./a.out
+ 1247  g++ hello_world.cpp
+ 1248  ./a.out
+ 1249  g++ hello_world.cpp
+ 1250  ./a.out
+ 1251  g++ hello_world.cpp
+ 1252  ./a.out
+ 1253  g++ hello_world.cpp
+ 1254  ./a.out
+ 1255  g++ hello_world.cpp
+ 1256  ./a.out
+ 1257  g++ hello_world.cpp
+ 1258  ./a.out
+ 1259  exit
+ 1260  shutdown
+ 1261  shutdown now
+ 1262  dev
+ 1263  cd cpp
+ 1264  ls
+ 1265  zed .
+ 1266  g++ hello_world.cpp
+ 1267  ./a.out
+ 1268  g++ hello_world.cpp
+ 1269  ./a.out
+ 1270  g++ hello_world.cpp
+ 1271  ./a.out
+ 1272  g++ hello_world.cpp
+ 1273  ./a.out
+ 1274  g++ hello_world.cpp
+ 1275  ./a.out
+ 1276  g++ hello_world.cpp
+ 1277  ./a.out
+ 1278  g++ hello_world.cpp
+ 1279  ./a.out
+ 1280  g++ hello_world.cpp
+ 1281  ./a.out
+ 1282  g++ hello_world.cpp
+ 1283  ./a.out
+ 1284  g++ hello_world.cpp
+ 1285  ./a.out
+ 1286  g++ hello_world.cpp
+ 1287  ./a.out
+ 1288  g++ hello_world.cpp
+ 1289  ./a.out
+ 1290  g++ hello_world.cpp
+ 1291  ./a.out
+ 1292  fg
+ 1293  ./a.out
+ 1294  g++ hello_world.cpp
+ 1295  ./a.out
+ 1296  g++ hello_world.cpp
+ 1297  ls
+ 1298  ./a.out
+ 1299  g++ hello_world.cpp
+ 1300  ./a.out
+ 1301  ls
+ 1302  rm a.out
+ 1303  g++ hello_world.cpp
+ 1304  ./a.out
+ 1305  g++ hello_world.cpp
+ 1306  ./a.out
+ 1307  fg
+ 1308  ./a.out
+ 1309  g++ hello_world.cpp
+ 1310  ./a.out
+ 1311  fg
+ 1312  ./a.out
+ 1313  g++ hello_world.cpp
+ 1314  ./a.out
+ 1315  ls
+ 1316  mv hello_world.cpp banking_app.cpp
+ 1317  g++ banking_app.cpp -o banking_app
+ 1318  ls
+ 1319  rm a.out
+ 1320  ls
+ 1321  ./banking_app
+ 1322  ls
+ 1323  touch rps.cpp
+ 1324  gcc rps.cpp
+ 1325  g++ rps.cpp
+ 1326  ./a.out
+ 1327  g++ rps.cpp
+ 1328  ./a.out
+ 1329  g++ rps.cpp
+ 1330  ./a.out
+ 1331  g++ rps.cpp
+ 1332  ./a.out
+ 1333  g++ rps.cpp
+ 1334  ./a.out
+ 1335  ls
+ 1336  mv rps.cpp rps_game.cpp
+ 1337  g++ rps_game.cpp -o rps_game
+ 1338  ls
+ 1339  rm a.out
+ 1340  ./rps_game
+ 1341  ls
+ 1342  touch main.cpp
+ 1343  g++ main.cpp
+ 1344  ./a.out
+ 1345  g++ main.cpp
+ 1346  ./a.out
+ 1347  g++ main.cpp
+ 1348  ./a.out
+ 1349  fg
+ 1350  ./a.out
+ 1351  g++ main.cpp
+ 1352  ./a.out
+ 1353  g++ main.cpp
+ 1354  ./a.out
+ 1355  g++ main.cpp
+ 1356  ./a.out
+ 1357  g++ main.cpp
+ 1358  ./a.out
+ 1359  fg
+ 1360  g++ main.cpp
+ 1361  ./a.out
+ 1362  fg
+ 1363  g++ main.cpp
+ 1364  ./a.out
+ 1365  g++ main.cpp
+ 1366  ./a.out
+ 1367  fg
+ 1368  g++ main.cpp
+ 1369  ./a.out
+ 1370  g++ main.cpp
+ 1371  ./a.out
+ 1372  g++ main.cpp
+ 1373  ./a.out
+ 1374  g++ main.cpp
+ 1375  ./a.out
+ 1376  fg
+ 1377  ./a.out
+ 1378  g++ main.cpp
+ 1379  ./a.out
+ 1380  g++ main.cpp
+ 1381  .fg
+ 1382  g++ main.cpp
+ 1383  ./a.out
+ 1384  fg
+ 1385  g++ main.cpp
+ 1386  ./a.out
+ 1387  g++ main.cpp
+ 1388  ./a.out
+ 1389  g++ main.cpp
+ 1390  ./a.out
+ 1391  g++ main.cpp
+ 1392  ./a.out
+ 1393  joe doe
+ 1394  ./a.out
+ 1395  joe doe
+ 1396  g++ main.cpp
+ 1397  ./a.out
+ 1398  fg
+ 1399  g++ main.cpp
+ 1400  ./a.out
+ 1401  fg
+ 1402  g++ main.cpp
+ 1403  ./a.out
+ 1404  fg
+ 1405  g++ main.cpp
+ 1406  ./a.out
+ 1407  fg
+ 1408  g++ main.cpp
+ 1409  ./a.out
+ 1410  fg
+ 1411  g++ main.cpp
+ 1412  ./a.out
+ 1413  fg
+ 1414  g++ main.cpp
+ 1415  ./a.out
+ 1416  fg
+ 1417  g++ main.cpp
+ 1418  ./a.out
+ 1419  fg
+ 1420  g++ main.cpp
+ 1421  ./a.out
+ 1422  g++ main.cpp
+ 1423  ./a.out
+ 1424  fg
+ 1425  ./a.out
+ 1426  g++ main.cpp
+ 1427  ./a.out
+ 1428  fg
+ 1429  g++ main.cpp
+ 1430  ./a.out
+ 1431  fg
+ 1432  g++ main.cpp
+ 1433  ./a.out
+ 1434  fg
+ 1435  g++ main.cpp
+ 1436  ./a.out
+ 1437  fg
+ 1438  mv main.cpp bubble_sort.cpp
+ 1439  g++ bubble_sort.cpp -o  bubble_sort
+ 1440  ls
+ 1441  ./b
+ 1442  ./bubble_sort
+ 1443  ls
+ 1444  rm a.out
+ 1445  touch main.cpp
+ 1446  g++ main.cpp
+ 1447  ./a.out
+ 1448  g++ main.cpp
+ 1449  ./a.out
+ 1450  g++ main.cpp
+ 1451  ./a.out
+ 1452  fg
+ 1453  g++ main.cpp
+ 1454  ./a.out
+ 1455  g++ main.cpp
+ 1456  ./a.out
+ 1457  fg
+ 1458  g++ main.cpp
+ 1459  ./a.out
+ 1460  g++ main.cpp
+ 1461  ./a.out
+ 1462  g++ main.cpp
+ 1463  ./a.out
+ 1464  fg
+ 1465  g++ main.cpp
+ 1466  ./a.out
+ 1467  fg
+ 1468  g++ main.cpp
+ 1469  ./a.out
+ 1470  g++ main.cpp
+ 1471  ./a.out
+ 1472  g++ main.cpp
+ 1473  ./a.out
+ 1474  g++ main.cpp
+ 1475  ./a.out
+ 1476  g++ main.cpp
+ 1477  ./a.out
+ 1478  mv main.cpp quiz_game.cpp
+ 1479  g++ quiz_game.cpp -o quiz_game
+ 1480  ls
+ 1481  touch main.cpp
+ 1482  g++ main.cpp
+ 1483  ./a.out
+ 1484  fg
+ 1485  g++ main.cpp
+ 1486  ./a.out
+ 1487  fg
+ 1488  g++ main.cpp
+ 1489  ./a.out
+ 1490  fg
+ 1491  ./a.out
+ 1492  g++ main.cpp
+ 1493  ./a.out
+ 1494  g++ main.cpp
+ 1495  ./a.out
+ 1496  fg
+ 1497  g++ main.cpp
+ 1498  ./a.out
+ 1499  g++ main.cpp
+ 1500  ./a.out
+ 1501  g++ main.cpp
+ 1502  ./a.out
+ 1503  fg
+ 1504  g++ main.cpp
+ 1505  ./a.out
+ 1506  g++ main.cpp
+ 1507  ./a.out
+ 1508  g++ main.cpp
+ 1509  ./a.out
+ 1510  g++ main.cpp
+ 1511  ./a.out
+ 1512  mv main.cpp credit_card_validator.cpp
+ 1513  g++ credit_card_validator.cpp -o credit_card_validator
+ 1514  ls
+ 1515  touch main.cpp
+ 1516  g++ main.cpp
+ 1517  ./a.out
+ 1518  g++ main.cpp
+ 1519  ./a.out
+ 1520  fg
+ 1521  g++ main.cpp
+ 1522  ./a.out
+ 1523  fg
+ 1524  g++ main.cpp
+ 1525  ./a.out
+ 1526  g++ main.cpp
+ 1527  ./a.out
+ 1528  fg
+ 1529  g++ main.cpp
+ 1530  ./a.out
+ 1531  fg
+ 1532  g++ main.cpp
+ 1533  ./a.out
+ 1534  g++ main.cpp
+ 1535  ./a.out
+ 1536  g++ main.cpp
+ 1537  ./a.out
+ 1538  g++ main.cpp
+ 1539  ./a.out
+ 1540  g++ main.cpp
+ 1541  ./a.out
+ 1542  fg
+ 1543  ./a.out
+ 1544  g++ main.cpp
+ 1545  ./a.out
+ 1546  g++ main.cpp
+ 1547  ./a.out
+ 1548  fg
+ 1549  g++ main.cpp
+ 1550  ./a.out
+ 1551  fg
+ 1552  g++ main.cpp
+ 1553  ./a.out
+ 1554  g++ main.cpp
+ 1555  ./a.out
+ 1556  g++ main.cpp
+ 1557  ./a.out
+ 1558  g++ main.cpp
+ 1559  fg
+ 1560  g++ main.cpp
+ 1561  ./a.out
+ 1562  g++ main.cpp
+ 1563  ./a.out
+ 1564  g++ main.cpp
+ 1565  ./a.out
+ 1566  g++ main.cpp
+ 1567  ./a.out
+ 1568  fg
+ 1569  g++ main.cpp
+ 1570  ./a.out
+ 1571  fg
+ 1572  g++ main.cpp
+ 1573  ./a.out
+ 1574  fg
+ 1575  g++ main.cpp
+ 1576  ./a.out
+ 1577  g++ main.cpp
+ 1578  ./a.out
+ 1579  g++ main.cpp
+ 1580  ./a
+ 1581  ./a.out
+ 1582  g++ main.cpp
+ 1583  ./a.out
+ 1584  ls
+ 1585  mv main.cpp tic_tac_toe.cpp
+ 1586  g++ tic_tac_toe.cpp tic_tac_toe
+ 1587  g++ tic_tac_toe.cpp -o tic_tac_toe
+ 1588  ls
+ 1589  touch main.cpp
+ 1590  g++ main.cpp
+ 1591  ./a.out
+ 1592  g++ main.cpp
+ 1593  ./a.out
+ 1594  g++ main.cpp
+ 1595  ./a.out
+ 1596  fg
+ 1597  g++ main.cpp
+ 1598  ./a.out
+ 1599  g++ main.cpp
+ 1600  ./a.out
+ 1601  fg
+ 1602  ./a.out
+ 1603  g++ main.cpp
+ 1604  ./a.out
+ 1605  fg
+ 1606  g++ main.cpp
+ 1607  ./a.out
+ 1608  fg
+ 1609  g++ main.cpp
+ 1610  ./a.out
+ 1611  g++ main.cpp
+ 1612  ./a.out
+ 1613  g++ main.cpp
+ 1614  ./a.out
+ 1615  fg
+ 1616  g++ main.cpp
+ 1617  ./a.out
+ 1618  g++ main.cpp
+ 1619  ./a.out
+ 1620  fg
+ 1621  g++ main.cpp
+ 1622  ./a.out
+ 1623  fg
+ 1624  g++ main.cpp
+ 1625  ./a.out
+ 1626  g++ main.cpp
+ 1627  ./a.out
+ 1628  fg
+ 1629  g++ main.cpp
+ 1630  ./a.out
+ 1631  fg
+ 1632  g++ main.cpp
+ 1633  ./a.out
+ 1634  fg
+ 1635  g++ main.cpp
+ 1636  ./a.out
+ 1637  fg
+ 1638  g++ main.cpp
+ 1639  ./a.out
+ 1640  fg
+ 1641  g++ main.cpp
+ 1642  ./a.out
+ 1643  fg
+ 1644  g++ main.cpp
+ 1645  ./a.out
+ 1646  fg
+ 1647  g++ main.cpp
+ 1648  ./a.out
+ 1649  fg
+ 1650  g++ main.cpp
+ 1651  ./a.out
+ 1652  g++ main.cpp
+ 1653  ./a.out
+ 1654  g++ main.cpp
+ 1655  ./a.out
+ 1656  g++ main.cpp
+ 1657  ./a.out
+ 1658  fg
+ 1659  g++ main.cpp
+ 1660  ./a.out
+ 1661  g++ main.cpp
+ 1662  ./a.out
+ 1663  fg
+ 1664  dev
+ 1665  cd cpp
+ 1666  ls
+ 1667  zed .
+ 1668  ls
+ 1669  cd ../
+ 1670  ls
+ 1671  cd cpp
+ 1672  ls
+ 1673  git clone git@github.com:nelisa-dludla/cpp-quest.git
+ 1674  ls
+ 1675  mv * cpp-quest
+ 1676  ls
+ 1677  cd cpp-quest
+ 1678  ls
+ 1679  touch .gitignore
+ 1680  nvim .
+ 1681  ls
+ 1682  touch README.md
+ 1683  nvim .
+ 1684  ls
+ 1685  mkdir projects exercises experiments
+ 1686  ls
+ 1687  mv bubble_sort bubble_sort.cpp exercises
+ 1688  ls
+ 1689  mv banking_app banking_app.cpp credit_card_validator credit_card_validator.cpp quiz_game.cpp quiz_game rps_game rps_game.cpp tic_tac_toe tic_tac_toe.cpp projects
+ 1690  ls
+ 1691  mv main.cpp a.out experiments
+ 1692  ls
+ 1693  cd projects
+ 1694  ls
+ 1695  mkdir banking_app credit_card_validator quiz_game rock_paper_scissors tic_tac_toe
+ 1696  ls
+ 1697  mkdir banking_app
+ 1698  mkdir banking credit_card quiz rock_paper tic_tac
+ 1699  ls
+ 1700  mv banking_app banking_app.cpp banking
+ 1701  ls
+ 1702  mv credit_card_validator credit_card_validator.cpp credit_card
+ 1703  mv quiz_game quiz_game.cpp quiz
+ 1704  ls
+ 1705  cd rock_paper
+ 1706  ls
+ 1707  cd ../
+ 1708  cd rock_paper_scissors
+ 1709  ls
+ 1710  cd ../
+ 1711  ls
+ 1712  mv rps_game rps_game.cpp rock_paper_scissors
+ 1713  rm -r rock_paper
+ 1714  ls
+ 1715  mv tic_tac_toe tic_tac_toe.cpp tic_tac
+ 1716  ls
+ 1717  mv banking banking_app
+ 1718  mv credit_card credit_card_validator
+ 1719  mv quiz quiz_game
+ 1720  mv tic_tac tic_tac_toe
+ 1721  ls
+ 1722  cd ../
+ 1723  ls
+ 1724  add .
+ 1725  git status
+ 1726  commit 'Added all the small projects I have been working on while learning the basics of C++'
+ 1727  push
+ 1728  ls
+ 1729  cd projects
+ 1730  ls
+ 1731  mkdir sfml
+ 1732  ls
+ 1733  cd sfml
+ 1734  sudo apt-get install libsfml-dev
+ 1735  ls
+ 1736  zed .
+ 1737  ls
+ 1738  touch main.cpp
+ 1739  g++ -c main.cpp
+ 1740  ls
+ 1741  g++ main.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system
+ 1742  ./sfml-app
+ 1743  cd
+ 1744  cd Downloads
+ 1745  ls
+ 1746  sudo apt install ./amdgpu-install_6.1.60103-1_all.deb
+ 1747  cmake --version
+ 1748  dev
+ 1749  ls
+ 1750  cd cpp
+ 1751  ls
+ 1752  cd cpp-quest
+ 1753  ls
+ 1754  cd ../
+ 1755  ls
+ 1756  git clone https://github.com/g-truc/glm.git
+ 1757  ls
+ 1758  cd glm
+ 1759  ls
+ 1760  cmake \\n    -DGLM_BUILD_TESTS=OFF \\n    -DBUILD_SHARED_LIBS=OFF \\n    -B build .\ncmake --build build -- all\ncmake --build build -- install
+ 1761  cmake \\n    -DGLM_BUILD_TESTS=OFF \\n    -DBUILD_SHARED_LIBS=OFF \\n    -B build .
+ 1762  sudo cmake --build build -- all
+ 1763  sudo cmake --build build -- install
+ 1764  ls
+ 1765  nvim CMakeLists.txt
+ 1766  cd ../
+ 1767  ls
+ 1768  cd cpp-quest
+ 1769  cd projects/sfml
+ 1770  ls
+ 1771  rm *.
+ 1772  rm *
+ 1773  ls
+ 1774  cd ../../
+ 1775  cd ../
+ 1776  ls
+ 1777  mkdir game-development
+ 1778  cd game-development
+ 1779  ls
+ 1780  touch main.cpp
+ 1781  nvim .
+ 1782  ls
+ 1783  cd ../../
+ 1784  ls
+ 1785  dev
+ 1786  ls
+ 1787  cd cpp
+ 1788  ls
+ 1789  cd cpp-quest/
+ 1790  ls
+ 1791  cd projects
+ 1792  ls
+ 1793  mv sfml/ ../experiments
+ 1794  cd ../ex
+ 1795  cd ../experiments
+ 1796  ls
+ 1797  cd sfml
+ 1798  touch source.cpp
+ 1799  ls
+ 1800  nvim source.cpp
+ 1801  ls
+ 1802  g++ source.cpp
+ 1803  ls
+ 1804  g++ source.cpp -o
+ 1805  g++ -c source.cpp -o game
+ 1806  ls
+ 1807  g++ game -SFMLGraphics
+ 1808  ls
+ 1809  rm game
+ 1810  g++ -c source.cpp
+ 1811  ls
+ 1812  g++ source.o -lsfml-graphics
+ 1813  g++ source.o -lsfml-graphics -lsfml-window -lsfml-system
+ 1814  ls
+ 1815  ./a.out
+ 1816  fg
+ 1817  ls
+ 1818  nvim .
+ 1819  ls
+ 1820  rm a.out
+ 1821  g++ -c source.cpp
+ 1822  g++ source.o -o first_window -lsfml-graphics -lsfml-window -lsfml-system
+ 1823  ls
+ 1824  ./first_window
+ 1825  [s
+ 1826  ps
+ 1827  fg
+ 1828  g++ -c source.cpp
+ 1829  g++ source.o -lsfml-graphics -lsfml-window -lsfml-system
+ 1830  ls
+ 1831  rm first_window
+ 1832  ./a.out
+ 1833  sfml --version
+ 1834  sfml
+ 1835  ls
+ 1836  touch main.cpp
+ 1837  fg
+ 1838  g++ -c main.cpp
+ 1839  g++ main.o -o sfml-app -lsfml-window -lsfml-graphics -lsfml-system
+ 1840  ls
+ 1841  ./sfml-app
+ 1842  ./a.out
+ 1843  ./sfml-app
+ 1844  fg
+ 1845  exit
+ 1846  dev
+ 1847  cd cpp/cpp-quest/experiments/sfml
+ 1848  ls
+ 1849  zed .
+ 1850  ls
+ 1851  g++ -c source.cpp 
+ 1852  ls
+ 1853  rm sfml-app
+ 1854  g++ main.o -lsfml-graphics -lsfml-window -lsfml-system
+ 1855  ./a.out
+ 1856  g++ source.o -lsfml-graphics -lsfml-window -lsfml-system
+ 1857  ./a.out
+ 1858  exit
+ 1859  ls
+ 1860  nvim .zshrc
+ 1861  source .zshrc
+ 1862  exit
+ 1863  source ~/.zshrc
+ 1864  ls
+ 1865  fg
+ 1866  nvim .
+ 1867  build-o source.cpp
+ 1868  ls
+ 1869  build-e source.o
+ 1870  echo build-e
+ 1871  echo $build-e
+ 1872  build-e source.o
+ 1873  g++ source.o -lsfml-window -lsfml-graphics -lsfml-system
+ 1874  ./a.out
+ 1875  code .
+ 1876  fg
+ 1877  nvim .
+ 1878  ls
+ 1879  build-e source.cpp
+ 1880  build-o source.cpp
+ 1881  g++ source.o -lsfml-graphics -lsfml-window -lsfml-system
+ 1882  ./a.out
+ 1883  fg
+ 1884  build-e source.cpp
+ 1885  build-o source.cpp
+ 1886  g++ source.o -lsfml-graphics -lsfml-window -lsfml-system
+ 1887  ./a.out
+ 1888  ls
+ 1889  mkdir assets
+ 1890  ls
+ 1891  cd assets
+ 1892  mkdir graphics
+ 1893  ls
+ 1894  cd graphics
+ 1895  ls
+ 1896  fg
+ 1897  exit
+ 1898  dev
+ 1899  cp
+ 1900  cd cpp
+ 1901  ls
+ 1902  cd cpp-quest
+ 1903  ls
+ 1904  cd experiments/sm
+ 1905  cd experiments/sfml
+ 1906  ls
+ 1907  nv .
+ 1908  nvim .
+ 1909  ls
+ 1910  ./a
+ 1911  ./a.out
+ 1912  fg
+ 1913  g++ -o source.cpp
+ 1914  g++ -c source.cpp
+ 1915  g++ source.o -lsfml-graphics -lsfml-window -lsfml-system
+ 1916  ./a
+ 1917  ./a.out
+ 1918  fg
+ 1919  build-o source.cpp
+ 1920  g++ source.o -lsfml-graphics -lsfml-window -lsfml-system
+ 1921  ./a.out
+ 1922  fg
+ 1923  build-o source.cpp
+ 1924  g++ source.o -lsfml-graphics -lsfml-window -lsfml-system
+ 1925  ./a.out
+ 1926  fg
+ 1927  ./a.out
+ 1928  fg
+ 1929  build-o source.cpp
+ 1930  g++ source.o -lsfml-graphics -lsfml-window -lsfml-system
+ 1931  ./a.out
+ 1932  fg
+ 1933  ./a.out
+ 1934  fg
+ 1935  build-o source.cpp
+ 1936  g++ source.o -lsfml-graphics -lsfml-window -lsfml-system
+ 1937  ./a
+ 1938  ./a.out
+ 1939  fg
+ 1940  ./a.out
+ 1941  fg
+ 1942  ls
+ 1943  build-o source.cpp
+ 1944  g++ source.o -lsfml-graphics -lsfml-window -lsfml-system
+ 1945  fg
+ 1946  build-o source.cpp
+ 1947  g++ source.o -lsfml-graphics -lsfml-window -lsfml-system
+ 1948  fg
+ 1949  cat source.cpp
+ 1950  cat hero.h
+ 1951  cat hero.cpp
+ 1952  g++ source.o -lsfml-graphics -lsfml-window -lsfml-system
+ 1953  build-o source.cpp hero.cpp hero.h
+ 1954  ls
+ 1955  rm hero.h.gch
+ 1956  g++ -c source.cpp
+ 1957  g++ -c hero.cpp
+ 1958  fg
+ 1959  ls
+ 1960  g++ -c hero.cpp
+ 1961  fg
+ 1962  ls
+ 1963  build-o source.cpp hero.cpp hero.h
+ 1964  ls
+ 1965  g++ source.o hero.o hero.h.gch -lsfml-graphics -lsfml-window -lsfml-system
+ 1966  rm hero.h.gch
+ 1967  ls
+ 1968  g++ source.o hero.o hero.h -lsfml-graphics -lsfml-window -lsfml-system
+ 1969  ./a.out
+ 1970  fg
+ 1971  ls
+ 1972  build-o hero.cpp source.cpp
+ 1973  g++ source.o hero.o hero.h -lsfml-graphics -lsfml-window -lsfml-system
+ 1974  ./a
+ 1975  ./a.out
+ 1976  fg
+ 1977  build-o hero.cpp source.cpp
+ 1978  g++ source.o hero.o hero.h -lsfml-graphics -lsfml-window -lsfml-system
+ 1979  ./a
+ 1980  ./a.out
+ 1981  fg
+ 1982  build-o hero.cpp source.cpp
+ 1983  g++ source.o hero.o hero.h -lsfml-graphics -lsfml-window -lsfml-system
+ 1984  ./a.out
+ 1985  fg
+ 1986  build-o hero.cpp source.cpp
+ 1987  g++ source.o hero.o hero.h -lsfml-graphics -lsfml-window -lsfml-system
+ 1988  ./a.out
+ 1989  fg
+ 1990  ls
+ 1991  ls -a
+ 1992  ls
+ 1993  touch enemy.cpp enemy.h
+ 1994  ls
+ 1995  fg
+ 1996  build-o hero.cpp source.cpp
+ 1997  g++ source.o hero.o hero.h -lsfml-graphics -lsfml-window -lsfml-system
+ 1998  build-o hero.cpp source.cpp enemy.cpp
+ 1999  g++ source.o hero.o hero.h enemy.o enemy.h -lsfml-graphics -lsfml-window -lsfml-system
+ 2000  ./a.out
+ 2001  ls
+ 2002  touch rocket.cpp rocket.h
+ 2003  fg
+ 2004  ls
+ 2005  build-o hero.cpp source.cpp enemy.cpp rocket.cpp
+ 2006  g++ source.o hero.o hero.h enemy.o enemy.h rocket.o rocket.h -lsfml-graphics -lsfml-window -lsfml-system
+ 2007  ./a.out
+ 2008  fg
+ 2009  g++ -c source.cpp
+ 2010  g++ source.o hero.o hero.h enemy.o enemy.h rocket.o rocket.h -lsfml-graphics -lsfml-window -lsfml-system
+ 2011  ./a.out
+ 2012  fg
+ 2013  ls
+ 2014  cd assets
+ 2015  ls
+ 2016  mkdir fonts
+ 2017  mkdir sounds
+ 2018  cd ../
+ 2019  fg
+ 2020  g++ -o source.cpp
+ 2021  g++ -c source.cpp
+ 2022  g++ source.o hero.o hero.h enemy.o enemy.h rocket.o rocket.h -lsfml-graphics -lsfml-window -lsfml-system
+ 2023  ./a.out
+ 2024  fg
+ 2025  g++ -c source.cpp
+ 2026  g++ source.o hero.o hero.h enemy.o enemy.h rocket.o rocket.h -lsfml-graphics -lsfml-window -lsfml-system
+ 2027  ./a.out
+ 2028  fg
+ 2029  g++ -c source.cpp
+ 2030  g++ source.o hero.o hero.h enemy.o enemy.h rocket.o rocket.h -lsfml-graphics -lsfml-window -lsfml-system
+ 2031  ./a.out
+ 2032  fg
+ 2033  g++ -c source.cpp
+ 2034  g++ source.o hero.o hero.h enemy.o enemy.h rocket.o rocket.h -lsfml-graphics -lsfml-window -lsfml-system
+ 2035  ./a.out
+ 2036  fg
+ 2037  g++ -c source.cpp
+ 2038  g++ source.o hero.o hero.h enemy.o enemy.h rocket.o rocket.h -lsfml-graphics -lsfml-window -lsfml-system
+ 2039  ./a.out
+ 2040  fg
+ 2041  g++ -c source.cpp
+ 2042  g++ source.o hero.o hero.h enemy.o enemy.h rocket.o rocket.h -lsfml-graphics -lsfml-window -lsfml-system
+ 2043  ./a.out
+ 2044  fg
+ 2045  ./a.out
+ 2046  fg
+ 2047  g++ -c source.cpp
+ 2048  g++ source.o hero.o hero.h enemy.o enemy.h rocket.o rocket.h -lsfml-graphics -lsfml-window -lsfml-system
+ 2049  ./a.out
+ 2050  fg
+ 2051  g++ -c source.cpp
+ 2052  g++ source.o hero.o hero.h enemy.o enemy.h rocket.o rocket.h -lsfml-graphics -lsfml-window -lsfml-system
+ 2053  ./a.out
+ 2054  fg
+ 2055  g++ -c source.cpp
+ 2056  g++ source.o hero.o hero.h enemy.o enemy.h rocket.o rocket.h -lsfml-graphics -lsfml-window -lsfml-system
+ 2057  ./a.out
+ 2058  fg
+ 2059  g++ -c source.cpp
+ 2060  g++ source.o hero.o hero.h enemy.o enemy.h rocket.o rocket.h -lsfml-graphics -lsfml-window -lsfml-system
+ 2061  ./a.out
+ 2062  fg
+ 2063  g++ -c source.cpp
+ 2064  g++ source.o hero.o hero.h enemy.o enemy.h rocket.o rocket.h -lsfml-graphics -lsfml-window -lsfml-system
+ 2065  ./a.out
+ 2066  cd assets
+ 2067  ls
+ 2068  cd ../
+ 2069  fg
+ 2070  ls
+ 2071  cd assets
+ 2072  ls
+ 2073  mv sounds audio
+ 2074  ls
+ 2075  cd ../
+ 2076  fg
+ 2077  g++ -c source.cpp
+ 2078  g++ source.o hero.o hero.h enemy.o enemy.h rocket.o rocket.h -lsfml-graphics -lsfml-window -lsfml-system
+ 2079  fg
+ 2080  g++ source.o hero.o hero.h enemy.o enemy.h rocket.o rocket.h -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+ 2081  ./a.out
+ 2082  fg
+ 2083  g++ -c source.cpp
+ 2084  g++ source.o hero.o hero.h enemy.o enemy.h rocket.o rocket.h -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+ 2085  ./a.out
+ 2086  ls
+ 2087  exit
+ 2088  fg
+ 2089  exit
+ 2090  dev
+ 2091  ls
+ 2092  cd cpp
+ 2093  ls
+ 2094  cd cpp-quest
+ 2095  ls
+ 2096  cd experiments
+ 2097  ls
+ 2098  cd sfml
+ 2099  ls
+ 2100  nvim .
+ 2101  g++ -c hero.cpp source.cpp
+ 2102  g++ -c hero.cpp source.cpp hero.h
+ 2103  fg
+ 2104  g++ -c hero.cpp source.cpp
+ 2105  g++ hero.o hero.h source.o enemy.o enemy.h rocket.o rocket.h
+ 2106  g++ hero.o hero.h source.o enemy.o enemy.h rocket.o rocket.h -lsfml-window -lsfml-graphics -lsfml-system
+ 2107  g++ hero.o hero.h source.o enemy.o enemy.h rocket.o rocket.h -lsfml-window -lsfml-graphics -lsfml-system -lsgml-music
+ 2108  g++ hero.o hero.h source.o enemy.o enemy.h rocket.o rocket.h -lsfml-window -lsfml-graphics -lsfml-system -lsfml-music
+ 2109  g++ hero.o hero.h source.o enemy.o enemy.h rocket.o rocket.h -lsfml-window -lsfml-graphics -lsfml-system -lsfml-audio
+ 2110  ./a.
+ 2111  ./a.out
+ 2112  ls
+ 2113  cd ../../
+ 2114  ls
+ 2115  nvim .gitignore
+ 2116  cd experiments
+ 2117  ls
+ 2118  nvim main.cpp
+ 2119  ;s
+ 2120  rm a.out main.cpp
+ 2121  ls
+ 2122  cd sfml
+ 2123  ls
+ 2124  cd ../
+ 2125  add
+ 2126  git add .
+ 2127  git status
+ 2128  ls
+ 2129  cd sfml
+ 2130  ls
+ 2131  git reset HEAD
+ 2132  ls
+ 2133  fg
+ 2134  rm main.*
+ 2135  ls
+ 2136  cd ../../../
+ 2137  cd cpp-quest
+ 2138  ls
+ 2139  cd ../
+ 2140  ls
+ 2141  ls -a
+ 2142  cd cpp-quest
+ 2143  git add .
+ 2144  git status
+ 2145  git reset HEAD
+ 2146  cd experiments
+ 2147  ls
+ 2148  cd sfml
+ 2149  ls
+ 2150  cd ../../
+ 2151  ls
+ 2152  git add .
+ 2153  git status
+ 2154  git reset HEAD
+ 2155  cd experiments
+ 2156  ls
+ 2157  cd sfml
+ 2158  ls
+ 2159  mkdir 2d-game
+ 2160  ls
+ 2161  mv * 2d-game
+ 2162  ls
+ 2163  cd 2d-game
+ 2164  ls
+ 2165  mkdir tontatta-bazooka
+ 2166  ls
+ 2167  mv * tontatta-bazooka
+ 2168  ls
+ 2169  cd ../
+ 2170  ls
+ 2171  cd ../../../
+ 2172  cd cpp-quest
+ 2173  ls
+ 2174  git add .
+ 2175  git status
+ 2176  commit 'Added tonatta bazooka - a 2d game'
+ 2177  push
+ 2178  ls
+ 2179  cd ../
+ 2180  ls
+ 2181  cd cpp-quest
+ 2182  ls
+ 2183  cd projects
+ 2184  ls
+ 2185  mkdir library_management_system
+ 2186  ls
+ 2187  cd library_management_system
+ 2188  ls
+ 2189  touch main.cpp
+ 2190  touch book.h book.cpp
+ 2191  fg
+ 2192  nvim .
+ 2193  ls
+ 2194  fg
+ 2195  nvim .
+ 2196  g++ main.cpp
+ 2197  ./a.out
+ 2198  fg
+ 2199  g++ main.cpp
+ 2200  ./a.out
+ 2201  fg
+ 2202  ./a.out
+ 2203  g++ main.cpp
+ 2204  ./a
+ 2205  ./a.out
+ 2206  fg
+ 2207  g++ main.cpp
+ 2208  ./a.out
+ 2209  fg
+ 2210  g++ main.cpp
+ 2211  ./a.out
+ 2212  fg
+ 2213  g++ main.cpp
+ 2214  ./a.out
+ 2215  fg
+ 2216  g++ main.cpp
+ 2217  ./a.out
+ 2218  fg
+ 2219  ./a.out
+ 2220  fg
+ 2221  g++ main.cpp
+ 2222  ./a.out
+ 2223  fg
+ 2224  g++ main.cpp
+ 2225  ./a.out
+ 2226  cat main.cpp
+ 2227  ./a.out
+ 2228  fg
+ 2229  cat main.cpp
+ 2230  fg
+ 2231  cat main.cpp
+ 2232  g++ main.cpp
+ 2233  ./a.out
+ 2234  fg
+ 2235  g++ main.cpp
+ 2236  ./a.out
+ 2237  fg
+ 2238  g++ main.cpp
+ 2239  ./a.out
+ 2240  fg
+ 2241  g++ main.cpp
+ 2242  ./a.out
+ 2243  fg
+ 2244  g++ main.cpp
+ 2245  ./a.out
+ 2246  fg
+ 2247  g++ main.cpp
+ 2248  fy
+ 2249  fg
+ 2250  g++ main.cpp
+ 2251  ./a.out
+ 2252  fg
+ 2253  g++ main.cpp
+ 2254  ./a.out
+ 2255  fg
+ 2256  g++ main.cpp
+ 2257  fg
+ 2258  cat main.cpp
+ 2259  fg
+ 2260  g++ main.cpp
+ 2261  ./a.out
+ 2262  fg
+ 2263  g++ main.cpp
+ 2264  ./a.out
+ 2265  fg
+ 2266  g++ main.cpp
+ 2267  ./a.out
+ 2268  fg
+ 2269  g++ main.cpp
+ 2270  ./a.out
+ 2271  fg
+ 2272  g++ main.cpp
+ 2273  fg
+ 2274  g++ main.cpp
+ 2275  fg
+ 2276  g++ main.cpp
+ 2277  ./a.out
+ 2278  fg
+ 2279  g++ main.cpp
+ 2280  ./a.out
+ 2281  fg
+ 2282  g++ main.cpp
+ 2283  ./a.out
+ 2284  fg
+ 2285  g++ main.cpp
+ 2286  ./a.out
+ 2287  fg
+ 2288  ./a.out
+ 2289  g++ main.cpp
+ 2290  ./a.out
+ 2291  fg
+ 2292  g++ main.cpp
+ 2293  ./a.out
+ 2294  fg
+ 2295  g++ main.cpp
+ 2296  ./a.out
+ 2297  fg
+ 2298  g++ main.cpp
+ 2299  ./a.out
+ 2300  fg
+ 2301  g++ main.cpp
+ 2302  ./a.out
+ 2303  fg
+ 2304  g++ main.cpp
+ 2305  ./a.out
+ 2306  fg
+ 2307  g++ main.cpp
+ 2308  ./a.out
+ 2309  fg
+ 2310  ls
+ 2311  cd ../../
+ 2312  ls
+ 2313  cd experiments
+ 2314  ls
+ 2315  cd ../
+ 2316  cd exercises
+ 2317  ls
+ 2318  touch linked_list.cpp
+ 2319  fg
+ 2320  nvim linked_list.cpp
+ 2321  ls
+ 2322  gcc linked_list.cpp
+ 2323  fg
+ 2324  gcc linked_list.cpp
+ 2325  fg
+ 2326  gcc linked_list.cpp
+ 2327  g++ linked_list.cpp
+ 2328  ./a.out
+ 2329  fg
+ 2330  g++ linked_list.cpp
+ 2331  ./a.out
+ 2332  fg
+ 2333  valgrind ./a.out
+ 2334  sudo apt install valgrind
+ 2335  sudo apt install valgrind -y
+ 2336  valgrind ./a.out
+ 2337  fg
+ 2338  cat linked_list.cpp
+ 2339  fg
+ 2340  g++ linked_list.cpp
+ 2341  ./a.out
+ 2342  fg
+ 2343  g++ linked_list.cpp
+ 2344  ./a.out
+ 2345  fg
+ 2346  g++ linked_list.cpp
+ 2347  ./a.out
+ 2348  fg
+ 2349  g++ linked_list.cpp
+ 2350  ./a.out
+ 2351  g++ linked_list.cpp
+ 2352  ./a.out
+ 2353  fg
+ 2354  g++ linked_list.cpp
+ 2355  ./a.out
+ 2356  fg
+ 2357  g++ linked_list.cpp
+ 2358  ./a.out
+ 2359  fg
+ 2360  g++ linked_list.cpp
+ 2361  ./a.out
+ 2362  fg
+ 2363  g++ linked_list.cpp
+ 2364  ./a.out
+ 2365  fg
+ 2366  g++ linked_list.cpp
+ 2367  ./a.out
+ 2368  fg
+ 2369  ./a.out
+ 2370  g++ linked_list.cpp
+ 2371  ./a.out
+ 2372  fg
+ 2373  exit
+ 2374  dev
+ 2375  ls
+ 2376  cd cpp
+ 2377  ls
+ 2378  cd cpp-quest
+ 2379  ls
+ 2380  cd projects
+ 2381  ls
+ 2382  cd library_management_system
+ 2383  ls
+ 2384  cd ../../experiments
+ 2385  ls
+ 2386  cd ../exercises
+ 2387  ls
+ 2388  nvim linked_list.cpp
+ 2389  ./a.out
+ 2390  fg
+ 2391  cat linked_list.cpp
+ 2392  fg
+ 2393  ls
+ 2394  g++ linked_list.cpp
+ 2395  ./a.out
+ 2396  fg
+ 2397  g++ linked_list.cpp
+ 2398  ./a.out
+ 2399  fg
+ 2400  g++ linked_list.cpp
+ 2401  ./a.out
+ 2402  fg
+ 2403  cd ../
+ 2404  ls
+ 2405  cd experiments
+ 2406  ls
+ 2407  cd sfml
+ 2408  ls
+ 2409  cd 2d-game
+ 2410  ls
+ 2411  cd tontatta-bazooka
+ 2412  ls
+ 2413  ./a.out
+ 2414  sudo apt-get install exfat-fuse exfatprogs\n
+ 2415  sudo apt-get update && \\n  sudo apt-get install -y dotnet-sdk-8.0
+ 2416  dotnet --version
+ 2417  sudo apt-get install -y dotnet-runtime-8.0
+ 2418  sudo apt install zlib1g
+ 2419  dotnet --list sdks
+ 2420  dotnet --list-sdks
+ 2421  cd
+ 2422  ls
+ 2423  dev
+ 2424  ls
+ 2425  mkdir csharp
+ 2426  ls
+ 2427  cd csharp
+ 2428  ls
+ 2429  cd HelloWorld
+ 2430  dotnet run
+ 2431  cd ../
+ 2432  ls
+ 2433  dotnet new console -o TestProject .
+ 2434  dotnet new console -o TestProject
+ 2435  ls
+ 2436  cd TestProject
+ 2437  dotnet build
+ 2438  dotnet run
+ 2439  cd ../
+ 2440  ls
+ 2441  rm *
+ 2442  rm -r *
+ 2443  ls
+ 2444  dotnet new console -o ./CsharpProjects/TestProject
+ 2445  dotnet run
+ 2446  ls
+ 2447  dotnet run
+ 2448  ls
+ 2449  dotnet run
+ 2450  ls
+ 2451  dotnet build
+ 2452  dotnet run
+ 2453  ls
+ 2454  dev
+ 2455  ls
+ 2456  cd projects
+ 2457  ls
+ 2458  cd sway
+ 2459  code .
+ 2460  /bin/python3 /home/nelisa/.vscode/extensions/ms-python.python-2024.12.1-linux-x64/python_files/printEnvVariablesToFile.py /home/nelisa/.vscode/extensions/ms-python.python-2024.12.1-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2461  ls
+ 2462  py manage.py runserver
+ 2463  /bin/python3 /home/nelisa/.vscode/extensions/ms-python.python-2024.12.1-linux-x64/python_files/printEnvVariablesToFile.py /home/nelisa/.vscode/extensions/ms-python.python-2024.12.1-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2464  py manage.py runserver
+ 2465  /bin/python3 /home/nelisa/.vscode/extensions/ms-python.python-2024.12.1-linux-x64/python_files/printEnvVariablesToFile.py /home/nelisa/.vscode/extensions/ms-python.python-2024.12.1-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2466  ls
+ 2467  cd ../
+ 2468  ls
+ 2469  cd ../../
+ 2470  ls
+ 2471  cd ChallengeProject
+ 2472  ls
+ 2473  cd Starter
+ 2474  dotnet run
+ 2475  ls
+ 2476  cd ChallengeProject/Starter
+ 2477  cd ../
+ 2478  ls 
+ 2479  cd ../
+ 2480  cd CsharpProjects/TestProject/
+ 2481  dotnet run
+ 2482  dotnet build
+ 2483  ls
+ 2484  cd Starter
+ 2485  ls
+ 2486  dotnet build
+ 2487  dotnet run
+ 2488  dotnet build
+ 2489  dotnet run
+ 2490  dotnet build
+ 2491  dotnet run
+ 2492  ls
+ 2493  cd ../../
+ 2494  cd ../
+ 2495  ls
+ 2496  mkdir youtube
+ 2497  cd youtube
+ 2498  ls
+ 2499  mkdir microsoft
+ 2500  cd microsoft
+ 2501  ls
+ 2502  main.cs
+ 2503  ls
+ 2504  touch main.cs
+ 2505  dotnet run
+ 2506  dotnet run .
+ 2507  dotnet run --project 
+ 2508  dotnet --help
+ 2509  dotnet build
+ 2510  dotnet build main.cs
+ 2511  dotnet build .
+ 2512  ls
+ 2513  rm main.cs
+ 2514  dotnet run
+ 2515  ls
+ 2516  dev
+ 2517  ls
+ 2518  cd projects
+ 2519  ls
+ 2520  mkdir compiler
+ 2521  cd compiler
+ 2522  ls
+ 2523  nvim .
+ 2524  ls
+ 2525  cd ../
+ 2526  ls
+ 2527  rm compiler
+ 2528  rm -r compiler
+ 2529  ls
+ 2530  touch basic-text-editor
+ 2531  ls
+ 2532  rm basic-text-editor
+ 2533  mkdir basic-text-editor
+ 2534  cd basic-text-editor
+ 2535  cc --version
+ 2536  make -V
+ 2537  make --v
+ 2538  ls
+ 2539  cd ../
+ 2540  rm -r basic-text-editor
+ 2541  mkdir draft
+ 2542  ls
+ 2543  cd draft
+ 2544  touch draft.c
+ 2545  ls
+ 2546  mv draft.c main.c
+ 2547  ls
+ 2548  fg
+ 2549  nvim .
+ 2550  ls
+ 2551  cd ../
+ 2552  ls
+ 2553  mv draft mv draft log
+ 2554  mv draft log
+ 2555  ls
+ 2556  cd log
+ 2557  ls
+ 2558  nvim .
+ 2559  mkae
+ 2560  make
+ 2561  ls
+ 2562  ./log
+ 2563  echo $?
+ 2564  make
+ 2565  fg
+ 2566  nvim main.c
+ 2567  make
+ 2568  ./log
+ 2569  fg
+ 2570  ./log
+ 2571  fg
+ 2572  make
+ 2573  ./log
+ 2574  ajknaj
+ 2575  fg
+ 2576  make
+ 2577  ./log
+ 2578  ls
+ 2579  nvim .
+ 2580  make
+ 2581  ./log
+ 2582  fg
+ 2583  ./log
+ 2584  fg
+ 2585  make
+ 2586  ./log
+ 2587  fg
+ 2588  make
+ 2589  ./log
+ 2590  fg
+ 2591  ./log
+ 2592  fg
+ 2593  ./log
+ 2594  fg
+ 2595  ./log
+ 2596  fg
+ 2597  ./log
+ 2598  fg
+ 2599  ./log
+ 2600  fg
+ 2601  make
+ 2602  ./log
+ 2603  fg
+ 2604  make
+ 2605  ./log
+ 2606  fg
+ 2607  make
+ 2608  ./log
+ 2609  make
+ 2610  fg
+ 2611  make
+ 2612  ./log
+ 2613  fg
+ 2614  ./log
+ 2615  make
+ 2616  ./log
+ 2617  fg
+ 2618  make
+ 2619  ./log
+ 2620  fg
+ 2621  make
+ 2622  ./log
+ 2623  fg
+ 2624  make
+ 2625  ./log
+ 2626  make
+ 2627  ./log
+ 2628  fg
+ 2629  echo "Hello, World >> text.txt\n\nq
+ 2630  ls
+ 2631  echo "Hello, World > text.txt\n\nq
+ 2632  fg
+ 2633  touch test.txt
+ 2634  echo "Hello, World >> test.txt
+ 2635  echo "Hello, World" >> test.txt
+ 2636  ls
+ 2637  cat test.txt
+ 2638  make
+ 2639  echo test.txt | ./log
+ 2640  fg
+ 2641  exit
+ 2642  fg
+ 2643  exit
+ 2644  dev
+ 2645  ls
+ 2646  mkdir python
+ 2647  ls
+ 2648  cd p
+ 2649  cd python
+ 2650  mkdir games
+ 2651  cd games
+ 2652  mkdir pygame
+ 2653  cd pygame
+ 2654  touch main.py
+ 2655  cd ../
+ 2656  ls
+ 2657  py -m venv .venv
+ 2658  source .venv/bin/activate
+ 2659  ls
+ 2660  cd pygame
+ 2661  ls
+ 2662  pip install pygame
+ 2663  nvim .
+ 2664  ls
+ 2665  chmod u+x main.py
+ 2666  ls
+ 2667  ./main.py
+ 2668  fg
+ 2669  ./main.py
+ 2670  ./
+ 2671  ./main.py
+ 2672  fg
+ 2673  ls
+ 2674  dev
+ 2675  ls
+ 2676  cd python
+ 2677  ls
+ 2678  mkdir fastapi
+ 2679  ls
+ 2680  cd fastapi
+ 2681  ls
+ 2682  py -m venv .venv
+ 2683  source .venv/bin/activate
+ 2684  ls
+ 2685  pip install fastapi
+ 2686  touch main.py
+ 2687  nvim .
+ 2688  fastapi dev main.py
+ 2689  pip freeze
+ 2690  pip unistall fastapi
+ 2691  pip uninstall fastapi
+ 2692  pip install fastapi[standard]
+ 2693  pip install "fastapi[standard]"
+ 2694  fastapi dev main.py
+ 2695  ls
+ 2696  tmux 
+ 2697  fastapi dev main.py
+ 2698  fg
+ 2699  nvim .
+ 2700  fastapi dev main.py
+ 2701  nvim .
+ 2702  exit
+ 2703  fg
+ 2704  exit
+ 2705  dev
+ 2706  cd python/fastapi
+ 2707  ls
+ 2708  source .venv/bin/activate
+ 2709  zed .
+ 2710  source "/home/nelisa/dev/python/fastapi/.venv/bin/activate"
+ 2711  fastapi dev main.py
+ 2712  dev
+ 2713  ls
+ 2714  node --version
+ 2715  ls
+ 2716  cd projects
+ 2717  ls
+ 2718  git clone git@github.com:nelisa-dludla/pivot-employee-manager.git
+ 2719  ls
+ 2720  cd pivot-employee-manager
+ 2721  ls
+ 2722  mkditr frontend
+ 2723  mkdir frontend backend
+ 2724  ls
+ 2725  cd frontend
+ 2726  ls
+ 2727  cd ../
+ 2728  zed .
+ 2729  npm create vite@latest
+ 2730  ls
+ 2731  rm -rf pivot-employee-manager
+ 2732  npm create vite@latest
+ 2733  ls
+ 2734  cd pivot
+ 2735  ls
+ 2736  npm install
+ 2737  ls
+ 2738  npm run dev
+ 2739  cd frontend/pivot
+ 2740  ls
+ 2741  npm install -D tailwindcss postcss autoprefixer
+ 2742  npx tailwindcss init -p
+ 2743  npm run dev
+ 2744  npm install -D tailwindcss\nnpx tailwindcss init
+ 2745  npm run dev
+ 2746  rm -rf node_modules package-lock.json\nnpm install\n
+ 2747  npm run dev
+ 2748  ls
+ 2749  npm install react-router-dom
+ 2750  npm install react-hook-form
+ 2751  exit
+ 2752  npm run dev
+ 2753  ls
+ 2754  cd frontend
+ 2755  ls
+ 2756  cd pivot
+ 2757  ls
+ 2758  npm run dev
+ 2759  ls
+ 2760  cd ../../
+ 2761  ls
+ 2762  add .
+ 2763  commit 'Started working on frontend - Built Landing, Login, Register and Dashboard pages'
+ 2764  push
+ 2765  ls
+ 2766  cd frontend/pivot
+ 2767  ls
+ 2768  npm run dev
+ 2769  ls
+ 2770  cd frontend/pivot/
+ 2771  ls
+ 2772  npm install @hookform/resolvers
+ 2773  npm install zod
+ 2774  npm install @hookform/resolvers
+ 2775  dev
+ 2776  cd projects/pivot-employee-manager
+ 2777  ls
+ 2778  cd frontend
+ 2779  ls
+ 2780  cd pivot
+ 2781  ls
+ 2782  zed .
+ 2783  ls
+ 2784  npm run dev
+ 2785  ls
+ 2786  add .
+ 2787  git status
+ 2788  commit 'Added form validation for Register form'
+ 2789  push
+ 2790  ls
+ 2791  cd ../
+ 2792  ls
+ 2793  cd ../
+ 2794  ls
+ 2795  touch README.md
+ 2796  ls
+ 2797  zed README.md
+ 2798  ls
+ 2799  add .
+ 2800  git status
+ 2801  commit 'Added README'
+ 2802  push
+ 2803  ls
+ 2804  cd backend
+ 2805  ls
+ 2806  py -m venv .venv
+ 2807  ls
+ 2808  mv .venv ../
+ 2809  ls
+ 2810  cd ../
+ 2811  mv .venv backend
+ 2812  cd backend
+ 2813  ls
+ 2814  cd ../
+ 2815  ls
+ 2816  touch .gitignore
+ 2817  ls
+ 2818  cd backend
+ 2819  ls
+ 2820  source .venv/bin/activate
+ 2821  pip install fastapi
+ 2822  ls
+ 2823  pip install python-multipart
+ 2824  pip install python-jose[cryptography]
+ 2825  pip3 install python-jose[cryptography]
+ 2826  pip3 install "python-jose[cryptography]"
+ 2827  pip install passlib[bcrypt]
+ 2828  pip install "passlib[bcrypt]"
+ 2829  pip install "uvicorn[standard]"
+ 2830  ls
+ 2831  pip freeze > requirements.txt
+ 2832  cat requirements.txt
+ 2833  touch main.py
+ 2834  zed main.py
+ 2835  cd ../../
+ 2836  cd backend
+ 2837  zed .
+ 2838  ls
+ 2839  source .venv/bin/activate
+ 2840  fastapi dev main.py
+ 2841  pip remove fastapi
+ 2842  pip uninstall fastapi
+ 2843  pip install "fastapi[standard]"
+ 2844  ls
+ 2845  source /home/nelisa/dev/projects/pivot-employee-manager/backend/.venv/bin/activate
+ 2846  ls
+ 2847  fastapi dev main.py
+ 2848  zed .
+ 2849  source .venv/bin/activate
+ 2850  ls
+ 2851  fastapi run main.py
+ 2852  fastapi dev main.py
+ 2853  touch __init__.py
+ 2854  fastapi dev main.py
+ 2855  pip freeze requirements.txt
+ 2856  ls
+ 2857  pip freeze >> requirements.txt
+ 2858  pip freeze
+ 2859  fastapi dev main.py
+ 2860  ls
+ 2861  rm __init__.py
+ 2862  cd ../../
+ 2863  ls
+ 2864  cd pivot-employee-manager
+ 2865  cd frontend
+ 2866  ls
+ 2867  cd ../backend
+ 2868  cd .venv
+ 2869  ls
+ 2870  cd ../
+ 2871  fastapi run dev
+ 2872  fastapi dev main.py
+ 2873  ls
+ 2874  mv main.py api.py
+ 2875  fastapi dev api.py
+ 2876  pip install "fastapi[standard]"
+ 2877  dev
+ 2878  cd projects/pivot-employee-manager
+ 2879  cd frontend
+ 2880  cd ../backend
+ 2881  source .venv/bin/activate
+ 2882  zed .
+ 2883  source .venv/bin/activate
+ 2884  fastapi dev api.py
+ 2885  ls
+ 2886  source .venv/bin/activate
+ 2887  source /home/nelisa/dev/projects/pivot-employee-manager/backend/.venv/bin/activate
+ 2888  openssl rand -hex 32
+ 2889  cd
+ 2890  ls
+ 2891  cd .config
+ 2892  ls
+ 2893  rm -rf nvim
+ 2894  ls
+ 2895  nvim .
+ 2896  vi
+ 2897  ls
+ 2898  nvim .
+ 2899  nvim
+ 2900  ls
+ 2901  mkdir nvim
+ 2902  l
+ 2903  sls
+ 2904  ls
+ 2905  cd nvim
+ 2906  ls
+ 2907  touch init.lua
+ 2908  ls
+ 2909  nvim init.lua
+ 2910  ls
+ 2911  nvim init.lua
+ 2912  ls
+ 2913  mkdir lua/core
+ 2914  mkdir lua
+ 2915  ls
+ 2916  cd lua
+ 2917  ls
+ 2918  touch options.lua
+ 2919  ls
+ 2920  cd ../
+ 2921  nvim .
+ 2922  ls
+ 2923  cd lua
+ 2924  ls
+ 2925  mkdir config
+ 2926  ls
+ 2927  cd config
+ 2928  ls
+ 2929  touch lazy.lua
+ 2930  ls
+ 2931  nvim lazy.lua
+ 2932  ls
+ 2933  cd //
+ 2934  cd 
+ 2935  cd .config/nvim
+ 2936  ls
+ 2937  cd lua
+ 2938  ls
+ 2939  mv options.lua config
+ 2940  mkdir plugins
+ 2941  ls
+ 2942  cd ..
+ 2943  nvim .
+ 2944  ripgrep
+ 2945  ripgrep --version
+ 2946  sudo apt-get install ripgrep
+ 2947  ls
+ 2948  fg
+ 2949  nvim .
+ 2950  fg
+ 2951  nvim .
+ 2952  cat lua/plugins/telescope.lua
+ 2953  nvim .
+ 2954  ls
+ 2955  fg
+ 2956  nvim .
+ 2957  ls
+ 2958  fg
+ 2959  ls
+ 2960  fg
+ 2961  nvim .
+ 2962  dev
+ 2963  ls
+ 2964  cd projects/pivot-employee-manager
+ 2965  s
+ 2966  ls
+ 2967  cd frontend
+ 2968  ls
+ 2969  cd pivot
+ 2970  ls
+ 2971  nvim .
+ 2972  cd
+ 2973  cd .config/nvim
+ 2974  nvim .
+ 2975  dev
+ 2976  ls
+ 2977  cd p
+ 2978  cd python
+ 2979  ls
+ 2980  cd games
+ 2981  ls
+ 2982  cd ../
+ 2983  ls
+ 2984  touch test.py
+ 2985  nvim test.py
+ 2986  touch test.c
+ 2987  mv test.js
+ 2988  mv test.c test.js
+ 2989  ls
+ 2990  rm test.py
+ 2991  fg
+ 2992  nvim test.js
+ 2993  ls
+ 2994  rm bubble_sort.js
+ 2995  ls
+ 2996  mv test.js bubble_sort.js
+ 2997  ./bubble_sort.js
+ 2998  chmod u+x bubble_sort.js
+ 2999  ls
+ 3000  ./bubble_sort.js
+ 3001  node bubble_sort.js
+ 3002  fg
+ 3003  nvim bubble_sort.js
+ 3004  node bubble_sort.js
+ 3005  fg
+ 3006  node bubble_sort.js
+ 3007  fg
+ 3008  node bubble_sort.js
+ 3009  fg
+ 3010  node bubble_sort.js
+ 3011  fg
+ 3012  exit
+ 3013  ls
+ 3014  dev
+ 3015  ls
+ 3016  rm bubble_sort.js
+ 3017  ls
+ 3018  touch bubble_sort.c
+ 3019  ls
+ 3020  nvim  bubble_sort.c
+ 3021  dev
+ 3022  ls
+ 3023  rm bubble_sort.c
+ 3024  ls
+ 3025  cd projects
+ 3026  ls
+ 3027  git clone git@github.com:nelisa-dludla/emoji-riddle.git
+ 3028  ls
+ 3029  cd emoji-riddle
+ 3030  ls
+ 3031  touch README.md
+ 3032  ls
+ 3033  nvim .
+ 3034  ls
+ 3035  add .
+ 3036  git status
+ 3037  ls
+ 3038  commit 'Added README'
+ 3039  ls
+ 3040  push
+ 3041  ls
+ 3042  mkdir frontend
+ 3043  ls
+ 3044  cd frontend
+ 3045  ls
+ 3046  cd ../
+ 3047  ls
+ 3048  mkdir frontend
+ 3049  rm -rf frontend
+ 3050  ls
+ 3051  npm create-react-app frontend
+ 3052  npm create-app-react frontend
+ 3053  npx create-react-app
+ 3054  npx create-react-app frontend
+ 3055  ls
+ 3056  cd frontend
+ 3057  ls
+ 3058  tmux
+ 3059  npm run dev
+ 3060  ls
+ 3061  nvim .
+ 3062  npm start
+ 3063  ls
+ 3064  npm install -D tailwindcss\nnpx tailwindcss init
+ 3065  fg
+ 3066  nvim .
+ 3067  ls
+ 3068  cd src
+ 3069  ls
+ 3070  cat reportWebVitals.js
+ 3071  fg
+ 3072  nvim .
+ 3073  ls
+ 3074  cd ../
+ 3075  ls
+ 3076  cd ../
+ 3077  ls
+ 3078  rm -rf frontend
+ 3079  npx create vite@latest
+ 3080  npm create vite@latest 
+ 3081  cd frontend
+ 3082  ls
+ 3083  npm install
+ 3084  cd ../
+ 3085  ls
+ 3086  cd frontend
+ 3087  ls
+ 3088  npm run dev
+ 3089  nvim .
+ 3090  npm install -D tailwindcss postcss autoprefixer\nnpx tailwindcss init -p
+ 3091  fg
+ 3092  nvim .
+ 3093  npm run dev
+ 3094  npm install react-router-dom
+ 3095  nvim .
+ 3096  exit
+ 3097  ls
+ 3098  zed .
+ 3099  ls
+ 3100  zed .
+ 3101  ls
+ 3102  cd ../
+ 3103  ls
+ 3104  cd frontend
+ 3105  ls
+ 3106  zed .
+ 3107  ls
+ 3108  npm rundev
+ 3109  npm run dev
+ 3110  exit
+ 3111  dev
+ 3112  cd projects/emoji-riddle
+ 3113  ls
+ 3114  cd frontend
+ 3115  ls
+ 3116  zed .
+ 3117  ls
+ 3118  npm run dev
+ 3119  ls
+ 3120  ls -a
+ 3121  cd ../
+ 3122  ls
+ 3123  ls -a
+ 3124  add .
+ 3125  git status
+ 3126  ls
+ 3127  commit 'Added frontend directory - Includes Navbar, Footer and Results components along with the Home, HowToPlay, Leaderboard and Play pages'
+ 3128  push
+ 3129  ls
+ 3130  mkdir screenshots
+ 3131  ls
+ 3132  mv play.png screenshots
+ 3133  ls
+ 3134  zed README.md
+ 3135  ls
+ 3136  add .
+ 3137  git status
+ 3138  commit 'Added screenshots directory and updated the README to include a screenshot'
+ 3139  push
+ 3140  exit
+ 3141  cd ../
+ 3142  ls
+ 3143  mkdir backend
+ 3144  ls
+ 3145  cd backend
+ 3146  npm init
+ 3147  ls
+ 3148  npm init -y
+ 3149  npm i express
+ 3150  ls
+ 3151  nvim .
+ 3152  tmux 
+ 3153  node server.js
+ 3154  nvim .
+ 3155  node server.js
+ 3156  node run dev
+ 3157  npm run dev
+ 3158  fg
+ 3159  ls
+ 3160  cat 5000\;
+ 3161  rm 5000\; 8080\;
+ 3162  ls
+ 3163  tmux a
+ 3164  npm run dev
+ 3165  ls
+ 3166  fg
+ 3167  node --watch --env-file=.env server.js
+ 3168  ls
+ 3169  cat server.js
+ 3170  ls
+ 3171  tm 5000\;
+ 3172  rm 5000\;
+ 3173  ls
+ 3174  npm run dev
+ 3175  ls
+ 3176  fg
+ 3177  nvim .
+ 3178  npm run dev
+ 3179  exit
+ 3180  ls
+ 3181  dev
+ 3182  ls
+ 3183  cd p
+ 3184  cd projects
+ 3185  ls
+ 3186  git clone git@github.com:nelisa-dludla/red-flag-social.git
+ 3187  ls
+ 3188  cd red-flag-social
+ 3189  ls
+ 3190  nvim .
+ 3191  openssl help
+ 3192  openssl rand hex 32
+ 3193  openssl rand -hex 32
+ 3194  fg
+ 3195  nvim .
+ 3196  ls
+ 3197  py -m venv .venv
+ 3198  ls
+ 3199  source .venv/bin/activate
+ 3200  ls
+ 3201  pip install -r requirements.txt
+ 3202  ls
+ 3203  tmux a
+ 3204  tmux
+ 3205  py manage.py runserver
+ 3206  fg
+ 3207  nvim .
+ 3208  py manage.py runserver
+ 3209  nvim .
+ 3210  pip freeze | grep environ
+ 3211  fg
+ 3212  py manage.py runserver
+ 3213  ls
+ 3214  fg
+ 3215  py manage.py runserver
+ 3216  ls
+ 3217  py manage.py runserver
+ 3218  tmux
+ 3219  nvim .
+ 3220  py manage.py runserver
+ 3221  cat .env
+ 3222  nvim .
+ 3223  py manage.py runserver
+ 3224  fg
+ 3225  py manage.py runserver
+ 3226  cat .env
+ 3227  source .venv/bin/activate
+ 3228  ls
+ 3229  py manage.py runserver
+ 3230  ls
+ 3231  source .venv/bin/activate
+ 3232  nvim 
+ 3233  cat requirements.txt
+ 3234  pip install -r requirements.txt
+ 3235  cat .env
+ 3236  ls
+ 3237  ls -a
+ 3238  mv .env red_flag_social
+ 3239  ls
+ 3240  cd red_flag_social
+ 3241  ls
+ 3242  cd ../
+ 3243  py manage.py runserver
+ 3244  fg
+ 3245  py manage.py runserver
+ 3246  fg
+ 3247  nvim .
+ 3248  ls
+ 3249  ls -a
+ 3250  rm .env
+ 3251  cd red_flag_social
+ 3252  ls
+ 3253  cd ../
+ 3254  ls
+ 3255  cd ../
+ 3256  ls
+ 3257  cd red-flag-social
+ 3258  ls
+ 3259  cd red_flag_social
+ 3260  ls
+ 3261  ls -a
+ 3262  fg
+ 3263  nvim .
+ 3264  py manage.py runserver
+ 3265  ls
+ 3266  cd ../
+ 3267  fg
+ 3268  nvim .
+ 3269  py manage.py runserver
+ 3270  ls
+ 3271  py manage.py migrate
+ 3272  py manage.py createsuperuser
+ 3273  py manage.py runserver
+ 3274  ls
+ 3275  py manage.py migrate
+ 3276  py manage.py createsuper
+ 3277  py manage.py createsuperuser
+ 3278  py manage.py runserver
+ 3279  ls
+ 3280  cd ../
+ 3281  ls
+ 3282  dev
+ 3283  ls
+ 3284  dev
+ 3285  cd projects/emoji-riddle
+ 3286  ls
+ 3287  cd backend
+ 3288  ls
+ 3289  rm 5000\;
+ 3290  ls
+ 3291  fg
+ 3292  nvim server.js
+ 3293  tmux 
+ 3294  npm run dev
+ 3295  ls
+ 3296  cd routes
+ 3297  ls
+ 3298  cd ../
+ 3299  fg
+ 3300  nvim .
+ 3301  cd ../
+ 3302  npm run dev
+ 3303  ls
+ 3304  cd backend
+ 3305  npm run dev
+ 3306  ls
+ 3307  npm run dev
+ 3308  ls
+ 3309  npm install mongodb
+ 3310  cd Downloads
+ 3311  wget https://downloads.mongodb.com/compass/mongodb-compass_1.43.5_amd64.deb
+ 3312  sudo apt install ./mongodb-compass_1.43.5_amd64.deb
+ 3313  ls
+ 3314  sudo dpkg -i mongodb-compass_1.43.5_amd64.deb\nsudo apt-get install -f # This installs required compass dependencies
+ 3315  exit
+ 3316  ls
+ 3317  ls -a
+ 3318  cd .config
+ 3319  ls
+ 3320  nvim nvim
+ 3321  npm run dev
+ 3322  fg
+ 3323  npm run dev
+ 3324  fg
+ 3325  ls
+ 3326  npm run dev
+ 3327  ls
+ 3328  npm run dev
+ 3329  tmux a
+ 3330  fg
+ 3331  npm run dev
+ 3332  tmux a
+ 3333  fg
+ 3334  npm run dev
+ 3335  ls
+ 3336  fg
+ 3337  tmux a
+ 3338  npm run dev
+ 3339  fg
+ 3340  npm run dev
+ 3341  fg
+ 3342  tmux a
+ 3343  npm run dev
+ 3344  fg
+ 3345  npm run dev
+ 3346  cat server.js
+ 3347  fg
+ 3348  npm run dev
+ 3349  fg
+ 3350  npm run dev
+ 3351  111ls
+ 3352  ls
+ 3353  exit
+ 3354  dev
+ 3355  cd projects/emoji-riddle
+ 3356  cd frontend
+ 3357  ls
+ 3358  npm run dev
+ 3359  cd ../backend
+ 3360  npm run dev
+ 3361  fg
+ 3362  tmux
+ 3363  nvim .
+ 3364  npm run dev
+ 3365  tmux a
+ 3366  npm run dev
+ 3367  tmux a
+ 3368  npm run dev
+ 3369  ls
+ 3370  cd routes
+ 3371  ls
+ 3372  touch riddles.js
+ 3373  ls
+ 3374  cat riddles.js
+ 3375  cd ../
+ 3376  npm run dev
+ 3377  fg
+ 3378  npm run dev
+ 3379  fg
+ 3380  npm run dev
+ 3381  dev
+ 3382  cd projects/emoji-riddle
+ 3383  ls
+ 3384  cd frontend
+ 3385  ls
+ 3386  nvim .
+ 3387  ls
+ 3388  fg
+ 3389  cd ../
+ 3390  cd frontend
+ 3391  npm run dev
+ 3392  cd ../frontend
+ 3393  nvim .
+ 3394  top
+ 3395  ls
+ 3396  cat src/pages/Play.tsx
+ 3397  fg
+ 3398  npm run dev
+ 3399  exit
+ 3400  dev
+ 3401  ls
+ 3402  add .
+ 3403  git status
+ 3404  cd ../
+ 3405  cd backend
+ 3406  ls
+ 3407  ls -a
+ 3408  nvim .gitignore
+ 3409  ls -a
+ 3410  add .
+ 3411  git status
+ 3412  cd ../
+ 3413  commit 'Added backend directory - Created a server and /api/riddles route and made prepartions to connect the backend to the frontend'
+ 3414  push
+ 3415  cd projects
+ 3416  cd emoji-riddle
+ 3417  zed .
+ 3418  npm run server
+ 3419  cd backend
+ 3420  npm run dev
+ 3421  dev
+ 3422  ls
+ 3423  cd projects
+ 3424  ls
+ 3425  cd emoji-riddle
+ 3426  zed .
+ 3427  source /home/nelisa/dev/projects/emoji-riddle/backend/.env/bin/activate
+ 3428  ls
+ 3429  tmux 
+ 3430  cd backend
+ 3431  npm run server
+ 3432  npm run dev
+ 3433  nvim .
+ 3434  cd backend
+ 3435  nvim .
+ 3436  cat routes/riddles.js
+ 3437  fg
+ 3438  ls
+ 3439  cd frontend
+ 3440  npm run dev
+ 3441  cd frontend
+ 3442  ls
+ 3443  nvim .
+ 3444  ls
+ 3445  cd Projects
+ 3446  ls
+ 3447  dev
+ 3448  cd projects
+ 3449  cd ../
+ 3450  ls
+ 3451  mkdir test
+ 3452  cd test
+ 3453  ls
+ 3454  touch fetchRiddles.js
+ 3455  ls
+ 3456  nvim  fetchRiddles.js
+ 3457  ls
+ 3458  ./fetchRiddles.js
+ 3459  chmod u+x fetchRiddles.js
+ 3460  ./fetchRiddles.js
+ 3461  fg
+ 3462  ./fetchRiddles.js
+ 3463  fg
+ 3464  ./fetchRiddles.js
+ 3465  fg
+ 3466  cat fetchRiddles.js
+ 3467  fg
+ 3468  ./fetchRiddles.js
+ 3469  fg
+ 3470  ./fetchRiddles.js
+ 3471  fg
+ 3472  ./fetchRiddles.js
+ 3473  fg
+ 3474  ./fetchRiddles.js
+ 3475  fg
+ 3476  ./fetchRiddles.js
+ 3477  fg
+ 3478  ./fetchRiddles.js
+ 3479  fg
+ 3480  cd frontend
+ 3481  ls
+ 3482  cat src/pages/Play.tsx
+ 3483  tmux a
+ 3484  cd ../backend
+ 3485  cat routes/riddles.js
+ 3486  tmux a
+ 3487  fg
+ 3488  npm install cors
+ 3489  fg
+ 3490  npm run dev
+ 3491  cd ../frontend
+ 3492  cat src/pages/Play.tsx
+ 3493  fg
+ 3494  tmux a
+ 3495  cat src/pages/Play.tsx
+ 3496  fg
+ 3497  tmux a
+ 3498  cat src/pages/GamePlay.tsx
+ 3499  cat src/pages/Play.tsx
+ 3500  fg
+ 3501  tmux a
+ 3502  ls
+ 3503  cd src
+ 3504  ls
+ 3505  cd pages
+ 3506  ls
+ 3507  mv GamePlay.tsx ../components
+ 3508  ls
+ 3509  cd ../../
+ 3510  nvim .
+ 3511  ls
+ 3512  add .
+ 3513  git status
+ 3514  commit 'Added LoadingRiddles component as a loading screen and GamePlay to seperate some game logic from Play'
+ 3515  push
+ 3516  add .
+ 3517  git status
+ 3518  commit 'Added CORS to the server to allow the backend and frontend to communicate'
+ 3519  push
+ 3520  fg
+ 3521  nvim .
+ 3522  add .
+ 3523  git status
+ 3524  commit "Updated font to Raleway"
+ 3525  push
+ 3526  fg
+ 3527  nvim .
+ 3528  ls
+ 3529  npm install express-openid-connect --save
+ 3530  ls
+ 3531  cd routes
+ 3532  ls
+ 3533  touch auth.js
+ 3534  ls
+ 3535  fg
+ 3536  nvim .
+ 3537  openssl rand -hex 32
+ 3538  fg
+ 3539  ls
+ 3540  cd frontend
+ 3541  ls
+ 3542  npm run dev
+ 3543  fg
+ 3544  ls
+ 3545  cd ../
+ 3546  ls
+ 3547  nv .
+ 3548  nvim .
+ 3549  tmux 
+ 3550  tmux a
+ 3551  ls
+ 3552  ../caddy_linux_amd64_custom reverse-proxy --from localhost:443 --to localhost:5000
+ 3553  cd ../
+ 3554  ls
+ 3555  chmod u+x caddy_linux_amd64_custom
+ 3556  ls
+ 3557  cd backend
+ 3558  ../caddy_linux_amd64_custom reverse-proxy --from localhost:443 --to localhost:5000
+ 3559  ls
+ 3560  ../caddy_linux_amd64_custom reverse-proxy --from localhost:443 --to localhost:5000
+ 3561  exit
+ 3562  ls
+ 3563  dev
+ 3564  cd projects/emoji-riddle
+ 3565  ls
+ 3566  cd backend
+ 3567  ls
+ 3568  nvim .
+ 3569  cd ../
+ 3570  tmux a
+ 3571  tmux 
+ 3572  cd backend
+ 3573  npm run dev
+ 3574  ls
+ 3575  cd backend
+ 3576  nvim .
+ 3577  npm run dev
+ 3578  cd frontend
+ 3579  npm run dev
+ 3580  cd frin
+ 3581  cd frontend
+ 3582  nvim .
+ 3583  npm run dev
+ 3584  ls
+ 3585  ls -a
+ 3586  ls
+ 3587  cd ../
+ 3588  ls
+ 3589  mv caddy_linux_amd64_custom backend
+ 3590  ls
+ 3591  cd backend
+ 3592  ls
+ 3593  ./caddy_linux_amd64_custom reverse-proxy --from localhost:443 --to localhost:5000
+ 3594  sudo ./caddy_linux_amd64_custom reverse-proxy --from localhost:443 --to localhost:5000
+ 3595  cd backend
+ 3596  sudo ./caddy_linux_amd64_custom reverse-proxy --from localhost:443 --to localhost:5000
+ 3597  npm run dev
+ 3598  sudo ./caddy_linux_amd64_custom reverse-proxy --from localhost:443 --to localhost:5000
+ 3599  npm run dev
+ 3600  fg
+ 3601  npm run dev
+ 3602  fg
+ 3603  npm run dev
+ 3604  cd backend
+ 3605  cat server.js
+ 3606  tmux a
+ 3607  fg
+ 3608  npm run dev
+ 3609  ls
+ 3610  add .
+ 3611  git status
+ 3612  commit 'Added a leaderboard route and Auth0 functionality'
+ 3613  push
+ 3614  cd ../frontend
+ 3615  ls
+ 3616  add .
+ 3617  git status
+ 3618  commit 'Implemented leaderboard to fetch data from the database and implemented a skeletion component for when the data is being fetched'
+ 3619  push
+ 3620  exit
+ 3621  dev
+ 3622  cd projects
+ 3623  cd emoji-riddle
+ 3624  ls
+ 3625  nvim .
+ 3626  tmux a
+ 3627  tmux 
+ 3628  ls
+ 3629  cd backend
+ 3630  npm run dev
+ 3631  dev
+ 3632  cd pr`
+ 3633  cd projects
+ 3634  ls
+ 3635  git clone git@github.com:nelisa-dludla/nelisa-portfolio.git
+ 3636  cd nelisa-portfolio
+ 3637  ls
+ 3638  touch README.md
+ 3639  ls
+ 3640  nvim .
+ 3641  ls
+ 3642  npm create vite@latest .
+ 3643  npx create vite@latest .
+ 3644  ls
+ 3645  npm create vite@latest .
+ 3646  ls
+ 3647  npm install
+ 3648  npm install react-router-dom
+ 3649  ls
+ 3650  tmux a
+ 3651  tmux 
+ 3652  ls
+ 3653  npm install -D tailwindcss postcss autoprefixer\nnpx tailwindcss init -p
+ 3654  nvim .
+ 3655  npm run dev
+ 3656  fg
+ 3657  nvim 
+ 3658  nvim .
+ 3659  npm run dev
+ 3660  cat src/pages/Home.jsx
+ 3661  tmux a
+ 3662  npm run dev
+ 3663  ls
+ 3664  npm i --save @fortawesome/fontawesome-svg-core
+ 3665  npm i --save @fortawesome/free-solid-svg-icons\nnpm i --save @fortawesome/free-regular-svg-icons\nnpm i --save @fortawesome/free-brands-svg-icons
+ 3666  npm i --save @fortawesome/react-fontawesome@latest
+ 3667  fg
+ 3668  npm run dev
+ 3669  tmux a
+ 3670  cat src/pages/Home.jsx
+ 3671  cat src/components/Navbar.jsx
+ 3672  cat src/components/HamburgerMenu.jsx
+ 3673  fg
+ 3674  tmux a
+ 3675  ls
+ 3676  nvim  README.md
+ 3677  ls
+ 3678  nvim README.md
+ 3679  ls
+ 3680  nvim .
+ 3681  cat README.md
+ 3682  git add .
+ 3683  git status
+ 3684  commit 'Add all files and code needed to run the website - The code is in a good place and I am happy with it for now"
+ 3685  commit 'Add all files and code needed to run the website - The code is in a good place and I am happy with it for now'
+ 3686  push
+ 3687  nvim package.json
+ 3688  tmux a
+ 3689  tmux 
+ 3690  npm run dev
+ 3691  nvim .
+ 3692  ls
+ 3693  add .
+ 3694  git status
+ 3695  commit 'Improved mobile view of the Projects page and changed font-family to Raleway'
+ 3696  push
+ 3697  nvim .
+ 3698  ls
+ 3699  add .
+ 3700  ls
+ 3701  git status
+ 3702  commit 'Updated the README to include link to the live website'
+ 3703  push
+ 3704  cd ../emoji-riddle
+ 3705  tmux 
+ 3706  npm run dev
+ 3707  cd backend
+ 3708  npm run dev
+ 3709  nvim .
+ 3710  cd backend
+ 3711  nvim .
+ 3712  ls
+ 3713  rm caddy_linux_amd64_custom
+ 3714  nvim .
+ 3715  nvim package.json
+ 3716  npm uninstall express-openid-connect
+ 3717  nvim .
+ 3718  npm install firebase
+ 3719  fg
+ 3720  nvim .
+ 3721  ls
+ 3722  dev
+ 3723  ls
+ 3724  cd projects
+ 3725  ls
+ 3726  cd emoji-riddle
+ 3727  ls
+ 3728  rm -rf backend
+ 3729  ls
+ 3730  cd frontend
+ 3731  ls
+ 3732  cat README.md
+ 3733  ls
+ 3734  tmux 
+ 3735  npm run dev
+ 3736  ls
+ 3737  nvim .
+ 3738  npm run dev
+ 3739  ls
+ 3740  npm i --save @fortawesome/fontawesome-svg-core
+ 3741  npm i --save @fortawesome/free-solid-svg-icons
+ 3742  npm i --save @fortawesome/react-fontawesome@latest
+ 3743  fg
+ 3744  tmux 
+ 3745  :q
+ 3746  tmux a
+ 3747  ls
+ 3748  cd ../
+ 3749  ls
+ 3750  add .
+ 3751  git status
+ 3752  commit 'Made the game mobile responsive and removed the backend'
+ 3753  push
+ 3754  ls
+ 3755  cd ../
+ 3756  ls
+ 3757  cd nelisa-portfolio
+ 3758  ls
+ 3759  tmux 
+ 3760  npm run dev
+ 3761  fg
+ 3762  nvim .
+ 3763  cd .config && cd nvim
+ 3764  exit
+ 3765  tmux --help
+ 3766  tmux 
+ 3767  cd ../
+ 3768  cd emoji-riddle
+ 3769  ls
+ 3770  cd frontend
+ 3771  ls
+ 3772  nvim .
+ 3773  fg
+ 3774  nvim .
+ 3775  ls
+ 3776  add .
+ 3777  git status
+ 3778  commit 'Specified types for all variables and functions passed as props'
+ 3779  push
+ 3780  fg
+ 3781  nvim .
+ 3782  tmux 
+ 3783  npm run dev
+ 3784  nvim .
+ 3785  cat src/components/GamePlay.tsx
+ 3786  tmux a
+ 3787  tmux ls
+ 3788  tmux 0
+ 3789  tmux a 1
+ 3790  tmux a -t 1
+ 3791  tmux a
+ 3792  fg
+ 3793  nvim .
+ 3794  fg
+ 3795  add .
+ 3796  git status
+ 3797  commit 'Cleared up more TypeScript type errors and added more riddles'
+ 3798  push
+ 3799  cd ../
+ 3800  tmux a
+ 3801  fg
+ 3802  nvim .
+ 3803  fg
+ 3804  nvim .
+ 3805  ls
+ 3806  add .
+ 3807  git status
+ 3808  commit 'Added a new project and cleaned up the mobile responsive view'
+ 3809  push
+ 3810  tmux a
+ 3811  cd emoji-riddle
+ 3812  ls
+ 3813  cd frontend
+ 3814  ls
+ 3815  tmux 
+ 3816  ls
+ 3817  npm run dev
+ 3818  nvim .
+ 3819  add .
+ 3820  git status
+ 3821  commit 'Removed overflow when hamburger menu is open; Made results widget mobile friendly; Tweaked landing page for better mobile view'
+ 3822  push
+ 3823  fg
+ 3824  nvim .
+ 3825  add .
+ 3826  git status
+ 3827  commit 'Fixed position of "Start Playing" button on smaller screens'
+ 3828  push
+ 3829  npm run dev
+ 3830  fg
+ 3831  nvim .
+ 3832  add .
+ 3833  git status
+ 3834  commit 'Fixed results widget bug - Removed ability to scroll when results widget is opened'
+ 3835  push
+ 3836  cd ../
+ 3837  ls
+ 3838  cd ../
+ 3839  ls
+ 3840  cd emoji-riddle
+ 3841  ls
+ 3842  nvim README.md
+ 3843  cat README.md
+ 3844  fg
+ 3845  add .
+ 3846  git status
+ 3847  commit 'Updated the README'
+ 3848  push
+ 3849  ls
+ 3850  cd ../
+ 3851  ls
+ 3852  cd pivot-employee-manager
+ 3853  ls
+ 3854  cd backend
+ 3855  ls
+ 3856  cd ../
+ 3857  ls
+ 3858  cd frontend
+ 3859  ls
+ 3860  cd pivot
+ 3861  ls
+ 3862  tmux 
+ 3863  npm run dev
+ 3864  dev
+ 3865  ls
+ 3866  cd p
+ 3867  ls
+ 3868  cd projects
+ 3869  cd pivot-employee-manager
+ 3870  ls
+ 3871  cd frontend
+ 3872  ls
+ 3873  cd pivot
+ 3874  ls
+ 3875  tmux 
+ 3876  npm run dev
+ 3877  nvim .
+ 3878  npm install firebase
+ 3879  ls
+ 3880  fg
+ 3881  nvim .
+ 3882  dev
+ 3883  cd projects/emoji-riddle
+ 3884  ls
+ 3885  cd frontend
+ 3886  ls
+ 3887  ls -a
+ 3888  cd src
+ 3889  ls -a
+ 3890  cd ../
+ 3891  ls
+ 3892  ls -a
+ 3893  cat .gitignore
+ 3894  ls
+ 3895  cd ../
+ 3896  ls
+ 3897  exit
+ 3898  npm run dev
+ 3899  fg
+ 3900  nvim .
+ 3901  dev
+ 3902  ls
+ 3903  mkdir go
+ 3904  cd go
+ 3905  mkdir net-ninja
+ 3906  cd
+ 3907  sudo  rm -rf /usr/local/go && tar -C /usr/local -xzf go1.23.0.linux-amd64.tar.gz
+ 3908  cd Downloads
+ 3909  ls
+ 3910  sudo  rm -rf /usr/local/go && tar -C /usr/local -xzf go1.23.0.linux-amd64.tar.gz
+ 3911  sudo su
+ 3912  ls
+ 3913  cd ../
+ 3914  nvim .zshrc
+ 3915  source .zshrc
+ 3916  go
+ 3917  dev 
+ 3918  cd go
+ 3919  cd net-ninja
+ 3920  ls
+ 3921  touch test.go
+ 3922  nvim .
+ 3923  ls
+ 3924  rm test.go
+ 3925  touch main.go
+ 3926  nvim main.go
+ 3927  ls
+ 3928  fg
+ 3929  cd .config/nvim
+ 3930  nvim .
+ 3931  nvim  main.go
+ 3932  ls
+ 3933  go run main.go
+ 3934  ls
+ 3935  go run main.go
+ 3936  fg
+ 3937  go run main.go
+ 3938  fg
+ 3939  go run main.go
+ 3940  fg
+ 3941  go run main.go
+ 3942  fg
+ 3943  exit
+ 3944  dev
+ 3945  cd go/net-ninja
+ 3946  nvim .
+ 3947  fg
+ 3948  go run main.go bill.go
+ 3949  fg
+ 3950  go run main.go bill.go
+ 3951  fg
+ 3952  go run main.go bill.go
+ 3953  fg
+ 3954  go run main.go bill.go
+ 3955  fg
+ 3956  go run main.go bill.go
+ 3957  fg
+ 3958  go run main.go bill.go
+ 3959  fg
+ 3960  go run main.go bill.go
+ 3961  fg
+ 3962  go run main.go bill.go
+ 3963  ls
+ 3964  fg
+ 3965  go run main.go bill.go
+ 3966  cat bills/luigis\ bill.txt
+ 3967  go run main.go bill.go
+ 3968  ls
+ 3969  ls bills
+ 3970  cat bills/marios\ bill.txt
+ 3971  cd ..
+ 3972  l
+ 3973  ls
+ 3974  dev
+ 3975  cd go
+ 3976  ls
+ 3977  mkdir modern-web-dev
+ 3978  cd modern-web-dev
+ 3979  touch main.go
+ 3980  ls
+ 3981  fg
+ 3982  ls
+ 3983  nvim  main.go
+ 3984  go run main.go
+ 3985  fg
+ 3986  go run main.go
+ 3987  ls
+ 3988  fg
+ 3989  go run main.go
+ 3990  fg
+ 3991  ls
+ 3992  rm main.go
+ 3993  ls
+ 3994  mkdir hello
+ 3995  cd hello
+ 3996  touch main.go
+ 3997  nvim main.go
+ 3998  fg
+ 3999  ls
+ 4000  go build hello
+ 4001  ls
+ 4002  mkdir countries
+ 4003  cd countries
+ 4004  touch countries.go
+ 4005  fg
+ 4006  nvim .
+ 4007  ls
+ 4008  cd ../
+ 4009  ls
+ 4010  nvim main.go
+ 4011  go init
+ 4012  go help
+ 4013  go init .
+ 4014  go build hello
+ 4015  ls
+ 4016  fg
+ 4017  nvim main.go
+ 4018  fg
+ 4019  go init hello
+ 4020  go mod init hello
+ 4021  ls
+ 4022  nvim main.go
+ 4023  go run main.go
+ 4024  exit
+ 4025  fg
+ 4026  exit
+ 4027  dev
+ 4028  ls
+ 4029  cd go
+ 4030  ls
+ 4031  cd modern-web-dev
+ 4032  ls
+ 4033  cd hello
+ 4034  ls
+ 4035  nvim .
+ 4036  fg
+ 4037  tmux 
+ 4038  go run main.go
+ 4039  ls
+ 4040  curl localhost:5000/hello
+ 4041  nvim .
+ 4042  curl localhost:8000/hello
+ 4043  cd ../
+ 4044  ls
+ 4045  touch api
+ 4046  ls
+ 4047  rm api
+ 4048  mkdir api
+ 4049  ls
+ 4050  cd api
+ 4051  go init mod .
+ 4052  go mod .
+ 4053  go help
+ 4054  go init
+ 4055  go mod init .
+ 4056  go mod init
+ 4057  go mod init api
+ 4058  ls
+ 4059  mkdir config controllers dbscripts models repositories server services
+ 4060  ls
+ 4061  touch main.go README.md runners.toml
+ 4062  ls
+ 4063  cd ../api
+ 4064  nvim .
+ 4065  ls
+ 4066  cd ../
+ 4067  ls
+ 4068  cd ../
+ 4069  ls
+ 4070  mkdir tech-with-tim
+ 4071  cd tech-with-tim
+ 4072  ls
+ 4073  mkdir api
+ 4074  cd api
+ 4075  touch main.go
+ 4076  ls
+ 4077  dev
+ 4078  ls
+ 4079  cd projects
+ 4080  ls
+ 4081  git clone git@github.com:nelisa-dludla/shopper-api.git
+ 4082  cd shopper-api
+ 4083  touch README.md
+ 4084  nvim .
+ 4085  go mod init .
+ 4086  ls
+ 4087  go mod init shopperApi
+ 4088  ls
+ 4089  mkdir cmd
+ 4090  ls
+ 4091  cd cmd
+ 4092  mkdir shopper-api
+ 4093  cd shopper-api
+ 4094  touch main.go
+ 4095  ls
+ 4096  s
+ 4097  ls
+ 4098  cd ../../
+ 4099  ls
+ 4100  rm -rf cmd
+ 4101  ls
+ 4102  touch main.go
+ 4103  ls
+ 4104  tmux 
+ 4105  ls
+ 4106  nvim .
+ 4107  ls
+ 4108  cat go.mod
+ 4109  rm go.mod
+ 4110  go mod init shopper-api
+ 4111  ls
+ 4112  fg
+ 4113  nvim .
+ 4114  go run main.go
+ 4115  ls
+ 4116  go run shopper-api
+ 4117  ls
+ 4118  go run main.go
+ 4119  curl localhost:8000/hello
+ 4120  fg
+ 4121  curl localhost:8000/hello
+ 4122  go run main.go
+ 4123  curl localhost:8000/hello
+ 4124  fg
+ 4125  go run main.go
+ 4126  curl localhost:8000/hello
+ 4127  go version
+ 4128  curl GET localhost:8000/hello
+ 4129  fg
+ 4130  go run main.go
+ 4131  curl GET localhost:8000/hello
+ 4132  curl localhost:8000/hello
+ 4133  fg
+ 4134  nvim .
+ 4135  go run main.go
+ 4136  curl localhost:8000/products
+ 4137  fg
+ 4138  ls
+ 4139  mkdir models
+ 4140  nvim .
+ 4141  shutdown now
+ 4142  dev
+ 4143  cd go
+ 4144  ls
+ 4145  mkdir boot-dot-dev
+ 4146  cd boot-dot-dev
+ 4147  ls
+ 4148  touch main.go
+ 4149  tmux 
+ 4150  nvim .
+ 4151  go mod init github.com/nelisa-dludla/rssagg
+ 4152  ls
+ 4153  go run main.go
+ 4154  go build
+ 4155  ls
+ 4156  ./rssagg
+ 4157  go build && ./rssagg
+ 4158  ls -a
+ 4159  touch .gitignore
+ 4160  fg
+ 4161  nvim .
+ 4162  go build && ./rssagg
+ 4163  fg
+ 4164  go get github.com/joho/godotenv
+ 4165  ls
+ 4166  fg
+ 4167  go mod vendor
+ 4168  ls
+ 4169  cat vendor/modules.txt 
+ 4170  ls
+ 4171  fg
+ 4172  nvim .
+ 4173  ls
+ 4174  rm vendor
+ 4175  rm -rf
+ 4176  ls
+ 4177  rm -rf vendor
+ 4178  ls
+ 4179  go mod tidy
+ 4180  ls
+ 4181  nvim .
+ 4182  go mod vendor
+ 4183  ls
+ 4184  go mod vendor
+ 4185  go get github.com/joho/godotenv
+ 4186  ls
+ 4187  go mod vendor
+ 4188  ls
+ 4189  fg
+ 4190  nvim .
+ 4191  go run build
+ 4192  go build
+ 4193  go build && ./rssagg
+ 4194  fg
+ 4195  go build && ./rssagg
+ 4196  fg
+ 4197  exit
+ 4198  dev
+ 4199  cd projects
+ 4200  ls
+ 4201  cd shopper-api
+ 4202  ls
+ 4203  tmux 
+ 4204  fg
+ 4205  nvim .
+ 4206  ls
+ 4207  cat go.mod
+ 4208  rm go.mod
+ 4209  go mod init github.com/nelisa-dludla/shopper-api
+ 4210  go mod tidy
+ 4211  ls
+ 4212  fg
+ 4213  nvim .
+ 4214  ls
+ 4215  touch .env
+ 4216  ls
+ 4217  fg
+ 4218  ls
+ 4219  go get github.com/joho/godotenv
+ 4220  go mod tidy
+ 4221  go mod vendor
+ 4222  ls
+ 4223  fg
+ 4224  nvim .
+ 4225  ls
+ 4226  go mod tidy
+ 4227  go mod vendor
+ 4228  ls
+ 4229  touch .gitignore
+ 4230  fg
+ 4231  nvim .
+ 4232  dev
+ 4233  cd go/boot-dot-dev
+ 4234  ls
+ 4235  nvim .
+ 4236  go build
+ 4237  ls
+ 4238  go build && ./shopper-api
+ 4239  curl localhost:5000/products
+ 4240  fg
+ 4241  go build && ./shopper-api
+ 4242  exit
+ 4243  ./shopper-api
+ 4244  curl localhost:5000
+ 4245  ./shopper-api
+ 4246  fg
+ 4247  go get github.com/rs/cors
+ 4248  go mod tidy
+ 4249  go mod vendor
+ 4250  ls
+ 4251  fg
+ 4252  go mod tidy
+ 4253  cat go.mod
+ 4254  ls
+ 4255  go mod tidy
+ 4256  go mod venor
+ 4257  go mod vendor
+ 4258  go get github.com/rs/cors
+ 4259  go mod tidy
+ 4260  ls
+ 4261  cay og go.sum
+ 4262  cat go go.sum
+ 4263  cat go.sum
+ 4264  go mod tidy
+ 4265  fg
+ 4266  nvim .
+ 4267  go get github.com/rs/cors
+ 4268  go mod tidy
+ 4269  go mod 
+ 4270  fg
+ 4271  nvim .
+ 4272  go mod vendor
+ 4273  go get github.com/rs/cors
+ 4274  go get tidy
+ 4275  go tidy
+ 4276  go mod tidy
+ 4277  go mod vendor
+ 4278  fg
+ 4279  nvim .
+ 4280  go build && ./shopper-api
+ 4281  ./shopper-api
+ 4282  ls
+ 4283  nvim .env
+ 4284  ls
+ 4285  add .
+ 4286  git status
+ 4287  commit 'boilerplate for the api'
+ 4288  push
+ 4289  ls
+ 4290  pgcli
+ 4291  pqsl
+ 4292  pgsl
+ 4293  ls
+ 4294  sudo apt -y install postgresql
+ 4295  ls
+ 4296  psql
+ 4297  psql -u root -w root
+ 4298  psql -U root -w root
+ 4299  psql -Upostgres
+ 4300  psql -Upostgres -wpostgres
+ 4301  psql -Upostgres -w postgres
+ 4302  sudo -u postgres psql template1
+ 4303  psql -Upostgres -w
+ 4304  psql -Upostgres -dtemplate1 -w
+ 4305  cd /etc/
+ 4306  ls
+ 4307  cd postgresql/
+ 4308  ls
+ 4309  cd 14/main
+ 4310  ls
+ 4311  nvim .
+ 4312  ls
+ 4313  sudo nvim .
+ 4314  sudo
+ 4315  sudo su
+ 4316  psql -Upostgres -dtemplate1 -w
+ 4317  psql -Upostgres -dtemplate1
+ 4318  sudo -u postgres psql template1
+ 4319  psql -Upostgres -dtemplate1 -w
+ 4320  ls
+ 4321  sudo su
+ 4322  sudo systemctl restart postgresql.service
+ 4323  dev
+ 4324  psql -Upostgres -dtemplate1
+ 4325  sudo apt remove postgresql
+ 4326  sudo apt auto remove
+ 4327  sudo apt autoremove
+ 4328  psql
+ 4329  psql -Upostgres
+ 4330  sudo apt uninstall postgresql
+ 4331  sudo apt remove postgresql
+ 4332  sudo apt-get --purge remove postgresql
+ 4333  psql --version
+ 4334  dpkg -l | grep postgres
+ 4335  sudo apt-get --purge remove postgresql-14 postgresql-client-14 postgresql-client-common postgresql-common
+ 4336  psql
+ 4337  sudo rm -rf /var/lib/postgresql/\nsudo rm -rf /var/log/postgresql/\nsudo rm -rf /etc/postgresql/
+ 4338  sudo deluser postgres
+ 4339  psql --version
+ 4340  sudo apt install postgresql-16
+ 4341  sudo apt install postgresql-15
+ 4342  sudo apt -y install postgresql
+ 4343  ls
+ 4344  sudo -u postrges psql template
+ 4345  sudo -u postrges psql template1
+ 4346  sudo -u postgres psql template1
+ 4347  cd /etc/postgresql/14/main/
+ 4348  ls
+ 4349  sudo su
+ 4350  cd
+ 4351  sudo systemctl restart postgresql.service
+ 4352  ls
+ 4353  psql -Upostgres -dtemplate1 -w
+ 4354  psql -Upostgres -dtemplate1 
+ 4355  pip --version
+ 4356  pip install pgcli
+ 4357  pgcli
+ 4358  pgcli -U postgres -dtemplat1
+ 4359  pgcli -U postgres -dtemplate1
+ 4360  pgcli
+ 4361  ubuntu
+ 4362  --version
+ 4363  lsb-release
+ 4364  lsb-release -a
+ 4365  sudo apt install pgadmin4-desktop
+ 4366  sudo apt install pgadmin4
+ 4367  curl -fsS https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /usr/share/keyrings/packages-pgadmin-org.gpg
+ 4368  sudo sh -c 'echo "deb [signed-by=/usr/share/keyrings/packages-pgadmin-org.gpg] https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'
+ 4369  sudo apt install pgadmin4-desktop
+ 4370  pgadmin4
+ 4371  pgadmin
+ 4372  cd /etc
+ 4373  cd ../
+ 4374  sudo apt install pgadmin4-desktop
+ 4375  exit
+ 4376  fg
+ 4377  exit
+ 4378  pgadmin4
+ 4379  pgadmin
+ 4380  cd /usr/local
+ 4381  ls
+ 4382  cd bin
+ 4383  ls
+ 4384  cd ../
+ 4385  ls
+ 4386  cd ../
+ 4387  ls
+ 4388  dev
+ 4389  cd projects/shopper-api
+ 4390  sudo systemctl status postgresql.service
+ 4391  ls
+ 4392  go install github.com/sqlc-dev/sqlc/cmd/sqlc@latest
+ 4393  sqlc --version
+ 4394  sqlc version
+ 4395  ls
+ 4396  go install github.com/sqlc-dev/sqlc/cmd/sqlc@latest
+ 4397  sqlxc
+ 4398  sqlc
+ 4399  ls
+ 4400  go 
+ 4401  ls
+ 4402  go install github.com/pressly/goose/v3/cmd/goose@latest
+ 4403  ls
+ 4404  mkdir sql
+ 4405  ls
+ 4406  cd sql
+ 4407  ls
+ 4408  mkdir schema
+ 4409  ls
+ 4410  cd schema
+ 4411  touch 001_users.sql
+ 4412  tmux 
+ 4413  nvim .
+ 4414  cd ../../
+ 4415  ls
+ 4416  fg
+ 4417  ls
+ 4418  cd sql/schema
+ 4419  goose postgres postgres://postgres:devops@localhost:5432/shopper-api up
+ 4420  exit
+ 4421  goose version
+ 4422  sqlc version
+ 4423  dev
+ 4424  cd projects
+ 4425  ls
+ 4426  cd 
+ 4427  ls
+ 4428  cd go
+ 4429  ls
+ 4430  cd bin
+ 4431  ls
+ 4432  go goose
+ 4433  go goose version
+ 4434  ls
+ 4435  ./goose
+ 4436  ls
+ 4437  cd ../
+ 4438  nvim .zshrc
+ 4439  $PATH
+ 4440  goose
+ 4441  go
+ 4442  go goose
+ 4443  ls
+ 4444  cat .zshrc
+ 4445  goose version
+ 4446  echo $PATH
+ 4447  cat .zshrc
+ 4448  nvim .zshrc
+ 4449  source .zshrv
+ 4450  source .zshrc
+ 4451  dev
+ 4452  goose version
+ 4453  sqlc version
+ 4454  cd projects
+ 4455  ls
+ 4456  cd shopper-api
+ 4457  ls
+ 4458  cd sql/schema
+ 4459  ls
+ 4460  sudo -u postgres psql
+ 4461  ls
+ 4462  goose postgres postgres://nelisa:devops@localhost:5432/shopper-api up
+ 4463  fg
+ 4464  tmux 
+ 4465  fg
+ 4466  nvim 
+ 4467  goose postgres postgres://nelisa:devops@localhost:5432/shopper-api up
+ 4468  fg
+ 4469  goose postgres postgres://nelisa:devops@localhost:5432/shopper-api up
+ 4470  fg
+ 4471  goose postgres postgres://nelisa:devops@localhost:5432/shopper-api up
+ 4472  fg
+ 4473  goose postgres postgres://nelisa:devops@localhost:5432/shopper-api up
+ 4474  goose postgres postgres://nelisa:devops@localhost:5432/shopper-api down
+ 4475  ls
+ 4476  fg
+ 4477  sqlc version
+ 4478  fg
+ 4479  cd ../../
+ 4480  ls
+ 4481  sqlc generate
+ 4482  fg
+ 4483  ls
+ 4484  nvim .
+ 4485  go get github.com/lib/pg
+ 4486  go get github.com/lib/pq
+ 4487  cat go.mod
+ 4488  fg
+ 4489  nvim main.go
+ 4490  go mod vendor
+ 4491  go get github.com/google/uuid
+ 4492  go mod vendor
+ 4493  fg
+ 4494  nvim main.go
+ 4495  go mod tidy
+ 4496  fg
+ 4497  ls
+ 4498  rm *
+ 4499  ls
+ 4500  rm -rf *
+ 4501  ls
+ 4502  touch README.md
+ 4503  ls
+ 4504  rm README.md
+ 4505  ls
+ 4506  git pull
+ 4507  ls
+ 4508  touch README.md
+ 4509  touch 
+ 4510  nvim .
+ 4511  go.m
+ 4512  go mod init github.com/nelisa-dludla/shopper-api
+ 4513  ls
+ 4514  mkdir cmd
+ 4515  ls
+ 4516  cd cmd
+ 4517  mkdir api migrate
+ 4518  ls
+ 4519  cd ../
+ 4520  ls
+ 4521  nvim .
+ 4522  cd ../../../
+ 4523  cd shopper-api
+ 4524  ls
+ 4525  go run cmd/main.go
+ 4526  make run
+ 4527  go get github.com/lib/pq
+ 4528  fg
+ 4529  go get github.com/joho/godotenv
+ 4530  fg
+ 4531  make run
+ 4532  ls
+ 4533  cat Makefile
+ 4534  make run
+ 4535  nvim .
+ 4536  make run
+ 4537  go mod tidy
+ 4538  fg
+ 4539  exit
+ 4540  dev
+ 4541  cd projects
+ 4542  cd shopper-api
+ 4543  ls
+ 4544  rm go.mod go.sum Makefile 
+ 4545  rm -rf bin cmd config db service types utils
+ 4546  ls
+ 4547  go mod init github.com/nelisa-dludla/shopper-api
+ 4548  ls
+ 4549  touch main.go
+ 4550  ls
+ 4551  tmux 
+ 4552  nvim .
+ 4553  ls
+ 4554  go get github.com/joho/godotenv
+ 4555  ls
+ 4556  fg
+ 4557  go run main.go
+ 4558  curl localhost:5000/hello
+ 4559  fg
+ 4560  go run main.go
+ 4561  curl localhost:5000/hello
+ 4562  fg
+ 4563  exit
+ 4564  dev
+ 4565  cd projects
+ 4566  ls
+ 4567  cd shopper-api
+ 4568  cd ../
+ 4569  ls
+ 4570  git clone git@github.com:nelisa-dludla/terminal-portfolio.git
+ 4571  cd terminal-portfolio
+ 4572  touch README.md
+ 4573  ls
+ 4574  nvim .
+ 4575  add .
+ 4576  git status
+ 4577  commit 'Added README'
+ 4578  push
+ 4579  ls
+ 4580  npm create vite@latest
+ 4581  npm create vite@latest .
+ 4582  ls
+ 4583  cat README.md
+ 4584  ls
+ 4585  npm install
+ 4586  ls
+ 4587  tmux 
+ 4588  fg
+ 4589  nvim .
+ 4590  npm install -D tailwindcss postcss autoprefixer\nnpx tailwindcss init -p
+ 4591  ls
+ 4592  fg
+ 4593  nvim .
+ 4594  fg
+ 4595  nvim .
+ 4596  npm run dev
+ 4597  fg
+ 4598  ls
+ 4599  cat src/components/TerminalInput.jsx
+ 4600  fg
+ 4601  cd ../
+ 4602  ls
+ 4603  cd shopper-api
+ 4604  ls
+ 4605  tmux 
+ 4606  fg
+ 4607  nvim .
+ 4608  fg
+ 4609  nvim .
+ 4610  cat utils/json.go
+ 4611  ls
+ 4612  fg
+ 4613  go run main.go
+ 4614  curl localhost:5000/products
+ 4615  fg
+ 4616  exit
+ 4617  ls
+ 4618  nvim .config/i3/config
+ 4619  ls
+ 4620  cd .local/share
+ 4621  ls
+ 4622  cd fonts
+ 4623  ls
+ 4624  cd ../../../
+ 4625  ls
+ 4626  cd Downloads
+ 4627  ls
+ 4628  cd Meslo
+ 4629  ls
+ 4630  mv * ~/.local/share/fonts
+ 4631  ls
+ 4632  cd ../
+ 4633  ls
+ 4634  rm -rf Meslo
+ 4635  cd
+ 4636  fc-cache -f -v
+ 4637  cd .config/i3
+ 4638  ls
+ 4639  nvim config
+ 4640  cd .local/share
+ 4641  ls
+ 4642  cd fonts
+ 4643  ls
+ 4644  fg
+ 4645  nvim .
+ 4646  exit
+ 4647  fc-cache -f -v
+ 4648  fc-list | grep "meslo"
+ 4649  fc-list | grep "Meslo"
+ 4650  sudo apt install picom
+ 4651  picom --version
+ 4652  fg
+ 4653  cd ../
+ 4654  ls
+ 4655  mkdir picom
+ 4656  cd picom
+ 4657  mkdir .config
+ 4658  cd .config
+ 4659  touch picom
+ 4660  ls
+ 4661  nvim picom
+ 4662  ls
+ 4663  sudo apt remove i3blocks
+ 4664  cd ../../
+ 4665  ls
+ 4666  rm -rf i3blocks
+ 4667  ls
+ 4668  nvim i3/config
+ 4669  sudo apt install polybar
+ 4670  ls
+ 4671  mkdir polybar
+ 4672  cd polybar
+ 4673  ls
+ 4674  cd /etc
+ 4675  ls
+ 4676  cd polybar
+ 4677  ls
+ 4678  polybar --version
+ 4679  where python3
+ 4680  where polybar
+ 4681  polybar
+ 4682  polybar -c
+ 4683  polybar --config=FILE
+ 4684  polybar -c --config=FILE
+ 4685  polybar -c
+ 4686  polybar -c FILE
+ 4687  polybar --config
+ 4688  polybar --config=FILE
+ 4689  where config.ini
+ 4690  find ~ -name "config.ini"
+ 4691  find / -name "config.ini"
+ 4692  sudo find /etc -name "config.ini" -type f
+ 4693  cd /
+ 4694  cd
+ 4695  cd .config/polybar
+ 4696  ls
+ 4697  touch config.ini
+ 4698  ls
+ 4699  nvim config.ini
+ 4700  polybar
+ 4701  pwd
+ 4702  polybar --config=/home/nelisa/.config/polybar/config.ini
+ 4703  polybar -c /home/nelisa/.config/polybar/config.ini
+ 4704  polybar --config=/home/nelisa/.config/polybar/config.ini mybar
+ 4705  fg
+ 4706  ls
+ 4707  nvim config.ini
+ 4708  polybar --config=/home/nelisa/.config/polybar/config.ini bar
+ 4709  fg
+ 4710  nvim .
+ 4711  polybar --config=/home/nelisa/.config/polybar/config.ini bar/example
+ 4712  polybar
+ 4713  polybar --config=/home/nelisa/.config/polybar/config.ini example
+ 4714  cd ../
+ 4715  ls
+ 4716  nvim .
+ 4717  polybar
+ 4718  polybar example
+ 4719  polybar --config=/home/nelisa/.config/polybar/config.ini example
+ 4720  ls
+ 4721  fg
+ 4722  polybar
+ 4723  fg
+ 4724  nvim .
+ 4725  polybar --config=/home/nelisa/.config/polybar/config.ini mybar
+ 4726  fg
+ 4727  rm -rf polybar
+ 4728  sudo apt remove polybar
+ 4729  nvim .
+ 4730  fg
+ 4731  nvim .
+ 4732  cd .config
+ 4733  cd i3
+ 4734  ls
+ 4735  cd ../
+ 4736  ls
+ 4737  cd i3
+ 4738  ls
+ 4739  ls -a
+ 4740  pwd
+ 4741  fg
+ 4742  where .i3status.conf
+ 4743  find ~ --name ".i3status.conf"
+ 4744  find ~ -name ".i3status.conf"
+ 4745  sudo find /etc -name ".i3status.conf"
+ 4746  sudo find /etc -name ".i3status.conf" -type f
+ 4747  fg
+ 4748  nvim .
+ 4749  man i3status
+ 4750  exit
+ 4751  fg
+ 4752  nvim .
+ 4753  exit
+ 4754  ls
+ 4755  dev
+ 4756  ls
+ 4757  cd projects
+ 4758  ls
+ 4759  mkdir talking-to-golang
+ 4760  cd t
+ 4761  cd talking-to-golang
+ 4762  touch main.go
+ 4763  nvim .
+ 4764  go run main.go
+ 4765  fg
+ 4766  touch text.txt
+ 4767  fg
+ 4768  go run main.go
+ 4769  exit
+ 4770  fg
+ 4771  cd
+ 4772  cd .config
+ 4773  nvim nvim
+ 4774  nvim .
+ 4775  fg
+ 4776  dev
+ 4777  ls
+ 4778  cd projects
+ 4779  ls
+ 4780  cd talking-to-golang
+ 4781  nvim .
+ 4782  exit
+ 4783  shutdown now
+ 4784  ls
+ 4785  dev
+ 4786  ls
+ 4787  cd test
+ 4788  ls
+ 4789  mkdir go
+ 4790  cd go
+ 4791  touch main.go
+ 4792  nvim .
+ 4793  go run main.go
+ 4794  fg
+ 4795  go run main.go
+ 4796  fg
+ 4797  go run main.go
+ 4798  fg
+ 4799  go run main.go
+ 4800  fg
+ 4801  go run main.go
+ 4802  fg
+ 4803  go run main.go
+ 4804  fg
+ 4805  go run main.go
+ 4806  fg
+ 4807  go run main.go
+ 4808  fg
+ 4809  sleep
+ 4810  sleep now
+ 4811  sleep --help
+ 4812  sleep 2h
+ 4813  sleep 7200
+ 4814  sleep 
+ 4815  sleep --help
+ 4816  sleep 2[s]
+ 4817  sleep 2[h]
+ 4818  sleep 2h
+ 4819  shutdown
+ 4820  shutdown now
+ 4821  dev
+ 4822  cd projects
+ 4823  ls
+ 4824  cd talking-to-golang
+ 4825  ls
+ 4826  nvim .
+ 4827  go run main.go
+ 4828  fg
+ 4829  go run main.go
+ 4830  fg
+ 4831  go run main.go
+ 4832  go run main.go what is your name?
+ 4833  go run main.go "What is your name?"
+ 4834  fg
+ 4835  go run main.go
+ 4836  fg
+ 4837  go run main.go
+ 4838  ls
+ 4839  go build main.go
+ 4840  ls
+ 4841  ./main
+ 4842  ./main "What is your name?" "Who are you?"
+ 4843  sleep
+ 4844  nvim .bashrc
+ 4845  systemctl suspend
+ 4846  exit
+ 4847  fg
+ 4848  nvim .
+ 4849  cd ../
+ 4850  cd
+ 4851  cd .config
+ 4852  nvim nvim/.
+ 4853  exit
+ 4854  shutdown now
+ 4855  ls
+ 4856  dev
+ 4857  ls
+ 4858  mkdir javascript
+ 4859  ls
+ 4860  cd javascript
+ 4861  ls
+ 4862  mkdir slot-machine
+ 4863  cd slot-machine
+ 4864  touch project.js
+ 4865  fg
+ 4866  nvim .
+ 4867  ls
+ 4868  npm init
+ 4869  npm i prompt sync
+ 4870  ls
+ 4871  npm i prompt-sync
+ 4872  ls
+ 4873  nvim .
+ 4874  ls
+ 4875  ./project.js
+ 4876  chmod u+x project.js
+ 4877  ./project.js
+ 4878  fg
+ 4879  ./project.js
+ 4880  fg
+ 4881  ./project.js
+ 4882  fg
+ 4883  ./project.js
+ 4884  fg
+ 4885  ./project.js
+ 4886  fg
+ 4887  ./project.js
+ 4888  fg
+ 4889  ./project.js
+ 4890  fg
+ 4891  ./project.js
+ 4892  fg
+ 4893  ./project.js
+ 4894  fg
+ 4895  ./project.js
+ 4896  fg
+ 4897  ./project.js
+ 4898  fg
+ 4899  ./project.js
+ 4900  fg
+ 4901  ./project.js
+ 4902  fg
+ 4903  cd ../
+ 4904  rm -rm slot-machine
+ 4905  rm -rf slot-machine
+ 4906  ls
+ 4907  mkdir practice
+ 4908  cd practice
+ 4909  ls
+ 4910  touch exercise1.js
+ 4911  nvim .
+ 4912  ls
+ 4913  fg
+ 4914  mv exercise1.js exercise-1.js
+ 4915  ls
+ 4916  chmod u+x exercise-1.js
+ 4917  fg
+ 4918  ls
+ 4919  ./exercise-1.js
+ 4920  nvim .
+ 4921  ./exercise-1.js
+ 4922  fg
+ 4923  ./exercise-1.js
+ 4924  chmod u+x exercise-2.js
+ 4925  ./exercise-2.js
+ 4926  ./exercise-2.js text.txt
+ 4927  fg
+ 4928  ./exercise-2.js
+ 4929  ./exercise-2.js text.txt
+ 4930  fg
+ 4931  ./exercise-2.js text.txt
+ 4932  fg
+ 4933  ./exercise-2.js text.txt
+ 4934  fg
+ 4935  ./exercise-2.js
+ 4936  ./exercise-2.js text.txt
+ 4937  fg
+ 4938  ./exercise-2.js
+ 4939  fg
+ 4940  ./exercise-2.js
+ 4941  fg
+ 4942  ./exercise-2.js
+ 4943  ./exercise-2.js text.txt
+ 4944  fg
+ 4945  ./exercise-2.js text.txt.js
+ 4946  fg
+ 4947  ./exercise-2.js text.txt.js
+ 4948  fg
+ 4949  ./exercise-2.js text.txt.js
+ 4950  fg
+ 4951  ./exercise-2.js text.txt.js
+ 4952  fg
+ 4953  chmod u+x exercise-3.js
+ 4954  ./exercise-3.js
+ 4955  fg
+ 4956  ./exercise-3.js
+ 4957  fg
+ 4958  ./exercise-3.js
+ 4959  fg
+ 4960  ./exercise-3.js
+ 4961  fg
+ 4962  ./exercise-3.js
+ 4963  fg
+ 4964  ./exercise-3.js
+ 4965  fg
+ 4966  shutdown now
+ 4967  dev
+ 4968  ls
+ 4969  cd javascript
+ 4970  ls
+ 4971  cd practice
+ 4972  ls
+ 4973  cd main.js
+ 4974  touch main.js
+ 4975  rm exercise-*
+ 4976  ls
+ 4977  chmod u+x main.js
+ 4978  fg
+ 4979  nvim .
+ 4980  ./main.js
+ 4981  fg
+ 4982  shutdown
+ 4983  shutdown now
+ 4984  shutdown noq
+ 4985  shutdown now
+ 4986  ls
+ 4987  dev
+ 4988  ls
+ 4989  mkdir dsa
+ 4990  cd d
+ 4991  cd dsa
+ 4992  touch index.js
+ 4993  chmod u+x index.js
+ 4994  nvim .
+ 4995  zsh
+ 4996  cd
+ 4997  nvim .zshrc
+ 4998  source .zshrc
+ 4999  dev
+ 5000  cd dsa
+ 5001  nv .
+ 5002  ls
+ 5003  mv index.js linear_search.js
+ 5004  touch bubble_sort.js
+ 5005  chmod u+x bubble_sort.js
+ 5006  fg
+ 5007  nv .
+ 5008  fg
+ 5009  dev
+ 5010  cd dsa
+ 5011  ls
+ 5012  chmod u+x binary_search.js
+ 5013  nv .
+ 5014  ls
+ 5015  fg
+ 5016  nv .
+ 5017  shutdown now
+ 5018  dev
+ 5019  cd projects
+ 5020  ls
+ 5021  cd nelisa-portfolio
+ 5022  ls
+ 5023  nv .
+ 5024  add .
+ 5025  git status
+ 5026  commit 'Added Google Analytics code'
+ 5027  push
+ 5028  cd ../
+ 5029  cd emoji-riddle
+ 5030  nv .
+ 5031  add .
+ 5032  git status
+ 5033  commit 'Added GA4 script and improved SEO'
+ 5034  push
+ 5035  cd ../
+ 5036  cd red-flag-social
+ 5037  ls
+ 5038  nv .
+ 5039  add .
+ 5040  git status
+ 5041  commit 'Added GA4 script and improved SEO'
+ 5042  push
+ 5043  nv .
+ 5044  add .
+ 5045  git status
+ 5046  commit 'Forgot to add GA4 script and have now made sure it is there'
+ 5047  push
+ 5048  ls
+ 5049  cd ../nelisa-portfolio
+ 5050  fg
+ 5051  nv .
+ 5052  tmux
+ 5053  npm run dev
+ 5054  nv .
+ 5055  fg
+ 5056  add .
+ 5057  git status
+ 5058  commit 'Improved mobile view and cleared up some console errors'
+ 5059  push
+ 5060  fg
+ 5061  nv .
+ 5062  add .
+ 5063  git status
+ 5064  commit 'Added a project to the projects page - Su Casa'
+ 5065  push
+ 5066  cd ../emoji-riddle
+ 5067  nv .
+ 5068  add .
+ 5069  git status
+ 5070  commit 'Added google verification tag'
+ 5071  push
+ 5072  ls
+ 5073  cd de
+ 5074  cd dev
+ 5075  ls
+ 5076  cd javascript
+ 5077  ls
+ 5078  touch index.js
+ 5079  chmod u+x index.js
+ 5080  ls
+ 5081  nv .
+ 5082  ls
+ 5083  cat index.js
+ 5084  rm index.js
+ 5085  ls
+ 5086  cd practice
+ 5087  ls
+ 5088  dev
+ 5089  cd dsa
+ 5090  ls
+ 5091  nv .
+ 5092  shutdown now
+ 5093  ls
+ 5094  dev
+ 5095  cd javascript
+ 5096  ls
+ 5097  touch index.js
+ 5098  chmod u+x index.js
+ 5099  nv .
+ 5100  ls
+ 5101  cd ../
+ 5102  mkdir design-patterns
+ 5103  ls
+ 5104  cd design-patterns
+ 5105  touch classes.js
+ 5106  chmod u+x classes.js
+ 5107  fg
+ 5108  nv .
+ 5109  fg
+ 5110  chmod u-x classes.js
+ 5111  ls
+ 5112  touch index.js
+ 5113  chmod u+x index.js
+ 5114  ls
+ 5115  fg
+ 5116  npm init
+ 5117  ls
+ 5118  ./index.js
+ 5119  fg
+ 5120  nv .
+ 5121  ./index.js
+ 5122  fg
+ 5123  nv .
+ 5124  ./index.js
+ 5125  cat index.js
+ 5126  cat classes.js
+ 5127  cat interface.js
+ 5128  ./index.js
+ 5129  fg
+ 5130  ./index.js
+ 5131  fg
+ 5132  shutdown now
+ 5133  dev
+ 5134  cd design-patterns
+ 5135  ls
+ 5136  nv .
+ 5137  ls
+ 5138  cd ../
+ 5139  ls
+ 5140  cd javascript
+ 5141  ls
+ 5142  cd in
+ 5143  touch binary_search.js
+ 5144  chmod u+x binary_search.js
+ 5145  fg
+ 5146  nv m
+ 5147  nv .
+ 5148  ./binary_search.js
+ 5149  fg
+ 5150  ./binary_search.js
+ 5151  fg
+ 5152  nv .
+ 5153  fg
+ 5154  ls
+ 5155  cd
+ 5156  dev
+ 5157  cd design-patterns
+ 5158  ls
+ 5159  cd memento
+ 5160  ls
+ 5161  fg
+ 5162  nv .
+ 5163  chmod u+x main.js
+ 5164  ls
+ 5165  nv .
+ 5166  ls
+ 5167  cd ../
+ 5168  ls
+ 5169  cat package.json
+ 5170  ls
+ 5171  cd memento
+ 5172  ls
+ 5173  fg
+ 5174  touch package.json
+ 5175  fg
+ 5176  nv .
+ 5177  ./main.js
+ 5178  fg
+ 5179  nv .
+ 5180  ./main.js
+ 5181  fg
+ 5182  ./main.js
+ 5183  fg
+ 5184  ./main.js
+ 5185  fg
+ 5186  ls
+ 5187  mv main.js memento-main.js
+ 5188  ls
+ 5189  mv memento-main.js main.js
+ 5190  ls
+ 5191  cd ../
+ 5192  mkdir state
+ 5193  cd memento
+ 5194  ls
+ 5195  cp package.json ../state
+ 5196  cd ../state
+ 5197  ls
+ 5198  touch main.js classes.js
+ 5199  chmod u+x main.js
+ 5200  ls
+ 5201  nv .
+ 5202  dev
+ 5203  cd javascript
+ 5204  ls
+ 5205  nv .
+ 5206  ls
+ 5207  dev
+ 5208  ls
+ 5209  cd projects
+ 5210  ls
+ 5211  mkdir employee-management-system
+ 5212  cd em
+ 5213  cd employee-management-system
+ 5214  ls
+ 5215  cd ../
+ 5216  ls
+ 5217  mv employee-management-system project-management-system
+ 5218  ls
+ 5219  cd p
+ 5220  cd project-management-system
+ 5221  ls
+ 5222  cd ../
+ 5223  ls
+ 5224  mkdir project-management-system employee-management-system
+ 5225  ls
+ 5226  cd project-management-system
+ 5227  ls
+ 5228  cd ../employee-management-system
+ 5229  ls
+ 5230  cd ../
+ 5231  rm project-management-system
+ 5232  rm -rf project-management-system
+ 5233  ls
+ 5234  cd employee-management-system
+ 5235  ls
+ 5236  go mod init github.com/nelisa-dludla/employee-management-system
+ 5237  ls
+ 5238  touch main.go
+ 5239  ls
+ 5240  nv .
+ 5241  ls
+ 5242  go run main.go
+ 5243  fg
+ 5244  go build main.go
+ 5245  ls
+ 5246  ./main
+ 5247  fg
+ 5248  go build main.go
+ 5249  ./main
+ 5250  fg
+ 5251  go build main.go
+ 5252  ./main
+ 5253  fg
+ 5254  ls
+ 5255  cd ../
+ 5256  rm employee-management-system
+ 5257  rm -rf employee-management-system 
+ 5258  ls
+ 5259  mkdir codebound-quest
+ 5260  ls
+ 5261  cd codebound-quest
+ 5262  ls
+ 5263  go mod init github.com/nelisa-dludla/codebound-quest
+ 5264  ls
+ 5265  touch main.go
+ 5266  ls
+ 5267  mkdir levels
+ 5268  ls
+ 5269  nv .
+ 5270  ls
+ 5271  nv .
+ 5272  shutdown now
+ 5273  dev
+ 5274  ls
+ 5275  cd projects
+ 5276  ls
+ 5277  mkdir employee-management-system
+ 5278  cd employee-management-system
+ 5279  go mod init github.com/nelisa-dludla/ems
+ 5280  ls
+ 5281  touch main.go
+ 5282  ls
+ 5283  touch Makefile
+ 5284  ls
+ 5285  nv .
+ 5286  ls
+ 5287  make build
+ 5288  nv .
+ 5289  ls
+ 5290  make build
+ 5291  ls
+ 5292  ./main
+ 5293  ls
+ 5294  nv .
+ 5295  make build
+ 5296  ./main
+ 5297  fg
+ 5298  make build
+ 5299  ./main
+ 5300  fg
+ 5301  make build
+ 5302  ./main
+ 5303  fg
+ 5304  cd ../
+ 5305  ls
+ 5306  mkdir not-a-game
+ 5307  cd not-a-game
+ 5308  ls
+ 5309  touch main.go
+ 5310  nv .
+ 5311  make run
+ 5312  ls
+ 5313  make run
+ 5314  ./main
+ 5315  fg
+ 5316  make run
+ 5317  fg
+ 5318  ls
+ 5319  cd ../
+ 5320  rm -rf not-a-game
+ 5321  ls
+ 5322  shutdown now
+ 5323  dev
+ 5324  cd projects
+ 5325  ls
+ 5326  rm terminal-portfolio
+ 5327  rm -rf terminal-portfolio
+ 5328  ls
+ 5329  git clone git@github.com:nelisa-dludla/roam-trip-planner.git
+ 5330  ls
+ 5331  cd roam-trip-planner
+ 5332  ls
+ 5333  npm create vite@latest frontend
+ 5334  ls
+ 5335  touch README.md
+ 5336  cd frontend
+ 5337  ls
+ 5338  npm install
+ 5339  ls
+ 5340  npm install -D tailwindcss postcss autoprefixer
+ 5341  npx tailwindcss init -p
+ 5342  tmux 
+ 5343  nv .
+ 5344  npm run dev
+ 5345  npm install react-router-dom
+ 5346  fg
+ 5347  nv .
+ 5348  ls
+ 5349  cd src/pages
+ 5350  ls
+ 5351  cd Home
+ 5352  ls
+ 5353  mv index.jsx Home.jsx
+ 5354  ls
+ 5355  cd ../
+ 5356  ls
+ 5357  cd Home
+ 5358  ls
+ 5359  mv Home.jsx ../
+ 5360  ls
+ 5361  cd ../
+ 5362  ls
+ 5363  rm -rf Home
+ 5364  ls
+ 5365  cd ../../
+ 5366  fg
+ 5367  nv .
+ 5368  npm run dev
+ 5369  npm i --save @fortawesome/fontawesome-svg-core
+ 5370  npm i --save @fortawesome/free-solid-svg-icons\nnpm i --save @fortawesome/free-regular-svg-icons\nnpm i --save @fortawesome/free-brands-svg-icons
+ 5371  npm i --save @fortawesome/react-fontawesome@latest
+ 5372  fg
+ 5373  shutdown now
+ 5374  shutdown
+ 5375  shutdown now
+ 5376  suspend
+ 5377  suspend now
+ 5378  systemctl suspend
+ 5379  dev
+ 5380  cd projects
+ 5381  ls
+ 5382  cd roam-trip-planner
+ 5383  tmux
+ 5384  cd frontend && npm run dev
+ 5385  cd frontend
+ 5386  nv .
+ 5387  fg
+ 5388  ls
+ 5389  rm README.md
+ 5390  ls
+ 5391  cd ../
+ 5392  ls
+ 5393  nv .
+ 5394  ls
+ 5395  ls -a
+ 5396  add .
+ 5397  ls
+ 5398  git status
+ 5399  commit 'Added README and frontend boilerplate with Home and Login Pages'
+ 5400  push
+ 5401  cd frontend
+ 5402  ls
+ 5403  nv .
+ 5404  fg
+ 5405  nv .
+ 5406  shutdown now
+ 5407  ls
+ 5408  dev
+ 5409  cd projects/roam-trip-planner
+ 5410  cd frontend
+ 5411  tmux 
+ 5412  npm run dev
+ 5413  nv .
+ 5414  fg
+ 5415  cat src/components/DashboardMyTrips.jsx
+ 5416  top
+ 5417  pkill 2441
+ 5418  tmux 
+ 5419  exit
+ 5420  tmux a
+ 5421  exit
+ 5422  systemctl restart
+ 5423  systemctl reboot
+ 5424  dev
+ 5425  cd projects
+ 5426  cd roam-trip-planner
+ 5427  ls
+ 5428  cd frontend
+ 5429  cat src/components/DashboardMyTrips.jsx
+ 5430  tmux 
+ 5431  npm run dev
+ 5432  nv .
+ 5433  cat src/components/DashboardMyTrips.jsx
+ 5434  tmux a
+ 5435  ls
+ 5436  cat src/components/DashboardMyTrips.jsx
+ 5437  tmux a
+ 5438  fg
+ 5439  ls
+ 5440  add .
+ 5441  git status
+ 5442  commit 'Changed look of the app and added dashboard along with initial views for dashboard options'
+ 5443  push
+ 5444  shutdown now
+ 5445  shutdown
+ 5446  shutdown -c
+ 5447  shutdown now
+ 5448  dev
+ 5449  cd projects/roam-trip-planner
+ 5450  cd frontend
+ 5451  tmux 
+ 5452  npm run server
+ 5453  ls
+ 5454  npm run dev
+ 5455  nv .
+ 5456  fg
+ 5457  cat src/components/TripDetails.jsx
+ 5458  fg
+ 5459  cat src/components/TripDetails.jsx
+ 5460  fg
+ 5461  tmux a
+ 5462  add .
+ 5463  git status
+ 5464  commit 'Completed default trip views and cleaned up the dashboard navigation bar'
+ 5465  push
+ 5466  shutdown now
+ 5467  dev
+ 5468  cd projects/roam-trip-planner
+ 5469  cd frontend
+ 5470  tmux 
+ 5471  npm run dev
+ 5472  nv .
+ 5473  dev
+ 5474  ls
+ 5475  mkdir umuzi
+ 5476  cd umuzi
+ 5477  git clone git@github.com:Umuzi-org/Nelisa-Dludla-778-contentitem-.git
+ 5478  ls
+ 5479  cd Nelisa-Dludla-778-contentitem-
+ 5480  ls
+ 5481  touch important.md
+ 5482  ls
+ 5483  nv .
+ 5484  cat important.md
+ 5485  fg
+ 5486  nv .
+ 5487  add .
+ 5488  git status
+ 5489  commit 'Added important.md'
+ 5490  push
+ 5491  dev
+ 5492  cd umuzi
+ 5493  ls
+ 5494  git clone git@github.com:Umuzi-org/Nelisa-Dludla-429-bootcamp-writing-assignment-.git
+ 5495  ls
+ 5496  nv .
+ 5497  ls
+ 5498  cd Nelisa-Dludla-429-bootcamp-writing-assignment-
+ 5499  ls
+ 5500  cat question-1.md | wc -l -n
+ 5501  cat question-1.md | wc 
+ 5502  cat question-1.md | wc --help
+ 5503  cat question-1.md | wc -w
+ 5504  fg
+ 5505  cat question-1.md | wc -w
+ 5506  fg
+ 5507  cat question-1.md
+ 5508  fg
+ 5509  cat question-1.md | wc -w
+ 5510  fg
+ 5511  cat question-2.md | wc -w
+ 5512  cat question-2.md
+ 5513  fg
+ 5514  nv .
+ 5515  shutdown
+ 5516  shutdown now
+ 5517  dev
+ 5518  ls
+ 5519  cd umuzi
+ 5520  ls
+ 5521  cd Nelisa-Dludla-429-bootcamp-writing-assignment-
+ 5522  ls
+ 5523  nv .
+ 5524  cat question-3.md
+ 5525  cat question-3.md | wc -w
+ 5526  fg
+ 5527  cat question-3.md | wc -w
+ 5528  question-4.md
+ 5529  touch question-4.md
+ 5530  ls
+ 5531  fg
+ 5532  cat question-4.md
+ 5533  cat question-4.md | wc -w
+ 5534  fg
+ 5535  cat question-5.md
+ 5536  fg
+ 5537  cat question-6.md
+ 5538  fg
+ 5539  ls
+ 5540  touch question-7.md
+ 5541  nv .
+ 5542  cat
+ 5543  eca
+ 5544  cat question-7.md
+ 5545  fg
+ 5546  cat question-8.md
+ 5547  fg
+ 5548  cat question-9.md
+ 5549  fg
+ 5550  cat question-10.md
+ 5551  fg
+ 5552  cat question-11.md
+ 5553  fg
+ 5554  ls
+ 5555  fg
+ 5556  nv .
+ 5557  ls
+ 5558  add .
+ 5559  git status
+ 5560  commit 'Added answers to all writing assignment questions'
+ 5561  push
+ 5562  cd ../
+ 5563  git clone git@github.com:Umuzi-org/Nelisa-Dludla-756-contentitem-javascript.git
+ 5564  cd Nelisa-Dludla-756-contentitem-javascript
+ 5565  ls
+ 5566  touch task1.js
+ 5567  nv .
+ 5568  ls
+ 5569  chmod u+x test.js
+ 5570  ./test.js
+ 5571  fg
+ 5572  ./test.js
+ 5573  fg
+ 5574  ./test.js
+ 5575  fg
+ 5576  ./test.js
+ 5577  fg
+ 5578  ls
+ 5579  nv .
+ 5580  ls
+ 5581  rm test.js
+ 5582  ls
+ 5583  add .
+ 5584  git status
+ 5585  commit 'Added task 1 solution'
+ 5586  push
+ 5587  ls
+ 5588  cd ../
+ 5589  ls
+ 5590  git clone git@github.com:Umuzi-org/Nelisa-Dludla-764-contentitem-javascript.git
+ 5591  cd Nelisa-Dludla-764-contentitem-javascript
+ 5592  ls
+ 5593  touch task2.js
+ 5594  nv .
+ 5595  ls
+ 5596  touch test.js && chmod u+x test.js
+ 5597  fg
+ 5598  nv .
+ 5599  ./test.js
+ 5600  ls
+ 5601  fg
+ 5602  ./test.js
+ 5603  fg
+ 5604  ./test.js
+ 5605  fg
+ 5606  ./test.js
+ 5607  fg
+ 5608  ./test.js
+ 5609  fg
+ 5610  ./test.js
+ 5611  fg
+ 5612  ./test.js
+ 5613  fg
+ 5614  ./test.js
+ 5615  fg
+ 5616  ./test.js
+ 5617  fg
+ 5618  ./test.js
+ 5619  fg
+ 5620  ls
+ 5621  rm test.js
+ 5622  ls
+ 5623  add .
+ 5624  git status
+ 5625  git reset HEAD
+ 5626  git status
+ 5627  add task2.js
+ 5628  git status
+ 5629  commit 'Added solution to task 2'
+ 5630  push
+ 5631  ls
+ 5632  cd ../
+ 5633  git clone git@github.com:Umuzi-org/Nelisa-Dludla-760-contentitem-javascript.git
+ 5634  ls
+ 5635  cd Nelisa-Dludla-760-contentitem-javascript
+ 5636  ls
+ 5637  touch task3.js test.js && chmod u+x test.js
+ 5638  ls
+ 5639  nv .
+ 5640  ./test.js
+ 5641  fg
+ 5642  ./test.js
+ 5643  fg
+ 5644  ./test.js
+ 5645  add task3.js
+ 5646  git status
+ 5647  commit 'Added solution for task 3'
+ 5648  push
+ 5649  cd ../
+ 5650  git clone git@github.com:Umuzi-org/Nelisa-Dludla-759-contentitem-javascript.git
+ 5651  ls
+ 5652  cd Nelisa-Dludla-759-contentitem-javascript
+ 5653  ls
+ 5654  touch test.js task4.js && chmod u+x test.js
+ 5655  ls
+ 5656  nv .
+ 5657  ./test.js
+ 5658  fg
+ 5659  ./test.js
+ 5660  fg
+ 5661  ./test.js
+ 5662  fg
+ 5663  ./test.js
+ 5664  fg
+ 5665  ./test.js
+ 5666  fg
+ 5667  ./test.js
+ 5668  fg
+ 5669  ./test.js
+ 5670  fg
+ 5671  add task4.js
+ 5672  git status
+ 5673  commit 'Added solution to task 4'
+ 5674  puhs
+ 5675  push
+ 5676  ./test.js
+ 5677  ls
+ 5678  cd ../
+ 5679  git clone git@github.com:Umuzi-org/Nelisa-Dludla-763-contentitem-javascript.git
+ 5680  fg
+ 5681  nv .
+ 5682  ./Nelisa-Dludla-
+ 5683  ls
+ 5684  fg
+ 5685  ls
+ 5686  cd Nelisa-Dludla-763-contentitem-javascript
+ 5687  ls
+ 5688  chmod u+x test.js
+ 5689  ./test.js
+ 5690  fg
+ 5691  ls
+ 5692  add task5.js
+ 5693  git status
+ 5694  commit 'Added solution to task 5'
+ 5695  push
+ 5696  cd ../
+ 5697  git clone git@github.com:Umuzi-org/Nelisa-Dludla-758-contentitem-javascript.git
+ 5698  ls
+ 5699  cd Nelisa-Dludla-758-contentitem-javascript
+ 5700  ls
+ 5701  touch task6.js test.js
+ 5702  chmod u+x test.js
+ 5703  fg
+ 5704  nv .
+ 5705  ./test.js
+ 5706  fg
+ 5707  ./test.js
+ 5708  fg
+ 5709  ./test.js
+ 5710  fg
+ 5711  ls
+ 5712  ./test.js
+ 5713  fg
+ 5714  add task6.js
+ 5715  commit 'Added solution to task 6'
+ 5716  push
+ 5717  cd ../
+ 5718  mkdir task7
+ 5719  ls
+ 5720  cd task7
+ 5721  ls
+ 5722  git clone git@github.com:Umuzi-org/Nelisa-Dludla-765-contentitem-javascript.git
+ 5723  ls
+ 5724  cd Nelisa-Dludla-765-contentitem-javascript
+ 5725  ls
+ 5726  touch task7.js test.js
+ 5727  ls
+ 5728  chmod u+x test.js
+ 5729  ls
+ 5730  fg
+ 5731  nv .
+ 5732  ls
+ 5733  fg
+ 5734  ./test.js
+ 5735  fg
+ 5736  ./test.js
+ 5737  fg
+ 5738  ls
+ 5739  nv task7.js
+ 5740  add task7.js
+ 5741  commit 'Added solution to task 7'
+ 5742  push
+ 5743  ls
+ 5744  cd ../
+ 5745  ls
+ 5746  mkdir task8
+ 5747  cd task
+ 5748  cd task8
+ 5749  git clone git@github.com:Umuzi-org/Nelisa-Dludla-762-contentitem-javascript.git
+ 5750  ls
+ 5751  cd Nelisa-Dludla-762-contentitem-javascript
+ 5752  ls
+ 5753  touch task8.js test.js
+ 5754  chmod u+x test.js
+ 5755  nv .
+ 5756  ./test.js
+ 5757  fg
+ 5758  ./test.js
+ 5759  fg
+ 5760  ./test.js
+ 5761  fg
+ 5762  ./test.js
+ 5763  fg
+ 5764  ./test.js
+ 5765  fg
+ 5766  ./test.js
+ 5767  fg
+ 5768  ls
+ 5769  fg
+ 5770  ./test.js
+ 5771  add task8.js
+ 5772  commit 'Added solution to task 8'
+ 5773  push
+ 5774  cd ../
+ 5775  mkdir task9
+ 5776  cd task
+ 5777  cd task9
+ 5778  git clone git@github.com:Umuzi-org/Nelisa-Dludla-762-contentitem-javascript.git
+ 5779  cd Nelisa-Dludla-762-contentitem-javascript
+ 5780  touch task9.js test.js
+ 5781  ls
+ 5782  cd ../
+ 5783  ls
+ 5784  cd ../
+ 5785  ls
+ 5786  cd task8
+ 5787  ls
+ 5788  cd ../
+ 5789  ls
+ 5790  cd task9
+ 5791  ls
+ 5792  cd ../
+ 5793  cd task8
+ 5794  ls
+ 5795  cd ../
+ 5796  cd task9
+ 5797  ls
+ 5798  rm -r Nelisa-Dludla-762-contentitem-javascript
+ 5799  ls
+ 5800  git clone git@github.com:Umuzi-org/Nelisa-Dludla-761-contentitem-javascript.git
+ 5801  ls
+ 5802  cd Nelisa-Dludla-761-contentitem-javascript
+ 5803  ls
+ 5804  touch task9.js test.js
+ 5805  chmod u+x task9.js
+ 5806  ls
+ 5807  fg
+ 5808  nv .
+ 5809  ls
+ 5810  chmod u-x task9.js && chmod u+x test.js
+ 5811  ls
+ 5812  ./test.js
+ 5813  fg
+ 5814  ./test.js
+ 5815  fg
+ 5816  ./test.js
+ 5817  fg
+ 5818  ./test.js
+ 5819  fg
+ 5820  ls
+ 5821  ./test.js
+ 5822  fg
+ 5823  nv .
+ 5824  ./test.js
+ 5825  fg
+ 5826  add task9.js
+ 5827  commit 'Added solution to task 9'
+ 5828  push
+ 5829  cd ../../
+ 5830  ls
+ 5831  mkdir task10
+ 5832  cd task10
+ 5833  git clone git@github.com:Umuzi-org/Nelisa-Dludla-754-contentitem-javascript.git
+ 5834  ls
+ 5835  cd Nelisa-Dludla-754-contentitem-javascript
+ 5836  ls
+ 5837  touch task10.js test.js && chmod u+x test.js
+ 5838  ls
+ 5839  fg
+ 5840  nv .
+ 5841  ./test.js
+ 5842  fg
+ 5843  ./test.js
+ 5844  fg
+ 5845  ./test.js
+ 5846  fg
+ 5847  ./test.js
+ 5848  fg
+ 5849  ./test.js
+ 5850  fg
+ 5851  ./test.js
+ 5852  fg
+ 5853  ./test.js
+ 5854  fg
+ 5855  ./test.js
+ 5856  fg
+ 5857  ./test.js
+ 5858  fg
+ 5859  ./test.js
+ 5860  fg
+ 5861  ./test.js
+ 5862  add task10.js
+ 5863  commit 'Added solution to task 10'
+ 5864  push
+ 5865  cd ../
+ 5866  mkdir beginning-bash
+ 5867  ls
+ 5868  cd beginning-bash
+ 5869  ls
+ 5870  git clone git@github.com:Umuzi-org/Nelisa-Dludla-394-bash-for-bootcamp-.git
+ 5871  ls
+ 5872  cd Nelisa-Dludla-394-bash-for-bootcamp-
+ 5873  ls
+ 5874  touch ls
+ 5875  ls
+ 5876  rm ls
+ 5877  ls
+ 5878  touch question_1.md 
+ 5879  ls
+ 5880  touch question_2.md
+ 5881  touch question_3.md question_4.md question_5.md question_6.md question_7.md question_8.md question_9.md question_10.md question_11.md question_12.md question_13.md question_14.md
+ 5882  ls
+ 5883  fg
+ 5884  nv .
+ 5885  ls /
+ 5886  fg
+ 5887  pwd
+ 5888  fg
+ 5889  cd ./
+ 5890  cd ../
+ 5891  cd Nelisa-Dludla-394-bash-for-bootcamp-
+ 5892  fg
+ 5893  cd home
+ 5894  fg
+ 5895  man
+ 5896  man man
+ 5897  man help
+ 5898  man ls
+ 5899  man cd
+ 5900  man ls
+ 5901  fg
+ 5902  ls
+ 5903  mkdir git-basics
+ 5904  cd git-basics
+ 5905  touch test test1
+ 5906  cd ../
+ 5907  rm -rf git-basics
+ 5908  ls
+ 5909  rm question_14.md
+ 5910  fg
+ 5911  nv .
+ 5912  pwd
+ 5913  cd home
+ 5914  ls
+ 5915  git add .
+ 5916  ls
+ 5917  git status
+ 5918  ls
+ 5919  commit 'Added answer files to questions 1 - 13'
+ 5920  push
+ 5921  ls
+ 5922  nv .zshrc
+ 5923  source .zshrc
+ 5924  clone
+ 5925  exit
+ 5926  cd
+ 5927  shutdown now
+ 5928  dev
+ 5929  cd umuzi
+ 5930  ls
+ 5931  mkdir tilde-project-tutorial
+ 5932  cd tilde-project-tutorial
+ 5933  clone git@github.com:Umuzi-org/Nelisa-Dludla-606-tilde-project-tutorial-how-repo-projects-work-.git
+ 5934  ls
+ 5935  cd Nelisa-Dludla-606-tilde-project-tutorial-how-repo-projects-work-
+ 5936  ls
+ 5937  git status
+ 5938  git info
+ 5939  git branch
+ 5940  touch important.md
+ 5941  ls
+ 5942  nv .
+ 5943  cat important.md
+ 5944  fg
+ 5945  cat important.md
+ 5946  fg
+ 5947  ls
+ 5948  git branch --help
+ 5949  git branch
+ 5950  git checkout
+ 5951  git branch tilde-project-tutorial
+ 5952  ls
+ 5953  git branch
+ 5954  git checkout tilde-project-tutorial
+ 5955  ls
+ 5956  cd ../
+ 5957  cd Nelisa-Dludla-606-tilde-project-tutorial-how-repo-projects-work-
+ 5958  git switch main
+ 5959  git branch -d tilde-project-tutorial
+ 5960  git switch
+ 5961  git branch --list
+ 5962  ls
+ 5963  cd ../
+ 5964  ls
+ 5965  cd Nelisa-Dludla-606-tilde-project-tutorial-how-repo-projects-work-
+ 5966  ls
+ 5967  cd ../
+ 5968  ls
+ 5969  mkdir understanding-the-review-column
+ 5970  ls
+ 5971  cd understanding-the-review-column
+ 5972  dev
+ 5973  cd umuzi
+ 5974  ls
+ 5975  cd understanding-the-review-column
+ 5976  ls
+ 5977  clone git@github.com:Umuzi-org/Nelisa-Dludla-585-understanding-the-review-column-.git
+ 5978  ls
+ 5979  cd Nelisa-Dludla-585-understanding-the-review-column-
+ 5980  ls
+ 5981  cd ../
+ 5982  ls
+ 5983  cd ../
+ 5984  ls
+ 5985  mv tilde-project-tutorial how-repo-projects-work
+ 5986  ls
+ 5987  cd how-repo-projects-work
+ 5988  ls
+ 5989  cd Nelisa-Dludla-606-tilde-project-tutorial-how-repo-projects-work-
+ 5990  ls
+ 5991  rm important.md
+ 5992  ls
+ 5993  git pull
+ 5994  ls
+ 5995  git switch how-repo-projects-work
+ 5996  ls
+ 5997  cd ../../understanding-the-review-column/Nelisa-Dludla-585-understanding-the-review-column-
+ 5998  ls
+ 5999  touch question_1.md 
+ 6000  touch question_2.md
+ 6001  touch question_3.md question_4.md question_5.md question_6.md question_7.md question_8.md
+ 6002  ls
+ 6003  fg
+ 6004  nv .
+ 6005  cat question_3.md
+ 6006  fg
+ 6007  cat question_3.md
+ 6008  fg
+ 6009  nv .
+ 6010  cat question_5.md
+ 6011  fg
+ 6012  cat question_7.md
+ 6013  cat question_6.md
+ 6014  fg
+ 6015  cat question_6.md
+ 6016  fg
+ 6017  cat question_6.md
+ 6018  fg
+ 6019  cat question_7.md
+ 6020  fg
+ 6021  nv .
+ 6022  cat question_7.md
+ 6023  fg
+ 6024  cd ../../
+ 6025  ls 
+ 6026  mkdir level-1-coding-challenges
+ 6027  cd level-1-coding-challenges
+ 6028  clone git@github.com:Umuzi-org/Nelisa-Dludla-219-level-1-programming-katas-javascript.git
+ 6029  ls
+ 6030  cd Nelisa-Dludla-219-level-1-programming-katas-javascript
+ 6031  ls
+ 6032  git checkout -b task/1
+ 6033  touch task1.js test.js
+ 6034  ls
+ 6035  chmod u+x test.js
+ 6036  nv .
+ 6037  shutdown now
+ 6038  dev
+ 6039  cd umuzi
+ 6040  ls
+ 6041  cd level-1-coding-challenges
+ 6042  ls
+ 6043  cd Nelisa-Dludla-219-level-1-programming-katas-javascript
+ 6044  ls
+ 6045  nv .
+ 6046  ls
+ 6047  nv .
+ 6048  ./test.js
+ 6049  fg
+ 6050  ./test.js
+ 6051  fg
+ 6052  ./test.js
+ 6053  fg
+ 6054  ./test.js
+ 6055  fg
+ 6056  ./test.js
+ 6057  fg
+ 6058  ls
+ 6059  ./test.js
+ 6060  fg
+ 6061  ./test.js
+ 6062  fg
+ 6063  ./test.js
+ 6064  fg
+ 6065  ./test.js
+ 6066  ls
+ 6067  git branch
+ 6068  git checkout -b task/2
+ 6069  ls
+ 6070  rm task1.js
+ 6071  touch task2.js
+ 6072  fg
+ 6073  ls
+ 6074  git switch
+ 6075  git switch task/1
+ 6076  ls
+ 6077  fg
+ 6078  ls
+ 6079  git branch
+ 6080  ls
+ 6081  cat task2.js
+ 6082  mv task2.js task1.js
+ 6083  ls
+ 6084  nv .
+ 6085  ./test.js
+ 6086  fg
+ 6087  ./test.js
+ 6088  fg
+ 6089  ./test.js
+ 6090  ls
+ 6091  cat README.md
+ 6092  add task1.js
+ 6093  commit 'Added solution to task 1'
+ 6094  push
+ 6095  git push --set-upstream origin task/1
+ 6096  ls
+ 6097  git switch task/2
+ 6098  ls
+ 6099  touch task2.js
+ 6100  fg
+ 6101  nv .
+ 6102  ls
+ 6103  cd ../
+ 6104  ls
+ 6105  cd Nelisa-Dludla-219-level-1-programming-katas-javascript
+ 6106  git switch task/1
+ 6107  ls
+ 6108  rm task2.js
+ 6109  git switch task/2
+ 6110  git branch -d task/2
+ 6111  git switch task/1
+ 6112  git branch -d task/2
+ 6113  ls
+ 6114  ./test.js
+ 6115  fg
+ 6116  nv .
+ 6117  ./test.js
+ 6118  add .
+ 6119  git status
+ 6120  git reset HEAD
+ 6121  ls
+ 6122  add task1.js
+ 6123  git status
+ 6124  ls
+ 6125  commit 'Changed function name sumOfMultiples to sumOfArray'
+ 6126  push
+ 6127  ls
+ 6128  touch .gitignore
+ 6129  ls
+ 6130  fg
+ 6131  ls
+ 6132  rm README.md
+ 6133  ls
+ 6134  rm .gitignore
+ 6135  ls
+ 6136  cat test.js
+ 6137  ls
+ 6138  git rm README.md
+ 6139  git status
+ 6140  commit 'Removed README'
+ 6141  push
+ 6142  ls
+ 6143  nv .
+ 6144  ./test.js
+ 6145  fg
+ 6146  ./test.js
+ 6147  fg
+ 6148  add .
+ 6149  git status
+ 6150  git reset HEAD
+ 6151  add task1.js
+ 6152  nv .
+ 6153  fg
+ 6154  nv .
+ 6155  fg
+ 6156  ls
+ 6157  nv .
+ 6158  git status
+ 6159  git reset HEAD
+ 6160  ls
+ 6161  fg
+ 6162  ./test.js
+ 6163  ls
+ 6164  add task1.js
+ 6165  ls
+ 6166  git status
+ 6167  ./test.js
+ 6168  fg
+ 6169  nv .
+ 6170  ./test.js
+ 6171  fg
+ 6172  ./test.js
+ 6173  ls
+ 6174  add task1.js
+ 6175  git status
+ 6176  commit 'Updated function multiples - Added checks for argument value and type'
+ 6177  push
+ 6178  git checkout main
+ 6179  git pull
+ 6180  git checkout -b task/2
+ 6181  ls
+ 6182  git switch main
+ 6183  ls
+ 6184  rm test.js
+ 6185  ls
+ 6186  git checkout task/2
+ 6187  ls
+ 6188  touch task2.js
+ 6189  ls
+ 6190  git checkout main
+ 6191  ls
+ 6192  git status
+ 6193  ls
+ 6194  git checkout task/1
+ 6195  ls
+ 6196  git switch task/2
+ 6197  ls
+ 6198  touch test.js
+ 6199  chmod u+x test.js
+ 6200  nv .
+ 6201  ls
+ 6202  git switch task/1
+ 6203  ls
+ 6204  nv .
+ 6205  chmod u+x test2.js
+ 6206  ./test2.js
+ 6207  fg
+ 6208  ./test2.js
+ 6209  fg
+ 6210  ls
+ 6211  rm test2.js
+ 6212  git switch task/2
+ 6213  nv .
+ 6214  ./test.js
+ 6215  fg
+ 6216  ./test.js
+ 6217  fg
+ 6218  ./test.js
+ 6219  fg
+ 6220  ./test.js
+ 6221  fg
+ 6222  ./test.js
+ 6223  fg
+ 6224  ./test.js
+ 6225  fg
+ 6226  ./test.js
+ 6227  fg
+ 6228  ./test.js
+ 6229  fg
+ 6230  ./test.js
+ 6231  fg
+ 6232  ./test.js
+ 6233  fg
+ 6234  ./test.js
+ 6235  fg
+ 6236  ls
+ 6237  rm README.md test.js
+ 6238  ls
+ 6239  add .
+ 6240  git status
+ 6241  git reset HEAD
+ 6242  ls
+ 6243  git status
+ 6244  ls
+ 6245  add .
+ 6246  git status
+ 6247  git reset HEAD
+ 6248  ls
+ 6249  add task2.js
+ 6250  git status
+ 6251  commit "Added solution for task 2"
+ 6252  push
+ 6253  git push --set-upstream origin task/2
+ 6254  ls
+ 6255  git switch main
+ 6256  ls
+ 6257  git pull
+ 6258  ls
+ 6259  git status
+ 6260  git restore README.md
+ 6261  ls
+ 6262  git status
+ 6263  git switch task/2
+ 6264  ls
+ 6265  cd ../
+ 6266  cd Nelisa-Dludla-219-level-1-programming-katas-javascript
+ 6267  git switch task/1
+ 6268  ls
+ 6269  git switch main
+ 6270  ls
+ 6271  git checkout task/3
+ 6272  git checkout -b task/3
+ 6273  ls
+ 6274  touch test.js task3.js
+ 6275  ls
+ 6276  chmod u+x test.js
+ 6277  ls
+ 6278  fg
+ 6279  nv .
+ 6280  ./test.js
+ 6281  fg
+ 6282  ./test.js
+ 6283  fg
+ 6284  ./test.js
+ 6285  fg
+ 6286  ./test.js
+ 6287  fg
+ 6288  ./test.js
+ 6289  fg
+ 6290  ./test.js
+ 6291  fg
+ 6292  ./test.js
+ 6293  fg
+ 6294  ls
+ 6295  ./test.js
+ 6296  add task3.js
+ 6297  commit 'Added solution to task 3'
+ 6298  push
+ 6299  git push --set-upstream origin task/3
+ 6300  git checkout main
+ 6301  git pull
+ 6302  git branch -d task/4
+ 6303  git checkout -d task/4
+ 6304  git checkout -b task/4
+ 6305  ls
+ 6306  touch task4.js
+ 6307  gf
+ 6308  ls
+ 6309  fg
+ 6310  nv .
+ 6311  ./test.js
+ 6312  fg
+ 6313  ./test.js
+ 6314  fg
+ 6315  ./test.js
+ 6316  fg
+ 6317  ./test.js
+ 6318  fg
+ 6319  ./test.js
+ 6320  fg
+ 6321  ./test.js
+ 6322  fg
+ 6323  ./test.js
+ 6324  fg
+ 6325  ./test.js
+ 6326  fg
+ 6327  ./test.js
+ 6328  fg
+ 6329  ./test.js
+ 6330  fg
+ 6331  ./test.js
+ 6332  fg
+ 6333  ./test.js
+ 6334  fg
+ 6335  ./test.js
+ 6336  fg
+ 6337  ./test.js
+ 6338  fg
+ 6339  ./test.js
+ 6340  fg
+ 6341  ./
+ 6342  ./test.js
+ 6343  fg
+ 6344  ./test.js
+ 6345  fg
+ 6346  ./test.js
+ 6347  fg
+ 6348  ./test.js
+ 6349  fg
+ 6350  ./test.js
+ 6351  fg
+ 6352  ./test.js
+ 6353  fg
+ 6354  ./test.js
+ 6355  fg
+ 6356  ./test.js
+ 6357  fg
+ 6358  ./test.js
+ 6359  fg
+ 6360  ./test.js
+ 6361  fg
+ 6362  ./test.js
+ 6363  fg
+ 6364  ./test.js
+ 6365  fg
+ 6366  ./test.js
+ 6367  fg
+ 6368  ls
+ 6369  nv .
+ 6370  ./test.js
+ 6371  fg
+ 6372  nv .
+ 6373  ls
+ 6374  add task4.js
+ 6375  commit 'Added solution to task 4'
+ 6376  push
+ 6377  git push --set-upstream origin task/4
+ 6378  git switch main
+ 6379  git pull
+ 6380  git checkout -b task/5
+ 6381  ls
+ 6382  touch task5.js
+ 6383  fg
+ 6384  nv .
+ 6385  fg
+ 6386  ./test.js
+ 6387  fg
+ 6388  ./test.js
+ 6389  fg
+ 6390  ./test.js
+ 6391  fg
+ 6392  ./test.js
+ 6393  fg
+ 6394  ./test.js
+ 6395  fg
+ 6396  ./test.js
+ 6397  fg
+ 6398  ./test.js
+ 6399  fg
+ 6400  ./test.js
+ 6401  fg
+ 6402  ./test.js
+ 6403  fg
+ 6404  ./test.js
+ 6405  fg
+ 6406  ./test.js
+ 6407  fg
+ 6408  ls
+ 6409  add task5.js
+ 6410  commit 'Added solution to task 5'
+ 6411  push
+ 6412  git push --set-upstream origin task/5
+ 6413  git switch main
+ 6414  git pull
+ 6415  git checkout -b task/6
+ 6416  touch task6.js
+ 6417  fg
+ 6418  nv .
+ 6419  ./test.js
+ 6420  fg
+ 6421  ./test.js
+ 6422  fg
+ 6423  ./test.js
+ 6424  fg
+ 6425  ./test.js
+ 6426  fg
+ 6427  ./test.js
+ 6428  fg
+ 6429  ./test.js
+ 6430  fg
+ 6431  ./test.js
+ 6432  fg
+ 6433  ./test.js
+ 6434  fg
+ 6435  ./test.js
+ 6436  fg
+ 6437  ./test.js
+ 6438  fg
+ 6439  ./test.js
+ 6440  fg
+ 6441  ./test.js
+ 6442  fg
+ 6443  ./test.js
+ 6444  fg
+ 6445  ./test.js
+ 6446  fg
+ 6447  ./test.js
+ 6448  fg
+ 6449  ./test.js
+ 6450  fg
+ 6451  ./test.js
+ 6452  fg
+ 6453  ./test.js
+ 6454  fg
+ 6455  ./test.js
+ 6456  fg
+ 6457  ./test.js
+ 6458  fg
+ 6459  ./test.js
+ 6460  fg
+ 6461  cat task6.js
+ 6462  fg
+ 6463  ./test.js
+ 6464  fg
+ 6465  ./test.js
+ 6466  cat task6.js
+ 6467  fg
+ 6468  ./test.js
+ 6469  fg
+ 6470  ./test.js
+ 6471  fg
+ 6472  ./test.js
+ 6473  fg
+ 6474  ./test.js
+ 6475  ls
+ 6476  add task6.js
+ 6477  git status
+ 6478  commit 'Added solution to task 6'
+ 6479  push
+ 6480  git push --set-upstream origin task/6
+ 6481  shutdown now
+ 6482  dev
+ 6483  cd umuzi
+ 6484  ls
+ 6485  cd level-1-coding-challenges
+ 6486  cd Nelisa-Dludla-219-level-1-programming-katas-javascript
+ 6487  git switch main
+ 6488  git pull
+ 6489  git switch task/2
+ 6490  ls
+ 6491  nv .
+ 6492  ./test.js
+ 6493  fg
+ 6494  ./test.js
+ 6495  fg
+ 6496  ./test.js
+ 6497  fg
+ 6498  ls
+ 6499  add task2.js
+ 6500  git status
+ 6501  fg
+ 6502  nv .
+ 6503  git status
+ 6504  commit 'changed .includes() argument to string "3" instead of number 3'
+ 6505  push
+ 6506  node
+ 6507  git switch main
+ 6508  git pull
+ 6509  git checkout -b task/7
+ 6510  ls
+ 6511  touch task7.js
+ 6512  nv .
+ 6513  ./test.js
+ 6514  fg
+ 6515  ./test.js
+ 6516  fg
+ 6517  ./test.js
+ 6518  fg
+ 6519  ./test.js
+ 6520  fg
+ 6521  ./test.js
+ 6522  fg
+ 6523  ./test.js
+ 6524  fg
+ 6525  ./test.js
+ 6526  fg
+ 6527  ./test.js
+ 6528  fg
+ 6529  ./test.js
+ 6530  fg
+ 6531  ./test.js
+ 6532  fg
+ 6533  ./test.js
+ 6534  fg
+ 6535  ./test.js
+ 6536  fg
+ 6537  ./test.js
+ 6538  fg
+ 6539  ./test.js
+ 6540  fg
+ 6541  ./test.js
+ 6542  fg
+ 6543  ./test.js
+ 6544  fg
+ 6545  ./test.js
+ 6546  fg
+ 6547  ./test.js
+ 6548  fg
+ 6549  ./test.js
+ 6550  fg
+ 6551  ./test.js
+ 6552  fg
+ 6553  ./test.js
+ 6554  fg
+ 6555  ./test.js
+ 6556  fg
+ 6557  ./test.js
+ 6558  fg
+ 6559  ./test.js
+ 6560  fg
+ 6561  ./test.js
+ 6562  fg
+ 6563  ./test.js
+ 6564  fg
+ 6565  ./test.js
+ 6566  fg
+ 6567  ./test.js
+ 6568  fg
+ 6569  ./test.js
+ 6570  fg
+ 6571  ./test.js
+ 6572  fg
+ 6573  ./test.js
+ 6574  fg
+ 6575  ./test.js
+ 6576  fg
+ 6577  ./test.js
+ 6578  fg
+ 6579  ./test.js
+ 6580  fg
+ 6581  ./test.js
+ 6582  fg
+ 6583  ./test.js
+ 6584  fg
+ 6585  ./test.js
+ 6586  fg
+ 6587  ./test.js
+ 6588  fg
+ 6589  ./test.js
+ 6590  fg
+ 6591  ./test.js
+ 6592  fg
+ 6593  ./test.js
+ 6594  fg
+ 6595  ./test.js
+ 6596  fg
+ 6597  ./test.js
+ 6598  fg
+ 6599  ls
+ 6600  add task7.js
+ 6601  commit 'Added solution to task 4'
+ 6602  git push
+ 6603  git push --set-upstream origin task/7
+ 6604  cd ../../
+ 6605  cd understanding-the-review-column
+ 6606  ls
+ 6607  cd Nelisa-Dludla-585-understanding-the-review-column-
+ 6608  ls
+ 6609  nv .
+ 6610  ls
+ 6611  add .
+ 6612  ls
+ 6613  git status
+ 6614  push
+ 6615  commit 'Added answers to questions 1 - 8'
+ 6616  push
+ 6617  shutdown now
+ 6618  dev
+ 6619  cd umuzi/level-1-coding-challenges
+ 6620  ls
+ 6621  cd Nelisa-Dludla-219-level-1-programming-katas-javascript
+ 6622  ls
+ 6623  git switch main
+ 6624  git pull
+ 6625  ls
+ 6626  git switch task/2
+ 6627  ls
+ 6628  nv .
+ 6629  ./test.js
+ 6630  git switch main
+ 6631  git pull
+ 6632  ls
+ 6633  git switch task/6
+ 6634  ls
+ 6635  nv .
+ 6636  ./test.js
+ 6637  fg
+ 6638  ./test.js
+ 6639  fg
+ 6640  systemctl suspend
+ 6641  fg
+ 6642  cd ../../
+ 6643  ls
+ 6644  mkdir person
+ 6645  cd person
+ 6646  clone git@github.com:Umuzi-org/Nelisa-Dludla-223-person-javascript.git
+ 6647  ls
+ 6648  cd Nelisa-Dludla-223-person-javascript
+ 6649  ls
+ 6650  touch person.js
+ 6651  nv .
+ 6652  chmod u+x test.js
+ 6653  ./test.js
+ 6654  fg
+ 6655  ./test.js
+ 6656  fg
+ 6657  ./test.js
+ 6658  fg
+ 6659  ./test.js
+ 6660  fg
+ 6661  ./test.js
+ 6662  fg
+ 6663  ./test.js
+ 6664  fg
+ 6665  ./test.js
+ 6666  fg
+ 6667  ./test.js
+ 6668  fg
+ 6669  ./test.js
+ 6670  fg
+ 6671  ./test.js
+ 6672  fg
+ 6673  ./test.js
+ 6674  fg
+ 6675  ./test.js
+ 6676  fg
+ 6677  cat person.js
+ 6678  fg
+ 6679  ./test.js
+ 6680  fg
+ 6681  nv .
+ 6682  ls
+ 6683  ./test.js
+ 6684  fg
+ 6685  nv .
+ 6686  ls
+ 6687  git status
+ 6688  add person.js
+ 6689  commit 'Added person.js with Person class defined'
+ 6690  push
+ 6691  ls
+ 6692  git status
+ 6693  git reset HEAD
+ 6694  git status
+ 6695  ls
+ 6696  git checkout -b person
+ 6697  ls
+ 6698  git status
+ 6699  nv .
+ 6700  ls
+ 6701  git status
+ 6702  ls
+ 6703  add person.js
+ 6704  git status
+ 6705  commit 'Added person.js with Person class defined'
+ 6706  ls
+ 6707  cat test.js
+ 6708  cat person.js
+ 6709  ls
+ 6710  git switch main
+ 6711  ls
+ 6712  rm test.js person.js
+ 6713  git switch person
+ 6714  ls
+ 6715  touch test.js person.js
+ 6716  chmod u+x test.js
+ 6717  nv .
+ 6718  ./test.js
+ 6719  ls
+ 6720  add person.js
+ 6721  git status
+ 6722  cd ../
+ 6723  ls
+ 6724  rm Nelisa-Dludla-223-person-javascript
+ 6725  rm -rf Nelisa-Dludla-223-person-javascript
+ 6726  ls
+ 6727  clone git@github.com:Umuzi-org/Nelisa-Dludla-223-person-javascript.git
+ 6728  ls
+ 6729  cd Nelisa-Dludla-223-person-javascript
+ 6730  ls
+ 6731  git branch
+ 6732  git checkout -b person
+ 6733  ls
+ 6734  touch test.js person.js
+ 6735  chmod u+x test.js
+ 6736  nv .
+ 6737  ls
+ 6738  ./test.js
+ 6739  ls
+ 6740  git status
+ 6741  add person.js
+ 6742  commit 'Added person.js with Person class defined'
+ 6743  push
+ 6744  git push --set-upstream origin person
+ 6745  shutdown now
+ 6746  dev
+ 6747  umuzi
+ 6748  ls
+ 6749  cd task10
+ 6750  cd Nelisa-Dludla-754-contentitem-javascript
+ 6751  nv .
+ 6752  fg
+ 6753  ./test.js
+ 6754  fg
+ 6755  ./test.js
+ 6756  fg
+ 6757  ./test.js
+ 6758  fg
+ 6759  ./test.js
+ 6760  fg
+ 6761  ./test.js
+ 6762  fg
+ 6763  ./test.js
+ 6764  fg
+ 6765  ./test.js
+ 6766  fg
+ 6767  ./test.js
+ 6768  fg
+ 6769  ./test.js
+ 6770  fg
+ 6771  ./test.js
+ 6772  fg
+ 6773  ./test.js
+ 6774  fg
+ 6775  ./test.js
+ 6776  fg
+ 6777  ./test.js
+ 6778  fg
+ 6779  ./test.js
+ 6780  fg
+ 6781  ./test.js
+ 6782  fg
+ 6783  ./test.js
+ 6784  fg
+ 6785  ./test.js
+ 6786  fg
+ 6787  dev
+ 6788  cd umuzi/task10/Nelisa-Dludla-754-contentitem-javascript
+ 6789  ./test.js
+ 6790  fg
+ 6791  nv .
+ 6792  ./test.js
+ 6793  fg
+ 6794  ./test.js
+ 6795  fg
+ 6796  ./test.js
+ 6797  fg
+ 6798  ./test.js
+ 6799  fg
+ 6800  ./test.js
+ 6801  fg
+ 6802  ./test.js
+ 6803  fg
+ 6804  ./test.js
+ 6805  fg
+ 6806  ./test.js
+ 6807  fg
+ 6808  cat task10.js
+ 6809  fg
+ 6810  ./test.js
+ 6811  fg
+ 6812  ./test.js
+ 6813  fg
+ 6814  ./test.js
+ 6815  fg
+ 6816  ./test.js
+ 6817  ls
+ 6818  git status
+ 6819  ./test.js
+ 6820  add task10.js
+ 6821  commit "Added a regular expression to help remove numbers and special characters"
+ 6822  push
+ 6823  fg
+ 6824  ./test.js
+ 6825  fg
+ 6826  ./test.js
+ 6827  ls
+ 6828  fg
+ 6829  ./test.js
+ 6830  fg
+ 6831  cd ../../
+ 6832  cd level-1-coding-challenges
+ 6833  cd Nelisa-Dludla-219-level-1-programming-katas-javascript
+ 6834  fg
+ 6835  nv .
+ 6836  ./test.js
+ 6837  fg
+ 6838  ./test.js
+ 6839  fg
+ 6840  nv .
+ 6841  cd ../../
+ 6842  ls
+ 6843  mkdir git-basic-exercises
+ 6844  cd git-basic-exercises
+ 6845  ls -a
+ 6846  git init
+ 6847  ls -a
+ 6848  git status
+ 6849  touch README.md
+ 6850  ls -a
+ 6851  git status
+ 6852  git log
+ 6853  add README.md
+ 6854  git status
+ 6855  commit 'initial commit'
+ 6856  git log
+ 6857  nano README.md
+ 6858  cat README.md
+ 6859  git status
+ 6860  commit 'second commit'
+ 6861  git status
+ 6862  git log
+ 6863  git status
+ 6864  git commit -m "second commit"
+ 6865  git log
+ 6866  git status
+ 6867  fg
+ 6868  push
+ 6869  add README.md
+ 6870  commit 'second commit'
+ 6871  git status
+ 6872  git log
+ 6873  nano README.md
+ 6874  add README.md
+ 6875  commit 'third commit'
+ 6876  git status
+ 6877  git log
+ 6878  git checkout 5f2861cf7db1724d697261f3a80498154e8bcad2
+ 6879  cat README.md
+ 6880  git checkout main
+ 6881  git checkout master
+ 6882  cat README.md
+ 6883  git branch
+ 6884  git checkout -b milkshake-flavours
+ 6885  git branch 
+ 6886  ls
+ 6887  git log
+ 6888  nv milkshakes.md
+ 6889  git status
+ 6890  commit "added initial flavours"
+ 6891  add milkshakes.md
+ 6892  commit "added initial flavours"
+ 6893  git status
+ 6894  git log
+ 6895  ls
+ 6896  git switch master
+ 6897  ls
+ 6898  ls -a
+ 6899  git log
+ 6900  git checkout -b history
+ 6901  git log
+ 6902  git branch
